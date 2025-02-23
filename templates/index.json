@@ -60,7 +60,7 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column_byxbqT": {
           "type": "column",
           "settings": {
             "title": "Column",
@@ -71,7 +71,7 @@
         }
       },
       "block_order": [
-        "column1"
+        "column_byxbqT"
       ],
       "settings": {
         "title": "",
