@@ -22,7 +22,7 @@
           transform:translateY(-5px);
         }
 
-      .archived-items__cta{
+      .brand-items__cta{
         background:var(--custom-color-primary);
         flex-grow:1;
       }
@@ -54,7 +54,7 @@
           max-width:33%;
         }
 
-        .archived-items__cta{
+        .brand-items__cta{
           flex: 1 0 50%;
           min-width:50%;
       }
@@ -78,9 +78,9 @@
 >
   <div class="brands-section__container">
     <div class="brands-section__header">
-      <span class="brands-subtitle">{{ section.settings['custom-archived__subtitle'] }}</span>
-      <h1 class="brands-title h0 title">{{ section.settings['custom-archived__title'] }}</h1>
-      <p class="brands-description">{{ section.settings['custom-archived__description'] }}</p>
+      <span class="brands-subtitle">{{ section.settings['custom-brand__subtitle'] }}</span>
+      <h1 class="brands-title h0 title">{{ section.settings['custom-brand__title'] }}</h1>
+      <p class="brands-description">{{ section.settings['custom-brand__description'] }}</p>
     </div>
 
     <div
@@ -90,17 +90,17 @@
         padding-bottom: calc({{ section.settings.padding_bottom }}px - {{ section.settings.padding_bottom }}px / 2);
       "
     >
-      {% for archived in shop.metaobjects.product_guides.values %}
-        {% assign single_archive_handle = page.handle | append: '/' | append: archived.system.handle %}
-        {% assign single_archive_handle_clean = single_archive_handle | remove: '/' %}
+      {% for brand in shop.metaobjects.brands.values %}
+        {% assign single_brand_handle = page.handle | append: '/' | append: brand %}
+        {% assign single_brand_handle_clean = single_brand_handle | remove: '/' %}
         <div class="brands-item_list">
           <a
-            href="{{ page.handle }}/{{ archived.system.handle }}"
+            href="{{ page.handle }}/{{ brand.system.handle }}"
             class=""
           >
             <div class="brands-item_list_wrapper">
-              {% if archived.thumbnail != blank %}
-                <img src="{{ archived.thumbnail | image_url }}" alt="{{ archived.title }}" height="" width="">
+              {% if brand.logo != blank %}
+                <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" height="" width="">
               {% endif %}
             </div>
           </a>
@@ -116,7 +116,8 @@
   "settings": [
   {
     "type": "header",
-    "content": "Section Spacing"
+    "content": "Section Spacing",
+    "info":"Change the section spacing and margin"
   },
   {
     "type": "range",
@@ -138,31 +139,33 @@
   },
   {
     "type": "header",
-    "content": "Archived Details",
-    "info": "Please put all the details related to your archive. make sure to fill the necessary fields"
+    "content": "Section Details",
+    "info": "Please put all the details related to your brand. make sure to fill the necessary fields"
   },
   {
     "type": "text",
-    "id": "custom-archived__subtitle",
-    "label": "Archived Sub Title",
-    "default": "Enter Archived Sub Title"
+    "id": "section_subtitle",
+    "label": "Section Sub Title",
+    "default": "Enter Section Sub Title"
   },
   {
     "type": "text",
-    "id": "custom-archived__title",
-    "label": "Archived Title",
-    "default": "Enter Archived Title"
+    "id": "section_title",
+    "label": "Section Title",
+    "info": "Provide title for this section",
+    "default": "Enter Section Title"
   },
   {
     "type": "textarea",
-    "id": "custom-archived__description",
-    "label": "Archived Description",
-    "default": "Enter some details regarding your archived description"
+    "id": "section_description",
+    "label": "Section Description",
+    "info": "Provide title for this section",
+    "default": "Enter some details regarding this section."
   },
 {
   "type": "metaobject_list",
-  "id": "custom_archived_metaobject",
-  "label": "Select Featured Archived / Metaobject",
+  "id": "custom_brand_metaobject",
+  "label": "Select Featured Brands / Metaobject",
   "metaobject_type": "product_guides"
 }
   ],
