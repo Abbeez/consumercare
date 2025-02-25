@@ -1,6 +1,181 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- style -%}
+    .custom-archived__header {
+      text-align: center;
   }
+
+      .custom-archived__body {
+            display: flex;
+        justify-content: center;
+          gap:30px;
+            flex-wrap: wrap;
+        box-sizing:border-box;
+
+        }
+
+        .custom-archived__items {
+          flex: 1 0 100%;
+          text-align:center;
+          transition:transform 500ms;
+        }
+
+          .custom-archived__items:hover {
+          transform:translateY(-5px);
+        }
+
+      .archived-items__cta{
+        background:var(--custom-color-primary);
+        flex-grow:1;
+      }
+
+  .custom-archived__items a {
+    text-decoration: none;
+    color:rgba(var(--color-foreground), 0.75);
+  }
+
+        .custom-archived__items_wrapper{
+        /* position: relative; */
+      }
+
+        .custom-archived__items_wrapper h2 {
+          background: var(--custom-color-primary);
+          color: var(--zekoki-white);
+          padding: 20px;
+          width:100%;
+          margin: 0 !important;
+      }
+
+
+      /* Tablet and small desktop */
+    @media screen and (min-width: 750px) {
+
+        .custom-archived__items {
+          flex: 1;
+          min-width:425px;
+          max-width:33%;
+        }
+
+        .archived-items__cta{
+          flex: 1 0 50%;
+          min-width:50%;
+      }
+    }
+
+    /* Large desktops */
+    @media screen and (min-width: 990px) {
+      .custom-archived__body {
+        justify-content: start;
+
+        }
+    }
+{%- endstyle -%}
+
+<section
+  class="page-width custom-archived__section scroll-trigger animate--slide-in"
+  style="
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  "
+>
+  <div class="custom-archived__container">
+    <div class="custom-archived__header">
+      <div class="custom_archived__header--container">
+        <span class="custom_archived_subtitle">{{ section.settings['custom-archived__subtitle'] }}</span>
+        <h1 class="h0 title">{{ section.settings['custom-archived__title'] }}</h1>
+        <p>{{ section.settings['custom-archived__description'] }}</p>
+      </div>
+    </div>
+
+    <div
+      class="custom-archived__body"
+      style="
+        padding-top: calc({{ section.settings.padding_top }}px - {{ section.settings.padding_top }}px / 2);
+        padding-bottom: calc({{ section.settings.padding_bottom }}px - {{ section.settings.padding_bottom }}px / 2);
+      "
+    >
+      {% for archived in shop.metaobjects.product_guides.values %}
+        {% assign single_archive_handle = page.handle | append: '/' | append: archived.system.handle %}
+        {% assign single_archive_handle_clean = single_archive_handle | remove: '/' %}
+        <div class="custom-archived__items">
+          <a
+            href="{{ page.handle }}/{{ archived.system.handle }}"
+            class=""
+          >
+            <div class="archive-link__container">
+              <div class="custom-archived__items_wrapper">
+                {% if archived.thumbnail != blank %}
+                  <img src="{{ archived.thumbnail | image_url }}" alt="{{ archived.title }}" height="" width="">
+                {% endif %}
+                <h3 style="">{{ archived.title }}</h3>
+              </div>
+              <p>{{ archived.description }}</p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Archives Section",
+  "settings": [
+  {
+    "type": "header",
+    "content": "Section Spacing"
+  },
+  {
+    "type": "range",
+    "id": "padding_top",
+    "label": "Padding Top",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "default": 20
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "label": "Padding Bottom",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "default": 20
+  },
+  {
+    "type": "header",
+    "content": "Archived Details",
+    "info": "Please put all the details related to your archive. make sure to fill the necessary fields"
+  },
+  {
+    "type": "text",
+    "id": "custom-archived__subtitle",
+    "label": "Archived Sub Title",
+    "default": "Enter Archived Sub Title"
+  },
+  {
+    "type": "text",
+    "id": "custom-archived__title",
+    "label": "Archived Title",
+    "default": "Enter Archived Title"
+  },
+  {
+    "type": "textarea",
+    "id": "custom-archived__description",
+    "label": "Archived Description",
+    "default": "Enter some details regarding your archived description"
+  },
+{
+  "type": "metaobject_list",
+  "id": "custom_archived_metaobject",
+  "label": "Select Featured Archived / Metaobject",
+  "metaobject_type": "product_guides"
+}
+  ],
+  "presets": [
+    {
+      "name": "Custom Store Archives Section"
+    }
+  ]
+}
 {% endschema %}
