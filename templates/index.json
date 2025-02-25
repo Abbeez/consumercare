@@ -203,6 +203,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "brands_eRHmfn": {
+      "type": "brands",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "section_subtitle": "Enter Section Sub Title",
+        "section_title": "Enter Section Title",
+        "section_description": "Enter some details regarding this section.",
+        "custom_brand_metaobject": []
+      }
     }
   },
   "order": [
@@ -211,6 +222,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video"
+    "video",
+    "brands_eRHmfn"
   ]
 }
