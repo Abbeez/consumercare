@@ -89,7 +89,7 @@
         padding-bottom: calc({{ section.settings.padding_bottom }}px - {{ section.settings.padding_bottom }}px / 2);
       "
     >
-      {% for brand in shop.metaobjects.brands.values %}
+      {% for brand in shop.metaobjects.brands.values limit: 5 %}
         {% assign single_brand_handle = page.handle | append: '/' | append: brand %}
         {% assign single_brand_handle_clean = single_brand_handle | remove: '/' %}
         <div class="brands-item_list">
