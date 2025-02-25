@@ -13,7 +13,11 @@
   --custom-color-off-white:#f0f0f0;
   
   
-  
+img{
+  width:100%;
+  min-height:100%;
+  display:block;
+}  
 
 .product-card-wrapper .card,
 .contains-card--product {
