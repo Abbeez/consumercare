@@ -15,21 +15,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Caring for You, Every Step of the Way",
+            "heading": "Trusted Brands for Everyday Care & Protection",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Consumer Care CCPI delivers high-quality personal care and household products designed for your everyday needs.",
+            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Explore Our Products",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
