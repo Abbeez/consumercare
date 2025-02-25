@@ -1,9 +1,9 @@
 {%- style -%}
-    .custom-archived__header {
+    .brands-section__header {
       text-align: center;
   }
 
-      .custom-archived__body {
+      .brands-section__body {
             display: flex;
         justify-content: center;
           gap:30px;
@@ -12,13 +12,13 @@
 
         }
 
-        .custom-archived__items {
+        .brands-item_list {
           flex: 1 0 100%;
           text-align:center;
           transition:transform 500ms;
         }
 
-          .custom-archived__items:hover {
+          .brands-item_list:hover {
           transform:translateY(-5px);
         }
 
@@ -27,16 +27,16 @@
         flex-grow:1;
       }
 
-  .custom-archived__items a {
+  .brands-item_list a {
     text-decoration: none;
     color:rgba(var(--color-foreground), 0.75);
   }
 
-        .custom-archived__items_wrapper{
+        .brands-item_list_wrapper{
         /* position: relative; */
       }
 
-        .custom-archived__items_wrapper h2 {
+        .brands-item_list_wrapper h2 {
           background: var(--custom-color-primary);
           color: var(--zekoki-white);
           padding: 20px;
@@ -48,7 +48,7 @@
       /* Tablet and small desktop */
     @media screen and (min-width: 750px) {
 
-        .custom-archived__items {
+        .brands-item_list {
           flex: 1;
           min-width:425px;
           max-width:33%;
@@ -62,7 +62,7 @@
 
     /* Large desktops */
     @media screen and (min-width: 990px) {
-      .custom-archived__body {
+      .brands-section__body {
         justify-content: start;
 
         }
@@ -70,23 +70,21 @@
 {%- endstyle -%}
 
 <section
-  class="page-width custom-archived__section scroll-trigger animate--slide-in"
+  class="page-width brands-section scroll-trigger animate--slide-in"
   style="
     padding-top: {{ section.settings.padding_top }}px;
     padding-bottom: {{ section.settings.padding_bottom }}px;
   "
 >
-  <div class="custom-archived__container">
-    <div class="custom-archived__header">
-      <div class="custom_archived__header--container">
-        <span class="custom_archived_subtitle">{{ section.settings['custom-archived__subtitle'] }}</span>
-        <h1 class="h0 title">{{ section.settings['custom-archived__title'] }}</h1>
-        <p>{{ section.settings['custom-archived__description'] }}</p>
-      </div>
+  <div class="brands-section__container">
+    <div class="brands-section__header">
+      <span class="brands-subtitle">{{ section.settings['custom-archived__subtitle'] }}</span>
+      <h1 class="brands-title h0 title">{{ section.settings['custom-archived__title'] }}</h1>
+      <p class="brands-description">{{ section.settings['custom-archived__description'] }}</p>
     </div>
 
     <div
-      class="custom-archived__body"
+      class="brands-section__body"
       style="
         padding-top: calc({{ section.settings.padding_top }}px - {{ section.settings.padding_top }}px / 2);
         padding-bottom: calc({{ section.settings.padding_bottom }}px - {{ section.settings.padding_bottom }}px / 2);
@@ -95,19 +93,15 @@
       {% for archived in shop.metaobjects.product_guides.values %}
         {% assign single_archive_handle = page.handle | append: '/' | append: archived.system.handle %}
         {% assign single_archive_handle_clean = single_archive_handle | remove: '/' %}
-        <div class="custom-archived__items">
+        <div class="brands-item_list">
           <a
             href="{{ page.handle }}/{{ archived.system.handle }}"
             class=""
           >
-            <div class="archive-link__container">
-              <div class="custom-archived__items_wrapper">
-                {% if archived.thumbnail != blank %}
-                  <img src="{{ archived.thumbnail | image_url }}" alt="{{ archived.title }}" height="" width="">
-                {% endif %}
-                <h3 style="">{{ archived.title }}</h3>
-              </div>
-              <p>{{ archived.description }}</p>
+            <div class="brands-item_list_wrapper">
+              {% if archived.thumbnail != blank %}
+                <img src="{{ archived.thumbnail | image_url }}" alt="{{ archived.title }}" height="" width="">
+              {% endif %}
             </div>
           </a>
         </div>
@@ -118,7 +112,7 @@
 
 {% schema %}
 {
-  "name": "Custom Archives Section",
+  "name": "Brand Lists",
   "settings": [
   {
     "type": "header",
@@ -174,7 +168,7 @@
   ],
   "presets": [
     {
-      "name": "Custom Store Archives Section"
+      "name": "Brands Section"
     }
   ]
 }
