@@ -28,7 +28,7 @@
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
@@ -38,7 +38,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header{display: flex !important; justify-content: space-between; align-items: center;}"
+        ".header {display: flex !important; justify-content: space-between; align-items: center;}"
       ],
       "settings": {
         "logo_position": "middle-left",
