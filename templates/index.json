@@ -103,9 +103,7 @@
         "column_TwTLyV",
         "column_rzVUr4"
       ],
-      "custom_css": [
-        "section {margin-top: 0 !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
