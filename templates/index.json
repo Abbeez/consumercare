@@ -212,7 +212,7 @@
         "button_apLQ3A"
       ],
       "settings": {
-        "image": "shopify://shop_images/CCPI_Ambree_Collection_8e031ef2-39f6-41aa-8f41-fa01f0ed7ab8.png",
+        "image": "shopify://shop_images/CCPI_Ambree.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -307,8 +307,8 @@
     "image_banner",
     "rich_text",
     "collection_list_ytqEg4",
-    "featured_collection",
     "image_with_text_3kcxWX",
+    "featured_collection",
     "brands_eRHmfn",
     "multicolumn"
   ]
