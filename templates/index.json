@@ -256,7 +256,9 @@
         "featured_collection_NAMrQ7",
         "featured_collection_8j4DRN"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".card__information {display: none;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
