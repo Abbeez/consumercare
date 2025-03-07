@@ -186,14 +186,14 @@
         "heading_X8heb7": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Experience Lasting Freshness with Ambree Air Fresheners",
             "heading_size": "h1"
           }
         },
         "text_zirPMG": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Enjoy instant and long-lasting aromas in your home with Ambree Air Freshener! Infused with natural fragrance oils, you’re sure to capture the essence of fresh fruits and flowers in any room.</p>",
             "text_style": "body"
           }
         },
@@ -212,6 +212,7 @@
         "button_apLQ3A"
       ],
       "settings": {
+        "image": "shopify://shop_images/CCPI_Ambree_Collection_8e031ef2-39f6-41aa-8f41-fa01f0ed7ab8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -236,54 +237,6 @@
         "section_title": "Enter Section Title",
         "section_description": "Enter some details regarding this section.",
         "custom_brand_metaobject": []
-      }
-    },
-    "image_banner_X8MDWr": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_ECV7ba": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experience Lasting Freshness with Ambree Air Fresheners",
-            "heading_size": "h1"
-          }
-        },
-        "text_UN7iTq": {
-          "type": "text",
-          "settings": {
-            "text": "Experience Lasting Freshness with Ambree Air FreshenersEnjoy instant and long-lasting aromas in your home with Ambree Air Freshener! Infused with natural fragrance oils, you’re sure to capture the essence of fresh fruits and flowers in any room.",
-            "text_style": "body"
-          }
-        },
-        "buttons_jaadA4": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Explore Ambree Products",
-            "button_link_1": "shopify://collections/ambree",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_ECV7ba",
-        "text_UN7iTq",
-        "buttons_jaadA4"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Ambree_Collection_b1ad9b97-1160-470e-80b8-fb4a5c23c798.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "fixed",
-        "desktop_content_position": "middle-right",
-        "desktop_content_alignment": "right",
-        "show_text_box": false,
-        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
       }
     },
     "multicolumn": {
@@ -357,7 +310,6 @@
     "featured_collection",
     "image_with_text_3kcxWX",
     "brands_eRHmfn",
-    "image_banner_X8MDWr",
     "multicolumn"
   ]
 }
