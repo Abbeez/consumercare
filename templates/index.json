@@ -152,15 +152,16 @@
         "text_RTAiXN",
         "button_rJmjkM"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Family_Protection_Products.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-5",
@@ -172,7 +173,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "all-products",
-        "products_to_show": 5,
+        "products_to_show": 10,
         "title": "Consumer Care Featured Products",
         "heading_size": "h2",
         "description": "",
