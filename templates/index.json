@@ -259,7 +259,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Explore Ambree Products",
-            "button_link_1": "",
+            "button_link_1": "shopify://collections/ambree",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -275,7 +275,7 @@
       "settings": {
         "image": "shopify://shop_images/CCPI_Ambree_Collection_b1ad9b97-1160-470e-80b8-fb4a5c23c798.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "middle-right",
         "desktop_content_alignment": "right",
