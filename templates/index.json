@@ -169,8 +169,8 @@
         "button_apLQ3A": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Browse {{ metaobjects.brands.ambree.name.value }}Products",
+            "button_link": "shopify://collections/ambree",
             "button_style_secondary": false
           }
         }
@@ -181,7 +181,7 @@
         "button_apLQ3A"
       ],
       "settings": {
-        "image": "shopify://shop_images/CCPI_Ambree.png",
+        "image": "shopify://shop_images/CCPI_Consumers.png",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -194,6 +194,152 @@
         "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_with_text_bm8Xiz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Bn3bVF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Splenda Furniture Polish: Shine with Antibacterial Protection!",
+            "heading_size": "h1"
+          }
+        },
+        "text_LGhMDw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Preserve your furnishings and refresh your space with a lemon scent. With antibacterial protection and special conditioners from Splenda Furniture Polish, you’re sure to have a lasting home that shines!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_WRVmLk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse {{ metaobjects.brands.splenda.name.value }} Products",
+            "button_link": "shopify://collections/ambree",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bn3bVF",
+        "text_LGhMDw",
+        "button_WRVmLk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CCPI_Consumers.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "ambree",
+        "products_to_show": 4,
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_ytdWAE": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "mototek",
+        "products_to_show": 5,
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_kErzLH": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "solbac",
+        "products_to_show": 5,
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "brands_eRHmfn": {
+      "type": "brands",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "section_subtitle": "Enter Section Sub Title",
+        "section_title": "Enter Section Title",
+        "section_description": "Enter some details regarding this section.",
+        "custom_brand_metaobject": []
       }
     },
     "multicolumn": {
@@ -259,102 +405,6 @@
         "padding_top": 24,
         "padding_bottom": 24
       }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "ambree",
-        "products_to_show": 4,
-        "title": "{{ section.settings.collection.title }}",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_ytdWAE": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "mototek",
-        "products_to_show": 5,
-        "title": "{{ section.settings.collection.title }}",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_kErzLH": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "solbac",
-        "products_to_show": 5,
-        "title": "{{ section.settings.collection.title }}",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "brands_eRHmfn": {
-      "type": "brands",
-      "disabled": true,
-      "settings": {
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "section_subtitle": "Enter Section Sub Title",
-        "section_title": "Enter Section Title",
-        "section_description": "Enter some details regarding this section.",
-        "custom_brand_metaobject": []
-      }
     }
   },
   "order": [
@@ -362,10 +412,11 @@
     "rich_text",
     "collection_list_ytqEg4",
     "image_with_text_3kcxWX",
-    "multicolumn",
+    "image_with_text_bm8Xiz",
     "featured_collection",
     "featured_collection_ytdWAE",
     "featured_collection_kErzLH",
-    "brands_eRHmfn"
+    "brands_eRHmfn",
+    "multicolumn"
   ]
 }
