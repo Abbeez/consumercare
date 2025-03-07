@@ -458,7 +458,7 @@
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "overlap",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
@@ -596,6 +596,7 @@
         "featured_collection_NAMrQ7",
         "featured_collection_8j4DRN"
       ],
+      "disabled": true,
       "custom_css": [
         ".card__information {display: none;}"
       ],
