@@ -11,10 +11,47 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389"
+      }
+    },
+    "image_banner_QM64EW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_mQC7JP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_yAWgw6": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mQC7JP",
+        "text_yAWgw6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner-background.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "left",
+        "show_text_below": true
       }
     },
     "product-grid": {
@@ -40,6 +77,7 @@
   },
   "order": [
     "banner",
+    "image_banner_QM64EW",
     "product-grid"
   ]
 }
