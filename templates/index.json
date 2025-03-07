@@ -213,7 +213,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/CCPI_Ambree_Collection_8e031ef2-39f6-41aa-8f41-fa01f0ed7ab8.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
