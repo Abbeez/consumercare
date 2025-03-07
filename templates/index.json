@@ -172,21 +172,30 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
+        "caption_Azxj4B": {
+          "type": "caption",
+          "settings": {
+            "caption": "Shop by Brands",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Products Take Care Of What Matters Most",
+            "heading": "ind the Perfect Products from Your Trusted Brands",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether you’re looking for household, personal, health and wellness, pet, or vehicle products, we can provide top-notch, sustainable, and economical consumer goods to make your life better.</p>"
+            "text": "<p>Discover a wide range of high-quality products from our carefully curated brands. Whether you're looking for home essentials, personal care, or automotive protection, we've got you covered.</p>"
           }
         }
       },
       "block_order": [
+        "caption_Azxj4B",
         "heading",
         "text"
       ],
@@ -253,12 +262,12 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 6,
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 8,
-        "padding_bottom": 8
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "image_with_text_3kcxWX": {
@@ -528,45 +537,6 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "collage_mTDxiU": {
-      "type": "collage",
-      "blocks": {
-        "image_pz8Xfm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CCPI_Consumers.png"
-          }
-        },
-        "product_eYCewX": {
-          "type": "product",
-          "settings": {
-            "product": "kwik-mosquito-killer-water-based-300ml",
-            "second_image": false
-          }
-        },
-        "collection_KCpY6U": {
-          "type": "collection",
-          "settings": {
-            "collection": "kwik"
-          }
-        }
-      },
-      "block_order": [
-        "image_pz8Xfm",
-        "product_eYCewX",
-        "collection_KCpY6U"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -582,7 +552,6 @@
     "featured_collection_ytdWAE",
     "featured_collection_kErzLH",
     "brands_eRHmfn",
-    "featured_collection_NWWRzy",
-    "collage_mTDxiU"
+    "featured_collection_NWWRzy"
   ]
 }
