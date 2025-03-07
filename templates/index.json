@@ -57,54 +57,6 @@
         "show_text_below": false
       }
     },
-    "image_banner_niUUpR": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_dBUeCn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Trusted Brands for Everyday Care & Protection",
-            "heading_size": "h0"
-          }
-        },
-        "text_3j4CT6": {
-          "type": "text",
-          "settings": {
-            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
-            "text_style": "body"
-          }
-        },
-        "buttons_fMH6Ei": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dBUeCn",
-        "text_3j4CT6",
-        "buttons_fMH6Ei"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Items.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -169,54 +121,6 @@
         "padding_bottom": 24
       }
     },
-    "image_with_text_dGLEMC": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_wfgzYh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shine with Antibacterial Protection!",
-            "heading_size": "h1"
-          }
-        },
-        "text_RTAiXN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Preserve your furnishings and refresh your space with a lemon scent. With antibacterial protection and special conditioners from Splenda Furniture Polish, you’re sure to have a lasting home that shines!</p>",
-            "text_style": "body"
-          }
-        },
-        "button_rJmjkM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse {{ metaobjects.brands.splenda.name.value }} Products",
-            "button_link": "shopify://collections/ambree",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wfgzYh",
-        "text_RTAiXN",
-        "button_rJmjkM"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Family_Protection_Products.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "image_behavior": "ambient",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-5",
-        "padding_top": 64,
-        "padding_bottom": 36
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -247,7 +151,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -425,90 +328,51 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "image_with_text_dGLEMC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wfgzYh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shine with Antibacterial Protection!",
+            "heading_size": "h1"
+          }
+        },
+        "text_RTAiXN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Preserve your furnishings and refresh your space with a lemon scent. With antibacterial protection and special conditioners from Splenda Furniture Polish, you’re sure to have a lasting home that shines!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_rJmjkM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse {{ metaobjects.brands.splenda.name.value }} Products",
+            "button_link": "shopify://collections/ambree",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfgzYh",
+        "text_RTAiXN",
+        "button_rJmjkM"
+      ],
       "disabled": true,
       "settings": {
-        "collection": "ambree",
-        "products_to_show": 4,
-        "title": "{{ section.settings.collection.title }}",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_ytdWAE": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "mototek",
-        "products_to_show": 5,
-        "title": "{{ section.settings.collection.title }}",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_kErzLH": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "solbac",
-        "products_to_show": 5,
-        "title": "{{ section.settings.collection.title }}",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
+        "image": "shopify://shop_images/CCPI_Family_Protection_Products.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "ambient",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
+        "padding_top": 64,
         "padding_bottom": 36
       }
     },
@@ -539,11 +403,11 @@
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 6,
-        "enable_desktop_slider": false,
-        "full_width": false,
+        "enable_desktop_slider": true,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "color_scheme": "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4",
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -747,19 +611,64 @@
         "padding_top": 24,
         "padding_bottom": 24
       }
+    },
+    "image_banner_niUUpR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dBUeCn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trusted Brands for Everyday Care & Protection",
+            "heading_size": "h0"
+          }
+        },
+        "text_3j4CT6": {
+          "type": "text",
+          "settings": {
+            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
+            "text_style": "body"
+          }
+        },
+        "buttons_fMH6Ei": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dBUeCn",
+        "text_3j4CT6",
+        "buttons_fMH6Ei"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CCPI_Items.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn",
-    "image_with_text_dGLEMC",
     "rich_text",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
-    "featured_collection",
-    "featured_collection_ytdWAE",
-    "featured_collection_kErzLH",
+    "image_with_text_dGLEMC",
     "brands_eRHmfn",
     "featured_collection_NWWRzy",
     "image_with_text_XcHJgm",
