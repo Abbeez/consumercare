@@ -554,7 +554,7 @@
         "description": "<p>Discover our best-selling and most trusted products designed to make your life easier. From home essentials to personal care and motor care solutions, our featured products deliver quality, reliability, and value for you and your family.</p>",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "enable_desktop_slider": true,
         "full_width": true,
         "show_view_all": true,
