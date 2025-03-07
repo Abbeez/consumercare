@@ -114,7 +114,7 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
+        "color_scheme": "scheme-35cb8163-a769-414a-9ce6-673b88ddd8ca",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 24,
@@ -183,7 +183,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "ind the Perfect Products from Your Trusted Brands",
+            "heading": "Find the Perfect Products from Your Trusted Brands",
             "heading_size": "h1"
           }
         },
@@ -278,14 +278,14 @@
         "heading_X8heb7": {
           "type": "heading",
           "settings": {
-            "heading": "Experience Lasting Freshness with Our Air Fresheners",
+            "heading": "Refresh Your Space with Long-Lasting Freshness",
             "heading_size": "h1"
           }
         },
         "text_zirPMG": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy instant and long-lasting aromas in your home with Ambree Air Freshener! Infused with natural fragrance oils, you’re sure to capture the essence of fresh fruits and flowers in any room.</p>",
+            "text": "<p>Create a clean and inviting atmosphere with our premium fresheners. Whether for your home, car, or workspace, our fresheners eliminate odors and leave behind a pleasant, lasting fragrance. Breathe in freshness every day! </p>",
             "text_style": "body"
           }
         },
