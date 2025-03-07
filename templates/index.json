@@ -169,34 +169,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_NWWRzy": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all-products",
-        "products_to_show": 10,
-        "title": "Consumer Care Featured Products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -528,6 +500,73 @@
         "section_description": "Enter some details regarding this section.",
         "custom_brand_metaobject": []
       }
+    },
+    "featured_collection_NWWRzy": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all-products",
+        "products_to_show": 10,
+        "title": "Consumer Care Featured Products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collage_mTDxiU": {
+      "type": "collage",
+      "blocks": {
+        "image_pz8Xfm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CCPI_Consumers.png"
+          }
+        },
+        "product_eYCewX": {
+          "type": "product",
+          "settings": {
+            "product": "kwik-mosquito-killer-water-based-300ml",
+            "second_image": false
+          }
+        },
+        "collection_KCpY6U": {
+          "type": "collection",
+          "settings": {
+            "collection": "kwik"
+          }
+        }
+      },
+      "block_order": [
+        "image_pz8Xfm",
+        "product_eYCewX",
+        "collection_KCpY6U"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -536,13 +575,14 @@
     "image_with_text_dGLEMC",
     "rich_text",
     "collection_list_ytqEg4",
-    "featured_collection_NWWRzy",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
     "featured_collection",
     "featured_collection_ytdWAE",
     "featured_collection_kErzLH",
-    "brands_eRHmfn"
+    "brands_eRHmfn",
+    "featured_collection_NWWRzy",
+    "collage_mTDxiU"
   ]
 }
