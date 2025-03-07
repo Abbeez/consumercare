@@ -63,7 +63,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Featured Brands",
             "heading_size": "h1"
           }
         },
@@ -78,7 +78,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -86,6 +85,67 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "collection_list_ytqEg4": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_DpUHgB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ambree"
+          }
+        },
+        "featured_collection_fpVVUt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clareo"
+          }
+        },
+        "featured_collection_CUG4VR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guard"
+          }
+        },
+        "featured_collection_Y3iERK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kwik"
+          }
+        },
+        "featured_collection_NAMrQ7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mototek"
+          }
+        },
+        "featured_collection_8j4DRN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "porma"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DpUHgB",
+        "featured_collection_fpVVUt",
+        "featured_collection_CUG4VR",
+        "featured_collection_Y3iERK",
+        "featured_collection_NAMrQ7",
+        "featured_collection_8j4DRN"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -251,56 +311,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "collection_list_ytqEg4": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_DpUHgB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ambree"
-          }
-        },
-        "featured_collection_fpVVUt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "clareo"
-          }
-        },
-        "featured_collection_CUG4VR": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_DpUHgB",
-        "featured_collection_fpVVUt",
-        "featured_collection_CUG4VR"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
+    "collection_list_ytqEg4",
     "featured_collection",
     "image_with_text_3kcxWX",
     "video",
     "brands_eRHmfn",
-    "multicolumn",
-    "collection_list_ytqEg4"
+    "multicolumn"
   ]
 }
