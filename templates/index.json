@@ -611,54 +611,6 @@
         "padding_top": 24,
         "padding_bottom": 24
       }
-    },
-    "image_banner_niUUpR": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_dBUeCn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Trusted Brands for Everyday Care & Protection",
-            "heading_size": "h0"
-          }
-        },
-        "text_3j4CT6": {
-          "type": "text",
-          "settings": {
-            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
-            "text_style": "body"
-          }
-        },
-        "buttons_fMH6Ei": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_dBUeCn",
-        "text_3j4CT6",
-        "buttons_fMH6Ei"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Items.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
     }
   },
   "order": [
@@ -673,7 +625,6 @@
     "featured_collection_NWWRzy",
     "image_with_text_XcHJgm",
     "collapsible_content_ERkQMF",
-    "collection_list_ytqEg4",
-    "image_banner_niUUpR"
+    "collection_list_ytqEg4"
   ]
 }
