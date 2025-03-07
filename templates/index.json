@@ -114,7 +114,7 @@
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
-        "color_scheme": "scheme-35cb8163-a769-414a-9ce6-673b88ddd8ca",
+        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 24,
@@ -256,6 +256,7 @@
         "featured_collection_NAMrQ7",
         "featured_collection_8j4DRN"
       ],
+      "disabled": true,
       "custom_css": [
         ".card__information {display: none;}"
       ],
@@ -275,6 +276,14 @@
     "image_with_text_3kcxWX": {
       "type": "image-with-text",
       "blocks": {
+        "caption_eHkNDC": {
+          "type": "caption",
+          "settings": {
+            "caption": "Shop with: Ambree, Solbac",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_X8heb7": {
           "type": "heading",
           "settings": {
@@ -292,13 +301,14 @@
         "button_apLQ3A": {
           "type": "button",
           "settings": {
-            "button_label": "Browse {{ metaobjects.brands.ambree.name.value }}Products",
+            "button_label": "Browse Air Freshners",
             "button_link": "shopify://collections/ambree",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "caption_eHkNDC",
         "heading_X8heb7",
         "text_zirPMG",
         "button_apLQ3A"
@@ -322,30 +332,39 @@
     "image_with_text_bm8Xiz": {
       "type": "image-with-text",
       "blocks": {
+        "caption_K4bYJr": {
+          "type": "caption",
+          "settings": {
+            "caption": "Shop with: KwIk, Solbac",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_Bn3bVF": {
           "type": "heading",
           "settings": {
-            "heading": "Shine with Antibacterial Protection!",
+            "heading": "Protect Your Home with Powerful Insect Control",
             "heading_size": "h1"
           }
         },
         "text_LGhMDw": {
           "type": "text",
           "settings": {
-            "text": "<p>Preserve your furnishings and refresh your space with a lemon scent. With antibacterial protection and special conditioners from Splenda Furniture Polish, you’re sure to have a lasting home that shines!</p>",
+            "text": "<p>Keep your space pest-free with our effective insect control solutions. Designed to eliminate bugs and prevent infestations, our products provide long-lasting protection for a safer, cleaner home. Say goodbye to unwanted pests and enjoy peace of mind!</p>",
             "text_style": "body"
           }
         },
         "button_WRVmLk": {
           "type": "button",
           "settings": {
-            "button_label": "Browse {{ metaobjects.brands.splenda.name.value }} Products",
+            "button_label": "Browse Insect Control Products",
             "button_link": "shopify://collections/ambree",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "caption_K4bYJr",
         "heading_Bn3bVF",
         "text_LGhMDw",
         "button_WRVmLk"
@@ -369,10 +388,18 @@
     "image_with_text_wtQ8Dm": {
       "type": "image-with-text",
       "blocks": {
+        "caption_XEM86g": {
+          "type": "caption",
+          "settings": {
+            "caption": "Shop with: VS1, Mototek",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_hBTg9k": {
           "type": "heading",
           "settings": {
-            "heading": "Take your ride to a whole new level with VS1 Products",
+            "heading": "Keep Your Ride in Top Condition with Premium Motor Care",
             "heading_size": "h1"
           }
         },
@@ -386,13 +413,14 @@
         "button_VjjqF6": {
           "type": "button",
           "settings": {
-            "button_label": "Browse {{ metaobjects.brands.ambree.name.value }}Products",
+            "button_label": "Browse Motorcare Products",
             "button_link": "shopify://collections/ambree",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "caption_XEM86g",
         "heading_hBTg9k",
         "text_ic9CNb",
         "button_VjjqF6"
@@ -514,12 +542,15 @@
     },
     "featured_collection_NWWRzy": {
       "type": "featured-collection",
+      "custom_css": [
+        ".title {text-align: center;}"
+      ],
       "settings": {
         "collection": "all-products",
         "products_to_show": 10,
-        "title": "Consumer Care Featured Products",
-        "heading_size": "h2",
-        "description": "",
+        "title": "Top Picks for Your Everyday Needs",
+        "heading_size": "h1",
+        "description": "<p>Discover our best-selling and most trusted products designed to make your life easier. From home essentials to personal care and motor care solutions, our featured products deliver quality, reliability, and value for you and your family.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 5,
