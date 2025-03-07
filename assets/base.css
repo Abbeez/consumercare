@@ -3613,3 +3613,10 @@ details-disclosure > details {
 #shopify-section-template--16780616663107__multicolumn {
   margin-top:0;
 }
+
+main {
+  background: url('https://cdn.shopify.com/s/files/1/0624/9365/5107/files/CCPI_Brands_1.png?v=1741329078');
+  background:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
