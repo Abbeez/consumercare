@@ -103,6 +103,9 @@
         "column_TwTLyV",
         "column_rzVUr4"
       ],
+      "custom_css": [
+        "section {margin-top: 0 !important;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -199,9 +202,7 @@
         "featured_collection_NAMrQ7",
         "featured_collection_8j4DRN"
       ],
-      "custom_css": [
-        "h3.card__heading a {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
