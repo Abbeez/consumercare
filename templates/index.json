@@ -209,70 +209,6 @@
         "padding_bottom": 0
       }
     },
-    "collection_list_ytqEg4": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_DpUHgB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ambree"
-          }
-        },
-        "featured_collection_fpVVUt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "clareo"
-          }
-        },
-        "featured_collection_CUG4VR": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guard"
-          }
-        },
-        "featured_collection_Y3iERK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kwik"
-          }
-        },
-        "featured_collection_NAMrQ7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mototek"
-          }
-        },
-        "featured_collection_8j4DRN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "porma"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_DpUHgB",
-        "featured_collection_fpVVUt",
-        "featured_collection_CUG4VR",
-        "featured_collection_Y3iERK",
-        "featured_collection_NAMrQ7",
-        "featured_collection_8j4DRN"
-      ],
-      "custom_css": [
-        ".card__information {display: none;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
     "image_with_text_3kcxWX": {
       "type": "image-with-text",
       "blocks": {
@@ -559,7 +495,7 @@
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -698,6 +634,70 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "collection_list_ytqEg4": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_DpUHgB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ambree"
+          }
+        },
+        "featured_collection_fpVVUt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clareo"
+          }
+        },
+        "featured_collection_CUG4VR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guard"
+          }
+        },
+        "featured_collection_Y3iERK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kwik"
+          }
+        },
+        "featured_collection_NAMrQ7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mototek"
+          }
+        },
+        "featured_collection_8j4DRN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "porma"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DpUHgB",
+        "featured_collection_fpVVUt",
+        "featured_collection_CUG4VR",
+        "featured_collection_Y3iERK",
+        "featured_collection_NAMrQ7",
+        "featured_collection_8j4DRN"
+      ],
+      "custom_css": [
+        ".card__information {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     }
   },
