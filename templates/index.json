@@ -154,7 +154,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -210,7 +210,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -266,7 +266,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-1",
+        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "color_scheme": "scheme-1",
         "padding_top": 64,
         "padding_bottom": 36
@@ -322,7 +322,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -407,7 +407,7 @@
         "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -462,7 +462,7 @@
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
-        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -540,7 +540,7 @@
         "heading_alignment": "center",
         "layout": "none",
         "container_color_scheme": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -604,7 +604,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 6,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
