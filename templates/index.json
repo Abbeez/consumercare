@@ -484,15 +484,15 @@
       ],
       "settings": {
         "collection": "all-products",
-        "products_to_show": 10,
+        "products_to_show": 12,
         "title": "Top Picks for Your Everyday Needs",
         "heading_size": "h1",
         "description": "<p>Discover our best-selling and most trusted products designed to make your life easier. From home essentials to personal care and motor care solutions, our featured products deliver quality, reliability, and value for you and your family.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 6,
-        "enable_desktop_slider": true,
-        "full_width": true,
+        "enable_desktop_slider": false,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4",
@@ -504,8 +504,8 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "image_with_text_XcHJgm": {
