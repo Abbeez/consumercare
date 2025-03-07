@@ -3616,7 +3616,7 @@ details-disclosure > details {
 
 #MainContent {
   background: url('https://cdn.shopify.com/s/files/1/0624/9365/5107/files/CCPI_Brands_1.png?v=1741329078') !important;
-  background:cover !important;
+  background-cover: !important;
   background-attachment:fixed !important;
   background-repeat:no-repeat !important;
 }
