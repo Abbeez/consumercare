@@ -543,7 +543,8 @@
     "featured_collection_NWWRzy": {
       "type": "featured-collection",
       "custom_css": [
-        ".title {text-align: center;}"
+        ".title {text-align: center;}",
+        ".collection__description {text-align:center}"
       ],
       "settings": {
         "collection": "all-products",
