@@ -199,6 +199,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -256,7 +257,6 @@
         "featured_collection_NAMrQ7",
         "featured_collection_8j4DRN"
       ],
-      "disabled": true,
       "custom_css": [
         ".card__information {display: none;}"
       ],
@@ -706,7 +706,6 @@
     "multicolumn",
     "image_with_text_dGLEMC",
     "rich_text",
-    "collection_list_ytqEg4",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
@@ -716,6 +715,7 @@
     "brands_eRHmfn",
     "featured_collection_NWWRzy",
     "image_with_text_XcHJgm",
-    "collapsible_content_ERkQMF"
+    "collapsible_content_ERkQMF",
+    "collection_list_ytqEg4"
   ]
 }
