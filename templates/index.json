@@ -57,6 +57,54 @@
         "show_text_below": false
       }
     },
+    "image_banner_niUUpR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dBUeCn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trusted Brands for Everyday Care & Protection",
+            "heading_size": "h0"
+          }
+        },
+        "text_3j4CT6": {
+          "type": "text",
+          "settings": {
+            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
+            "text_style": "body"
+          }
+        },
+        "buttons_fMH6Ei": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dBUeCn",
+        "text_3j4CT6",
+        "buttons_fMH6Ei"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CCPI_Items.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -251,7 +299,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/CCPI_Consumers_93a13c47-bc6c-4a4f-8838-41ac0be388c3.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
@@ -307,7 +355,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/CCPI_Family_Protection_Products_f0b5257a-0dbd-409e-907f-654520c9fa34.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
         "image_behavior": "none",
@@ -363,7 +411,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/CCPI_Motorcycle_Maintenance_747a1dde-7ba4-484a-9171-9b40cb4689df.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
@@ -716,6 +764,7 @@
     "featured_collection_NWWRzy",
     "image_with_text_XcHJgm",
     "collapsible_content_ERkQMF",
-    "collection_list_ytqEg4"
+    "collection_list_ytqEg4",
+    "image_banner_niUUpR"
   ]
 }
