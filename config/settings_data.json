@@ -41,7 +41,7 @@
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
     "inputs_shadow_blur": 5,
-    "card_style": "card",
+    "card_style": "standard",
     "card_image_padding": 6,
     "card_text_alignment": "center",
     "card_color_scheme": "scheme-1",
@@ -103,7 +103,7 @@
     "drawer_shadow_blur": 5,
     "badge_position": "bottom left",
     "badge_corner_radius": 40,
-    "sale_badge_color_scheme": "scheme-5",
+    "sale_badge_color_scheme": "scheme-35cb8163-a769-414a-9ce6-673b88ddd8ca",
     "sold_out_badge_color_scheme": "scheme-3",
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -250,7 +250,7 @@
       "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "linear-gradient(89deg, rgba(41, 193, 224, 1) 7%, rgba(255, 255, 255, 1) 94%)",
+          "background_gradient": "linear-gradient(266deg, rgba(41, 193, 224, 0.21) 7%, rgba(255, 255, 255, 1) 94%)",
           "text": "#121212",
           "button": "#29c1e0",
           "button_label": "#ffffff",
