@@ -41,7 +41,7 @@
       <div class="brand-card">
         <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
         <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
-        <!-- <p class="brand-details">{{ brand.details | strip_html }}</p> -->
+        <p class="brand-details">{{ brand.details | strip_html }}</p>
       </div>
     {% endfor %}
   </div>
