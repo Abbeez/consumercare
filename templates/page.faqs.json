@@ -97,15 +97,16 @@
         "caption": "",
         "heading": "",
         "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_alignment": "right",
         "layout": "none",
-        "container_color_scheme": "",
+        "container_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/FAQS_Tatara.png",
         "image_ratio": "adapt",
-        "desktop_layout": "image_second",
+        "desktop_layout": "image_first",
         "padding_top": 60,
-        "padding_bottom": 36
+        "padding_bottom": 40
       }
     }
   },
