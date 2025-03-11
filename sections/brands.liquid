@@ -40,7 +40,6 @@
     <div class="brands-header">
       <h2>{{ section.settings.heading }}</h2>
       <p class="subheading">{{ section.settings.subheading }}</p>
-      <p class="description">{{ section.settings.description }}</p>
     </div>
   {% endif %}
   {% for brand in shop.metaobjects.brands.values %}
@@ -127,8 +126,9 @@
         flex-grow:1;
         min-width: 250px;
         transition: all 0.2s ease-in-out;
-
     }
+
+  .brand-card a{text-decoration:none;}
 
   .brand-collection--products {
     display: flex;
