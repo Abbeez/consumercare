@@ -22,7 +22,7 @@
       "type": "page-title",
       "settings": {
         "theme-page--title": "{{ collection.title }}",
-        "theme-page--description": "",
+        "theme-page--description": "{{ collection.metafields.custom.description.value }}",
         "theme-title--center": false,
         "theme-page--background": "{{ collection.metafields.custom.banner.value }}"
       }
