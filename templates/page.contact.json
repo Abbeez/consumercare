@@ -23,7 +23,8 @@
         "theme-page--title": "I have a question in mind? Contact Us",
         "theme-page--description": "Get In Touch",
         "theme-title--center": true,
-        "theme-text-color": true
+        "theme-text-color": false,
+        "theme-page--background": "shopify://shop_images/CCPI_Page_Title_2.png"
       }
     },
     "form": {
