@@ -23,7 +23,7 @@
       "settings": {
         "theme-page--title": "{{ collection.title }}",
         "theme-page--description": "Category",
-        "theme-title--center": true,
+        "theme-title--center": false,
         "theme-page--background": "{{ collection.metafields.custom.banner.value }}"
       }
     },
