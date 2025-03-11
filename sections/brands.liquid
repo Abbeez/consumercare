@@ -40,7 +40,7 @@
     <div class="brands-header">
       <h2>{{ section.settings.heading }}</h2>
       <p class="subheading">{{ section.settings.subheading }}</p>
-      <p class="description">{{ section.settings.description }}</p>
+      <!-- <p class="description">{{ section.settings.description }}</p> -->
     </div>
   {% endif %}
 
@@ -86,8 +86,12 @@
         padding: 50px 20px;
       }
 
+    ..brands-header {
+      display:flex;
+    }
+
       .brands-header h2 {
-        font-size: 32px;
+        /* font-size: 32px; */
         font-weight: bold;
         margin-bottom: 10px;
       }
