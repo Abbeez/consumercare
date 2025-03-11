@@ -26,6 +26,56 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_FPPYan": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GfK8xd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_3YQXDJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_e6fezN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GfK8xd",
+        "text_3YQXDJ",
+        "button_e6fezN"
+      ],
+      "custom_css": [
+        ".image-with-text {margin-bottom: -48px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CCPI_With_love.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "brands_BmYUMf": {
       "type": "brands",
       "settings": {
@@ -74,56 +124,6 @@
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "full_width": true,
         "padding_top": 100,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_FPPYan": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_GfK8xd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_3YQXDJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_e6fezN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_GfK8xd",
-        "text_3YQXDJ",
-        "button_e6fezN"
-      ],
-      "custom_css": [
-        ".image-with-text {margin-bottom: -48px;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/CCPI_With_love.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "padding_top": 36,
         "padding_bottom": 0
       }
     }
