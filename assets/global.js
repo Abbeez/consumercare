@@ -1278,6 +1278,8 @@ if (!customElements.get('bulk-add')) {
 
 
 // CUSTOM Js
+
+// Triggers Shopify Inbox
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("open-chat").addEventListener("click", function () {
         let chatWidget = document.querySelector("inbox-online-store-chat");
@@ -1294,5 +1296,56 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+// ==============================
 
+// Popup Purchase
+
+document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("fake-purchase-popup");
+    const popupImage = document.getElementById("popup-image");
+    const popupName = document.getElementById("popup-name");
+    const popupLocation = document.getElementById("popup-location");
+    const popupProduct = document.getElementById("popup-product");
+
+    // Fake customer names and Philippine locations
+    const customers = ["John D.", "Maria S.", "Carlos V.", "Jenny A.", "Mark C.", "Ella G.", "Kevin B.", "Sarah L."];
+    const locations = ["Quezon City", "Manila", "Cebu", "Davao", "Makati", "Pasig", "Taguig", "Cavite", "Baguio", "Batangas"];
+
+    let products = []; // Store products from Shopify
+
+    // Fetch real products from Shopify
+    fetch("/products.json")
+        .then(response => response.json())
+        .then(data => {
+            products = data.products; // Store products in array
+        });
+
+    function showFakePurchase() {
+        if (products.length === 0) return; // Wait until products are loaded
+
+        const randomCustomer = customers[Math.floor(Math.random() * customers.length)];
+        const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+        const randomProduct = products[Math.floor(Math.random() * products.length)];
+
+        popupName.textContent = randomCustomer;
+        popupLocation.textContent = randomLocation;
+        popupProduct.textContent = randomProduct.title;
+        popupImage.src = randomProduct.images.length > 0 ? randomProduct.images[0].src : "https://via.placeholder.com/40";
+
+        popup.style.display = "flex";
+
+        // Hide after 5 seconds
+        setTimeout(() => {
+            popup.style.display = "none";
+        }, 5000);
+    }
+
+    // Show fake purchases every 10 seconds
+    setInterval(showFakePurchase, 10000);
+
+    // Show the first popup after 3 seconds
+    setTimeout(showFakePurchase, 3000);
+});
+
+// ===========================
 
