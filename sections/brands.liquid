@@ -1,182 +1,113 @@
-{%- style -%}
-         .brands-section__header {
-           text-align: center;
-       }
-
-           .brands-section__body {
-                 display: flex;
-                 justify-content: center;
-                 gap:15px;
-                 flex-wrap: wrap;
-                 box-sizing:border-box;
-             }
-
-             .brands-item_list {
-               flex: 1 0 120px;
-               text-align:center;
-               transition:transform 500ms;
-             }
-
-               .brands-item_list:hover {
-               transform:translateY(-5px);
-             }
-
-           .brand-items__cta{
-             background:var(--custom-color-primary);
-             flex-grow:1;
-           }
-
-       .brands-item_list a {
-         text-decoration: none;
-         color:rgba(var(--color-foreground), 0.75);
-       }
-
-   /* .brands-item_list_wrapper img {
-       width: 100%;
-       max-width: 170px;
-       max-height: 120px;
-       min-height: 100px;
-       object-fit: contain;
-       border-radius: 8px;
-   }
-  */
-             .brands-item_list_wrapper h2 {
-               background: var(--custom-color-primary);
-               color: var(--zekoki-white);
-               padding: 20px;
-               width:100%;
-               margin: 0 !important;
-           }
-
-
-           /* Tablet and small desktop */
-         @media screen and (min-width: 750px) {
-
-             .brands-item_list {
-               flex: 1;
-               min-width:425px;
-               max-width:33%;
-             }
-
-             .brand-items__cta{
-               flex: 1 0 50%;
-               min-width:50%;
-           }
-         }
-
-         /* Large desktops */
-         @media screen and (min-width: 990px) {
-           .brands-section__body {
-             justify-content: start;
-
-             }
-         }
-{%- endstyle -%}
-
-<section
-  class="page-width brands-section scroll-trigger animate--slide-in"
-  style="
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
-  "
->
-  <div class="brands-section__container">
-    <div class="brands-section__header">
-      <span class="brands-subtitle">{{ section.settings.section_subtitle }}</span>
-      <h1 class="brands-title h0 title">{{ section.settings.section_title }}</h1>
-      <p class="brands-description">{{ section.settings.section_description }}</p>
-    </div>
-
-    <div
-      class="brands-section__body"
-      style="
-        padding-top: calc({{ section.settings.padding_top }}px - {{ section.settings.padding_top }}px / 2);
-        padding-bottom: calc({{ section.settings.padding_bottom }}px - {{ section.settings.padding_bottom }}px / 2);
-      "
-    >
-      {% for brand in shop.metaobjects.brands.values limit: 5 %}
-        {% assign single_brand_handle = page.handle | append: '/' | append: brand %}
-        {% assign single_brand_handle_clean = single_brand_handle | remove: '/' %}
-        <div class="brands-item_list">
-          <a
-            href="{{ page.handle }}/{{ brand.system.handle }}"
-            class=""
-          >
-            <div class="brands-item_list_wrapper">
-              {% if brand.logo != blank %}
-                <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" height="" width="">
-              {% endif %}
-            </div>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
 {% schema %}
 {
-  "name": "Brand Lists",
+  "name": "Brands Grid",
   "settings": [
-  {
-    "type": "header",
-    "content": "Section Spacing",
-    "info":"Change the section spacing and margin"
-  },
-  {
-    "type": "range",
-    "id": "padding_top",
-    "label": "Padding Top",
-    "min": 0,
-    "max": 100,
-    "step": 5,
-    "default": 20
-  },
-  {
-    "type": "range",
-    "id": "padding_bottom",
-    "label": "Padding Bottom",
-    "min": 0,
-    "max": 100,
-    "step": 5,
-    "default": 20
-  },
-  {
-    "type": "header",
-    "content": "Section Details",
-    "info": "Please put all the details related to your brand. make sure to fill the necessary fields"
-  },
-  {
-    "type": "text",
-    "id": "section_subtitle",
-    "label": "Section Sub Title",
-    "default": "Enter Section Sub Title"
-  },
-  {
-    "type": "text",
-    "id": "section_title",
-    "label": "Section Title",
-    "info": "Provide title for this section",
-    "default": "Enter Section Title"
-  },
-  {
-    "type": "textarea",
-    "id": "section_description",
-    "label": "Section Description",
-    "info": "Provide title for this section",
-    "default": "Enter some details regarding this section."
-  },
-{
-  "type": "metaobject_list",
-  "id": "custom_brand_metaobject",
-  "label": "Select Featured Brands / Metaobject",
-  "metaobject_type": "product_guides"
-}
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Our Trusted Brands"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Explore the Brands We Carry"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Discover high-quality brands that bring reliability and performance to your everyday needs."
+    }
   ],
   "presets": [
     {
-      "name": "Brands Section"
+      "name": "Brands Grid"
     }
   ]
 }
 {% endschema %}
+
+<section class="brands-section">
+  <div class="brands-header">
+    <h2>{{ section.settings.heading }}</h2>
+    <p class="subheading">{{ section.settings.subheading }}</p>
+    <p class="description">{{ section.settings.description }}</p>
+  </div>
+
+  <div class="brands-grid">
+    {% for brand in shop.metaobjects.brand.values %}
+      <div class="brand-card">
+        <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
+        <h3 class="brand-name">{{ brand.name }}</h3>
+        <p class="brand-details">{{ brand.details }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .brands-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+  }
+
+  .brands-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .brands-header .subheading {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .brands-header .description {
+    font-size: 16px;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  .brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .brand-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .brand-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .brand-details {
+    font-size: 14px;
+    color: #555;
+  }
+</style>
