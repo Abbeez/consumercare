@@ -1,6 +1,61 @@
+{% style %}
+  .theme-page--title{
+      background-size:cover !important;
+      background-repeat:no-repeat !important;
+      padding:3rem;
+      color:#fff;
+    }
+
+  .theme-page--title h1 {margin:0; color:#fff;}
+{% endstyle %}
+
+{% assign themebg = section.settings['theme-page--background'] %}
+{% assign titlecenter = section.settings['theme-title--center'] %}
+
+<div
+  class="theme-page--title"
+  style="{% if themebg %} background: url('{{ themebg | image_url }}');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
+>
+  <div class="page-width">
+    <div class="theme-page--header">
+      <p class="caption-with-letter-spacing">{{ section.settings['theme-page--description'] | strip_html }}</p>
+      <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
+    </div>
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Page Title",
+  "settings": [
+    {
+      "type":"text",
+      "id":"theme-page--title",
+      "label": "Page Header Title",
+      "default":"CCPI provides high-quality, value-for-money products enriching Filipino lives every day."
+    },
+    {
+      "type":"inline_richtext",
+      "id":"theme-page--description",
+      "label": "Page Header Description",
+      "default":"CCPI provides high-quality, value-for-money products for home, personal, pet, and motor care—enriching Filipino lives every day."
+    },
+    {
+      "type":"checkbox",
+      "id":"theme-title--center",
+      "label": "Center the page title",
+      "default":false
+    },
+    {
+      "type":"image_picker",
+      "label": "Page Background",
+      "id":"theme-page--background"
+    }
+  ],
+  "presets":[
+    {
+      "name":"Page Title"
+    }
+  ]
+}
 {% endschema %}
