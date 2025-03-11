@@ -60,7 +60,7 @@
       {% if brand_collection %}
         <div class="brand-collection--products">
           <h3 style="width:100%;">Featured Products</h3>
-          {% for product in brand_collection.products limit: 4 %}
+          {% for product in brand_collection.products limit: 6 %}
             <div class="product-card">
               <a href="{{ product.url }}">
                 <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
