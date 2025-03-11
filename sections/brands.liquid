@@ -58,7 +58,7 @@
         </div>
       {% endif %}
       {% if brand_collection %}
-        <div class="collection-products">
+        <div class="brand-collection--products">
           {% for product in brand_collection.products limit: 3 %}
             <div class="product-card">
               <a href="{{ product.url }}">
@@ -128,7 +128,7 @@
 
     }
 
-  .collection-products {
+  .brand-collection--products {
     display: flex;
     gap: 15px;
     width:75%;
