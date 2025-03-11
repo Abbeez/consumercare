@@ -8,6 +8,12 @@
       min-height: 260px;
     }
 
+  .theme-container {
+    max-width: var(--page-width);
+  }
+
+
+
   .theme-page--title h1 {margin:0; color: #fff;}
 {% endstyle %}
 
@@ -18,7 +24,7 @@
   class="theme-page--title"
   style="{% if themebg %} background: url('{{ themebg | image_url }}');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
 >
-  <div class="page-width">
+  <div class="theme-container">
     <div class="theme-page--header">
       <p class="caption-with-letter-spacing">{{ section.settings['theme-page--description'] | strip_html }}</p>
       <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
