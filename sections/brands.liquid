@@ -48,14 +48,29 @@
     {% for brand in shop.metaobjects.brands.values %}
       {% assign brand_collection = brand.products.value %}
       {% if brand_collection %}
-        <a href="{{ brand_collection.url }}">
-          <div class="brand-card">
+        <div class="brand-card">
+          <a href="{{ brand_collection.url }}">
             <div class="brand-body">
               <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
               <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+      {% endif %}
+      {% if brand_collection %}
+        <div class="collection-products">
+          {% for product in brand_collection.products limit: 4 %}
+            <div class="product-card">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
+                <p class="product-title">{{ product.title }}</p>
+                <p class="product-price">{{ product.price | money }}</p>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p>No collection available for this brand.</p>
       {% endif %}
     {% endfor %}
   </div>
