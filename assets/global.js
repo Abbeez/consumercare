@@ -1300,12 +1300,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Popup Purchase
 
+<script>
 document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("fake-purchase-popup");
+    const popupLink = document.getElementById("popup-link");
     const popupImage = document.getElementById("popup-image");
     const popupName = document.getElementById("popup-name");
     const popupLocation = document.getElementById("popup-location");
     const popupProduct = document.getElementById("popup-product");
+    const popupVendor = document.getElementById("popup-vendor");
+    const popupTime = document.getElementById("popup-time");
 
     // Fake customer names and Philippine locations
     const customers = ["John D.", "Maria S.", "Carlos V.", "Jenny A.", "Mark C.", "Ella G.", "Kevin B.", "Sarah L."];
@@ -1320,6 +1324,11 @@ document.addEventListener("DOMContentLoaded", function () {
             products = data.products; // Store products in array
         });
 
+    function getRandomTimeAgo() {
+        const hoursAgo = Math.floor(Math.random() * 12) + 1; // Random 1-12 hours ago
+        return `${hoursAgo} hour${hoursAgo > 1 ? "s" : ""} ago`;
+    }
+
     function showFakePurchase() {
         if (products.length === 0) return; // Wait until products are loaded
 
@@ -1330,7 +1339,11 @@ document.addEventListener("DOMContentLoaded", function () {
         popupName.textContent = randomCustomer;
         popupLocation.textContent = randomLocation;
         popupProduct.textContent = randomProduct.title;
-        popupImage.src = randomProduct.images.length > 0 ? randomProduct.images[0].src : "https://via.placeholder.com/40";
+        popupVendor.textContent = randomProduct.vendor;
+        popupImage.src = randomProduct.images.length > 0 ? randomProduct.images[0].src : "https://via.placeholder.com/50";
+        popupTime.textContent = getRandomTimeAgo();
+
+        popupLink.href = randomProduct.handle ? `/products/${randomProduct.handle}` : "#";
 
         popup.style.display = "flex";
 
@@ -1346,6 +1359,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show the first popup after 3 seconds
     setTimeout(showFakePurchase, 3000);
 });
+</script>
 
 // ===========================
 
