@@ -111,94 +111,11 @@
         "padding_top": 68,
         "padding_bottom": 0
       }
-    },
-    "collapsible_content_Aph6kN": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_XpAJwR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Where can I buy your products?",
-            "icon": "check_mark",
-            "row_content": "<p>You can purchase our products through our<strong>official Shopify store</strong>, as well as on<strong>Shopee, Lazada, and TikTok Shop</strong>.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_XhPQEi": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are your available payment methods?",
-            "icon": "check_mark",
-            "row_content": "<p>We accept a variety of payment options, including:<br/><br/>✅ BillEase<br/>✅ Cebuana Lhuillier<br/>✅ GCash<br/>✅ GrabPay<br/>✅ BPI<br/>✅ Mastercard<br/>✅ Maya<br/>✅ RCBC<br/>✅ UnionBank<br/>✅ VIS</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_HCDUdf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do you offer Cash on Delivery (COD)?",
-            "icon": "check_mark",
-            "row_content": "<p>No, we currently do not offer Cash on Delivery (COD) on our website. However, you can choose from our secure and flexible payment options listed above or visit our Shopee, Lazada & Tiktok Store.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_W6JJUA": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Do you accept bulk or wholesale orders?",
-            "icon": "check_mark",
-            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please<strong>contact us</strong>directly for pricing and special arrangements.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_AcLtDj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How long does shipping take?",
-            "icon": "check_mark",
-            "row_content": "<p>Shipping times vary depending on your location and the platform you order from. Shopee, Lazada, and TikTok provide estimated delivery times at checkout. For Shopify orders, delivery time will be indicated at checkout as well.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_UWEfaW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What should I do if I receive a damaged or incorrect item?",
-            "icon": "check_mark",
-            "row_content": "<p>If you have any issues with your order, please reach out to the seller through Shopee, Lazada, or TikTok for assistance. For Shopify orders, kindly <strong>contact us</strong> directly.</p><p>Let me know if you'd like any adjustments!</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_XpAJwR",
-        "collapsible_row_XhPQEi",
-        "collapsible_row_HCDUdf",
-        "collapsible_row_W6JJUA",
-        "collapsible_row_AcLtDj",
-        "collapsible_row_UWEfaW"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h2",
-        "heading_alignment": "right",
-        "layout": "none",
-        "container_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "open_first_collapsible_row": false,
-        "image": "shopify://shop_images/FAQS_Tatara.png",
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 68,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "page_title_gX4EV7",
     "main",
-    "collapsible_content_imWzRY",
-    "collapsible_content_Aph6kN"
+    "collapsible_content_imWzRY"
   ]
 }
