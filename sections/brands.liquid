@@ -1,103 +1,115 @@
 <style>
-      .brands-section {
-        text-align: center;
-        padding: 50px 20px;
+        .brands-section {
+          text-align: center;
+          padding: 50px 20px;
+        }
+
+        .brands-header {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+
+        .brands-header h2 {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .brands-header .subheading {
+          font-size: 18px;
+          color: #666;
+          margin-bottom: 10px;
+        }
+
+        .brands-header .description {
+          font-size: 16px;
+          color: #444;
+          max-width: 600px;
+          margin: 0 auto 30px;
+        }
+
+    /* GRID SECTION */
+
+        .brands-grid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 25px;
+            align-items: flex-start;
+            margin-bottom:25px;
+            transition: all 0.5s;
+            border:1px solid #c3c3c3;
+            padding:2rem;
+            border-radius:2px;
+        }
+
+      .brands-grid:nth-child(odd){
+        background:#d6f9ff;
       }
 
-      .brands-header {
+          .brands-grid:hover {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 25px;
+            align-items: flex-start;
+            margin-bottom:25px;
+            opacity:0.8;
+            transform:translateY(-5px)
+        }
+
+
+
+    .brands-grid a{text-decoration:none;}
+
+        .brand-card {
           display: flex;
-          align-items: center;
-          align-content: center;
+          flex-direction: row;
           justify-content: space-between;
-          margin-bottom: 25px;
-      }
-
-      .brands-header h2 {
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-
-      .brands-header .subheading {
-        font-size: 18px;
-        color: #666;
-        margin-bottom: 10px;
-      }
-
-      .brands-header .description {
-        font-size: 16px;
-        color: #444;
-        max-width: 600px;
-        margin: 0 auto 30px;
-      }
-
-  /* GRID SECTION */
-
-      .brands-grid {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
+          align-items: center;
           gap: 25px;
-          align-items: flex-start;
-          margin-bottom:25px;
-          transition: all 0.5s;
-          border:1px solid #c3c3c3;
-          padding:2rem;
-          border-radius:2px;
-      }
-
-    .brands-grid:nth-child(odd){
-      background:#d6f9ff;
-    }
-
-        .brands-grid:hover {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          gap: 25px;
-          align-items: flex-start;
-          margin-bottom:25px;
-          opacity:0.8;
-          transform:translateY(-5px)
+          text-align:left;
+          color:#222;
       }
 
 
-
-  .brands-grid a{text-decoration:none;}
-
-      .brand-card {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 25px;
-        text-align:left;
-        color:#222;
-    }
-
-
-        .brand-card .brand-card-column:first-child {
-          order:2;
-          border:1px solid #c3c3c3;
-          border-radius:2px;
-          padding:5px;
-          background:#fff;
-    }
-
-
-      .brand-logo {
-        width: 130px;  /* Standardized logo size */
-        height: 130px;
-        object-fit: contain;
-        margin-bottom: 10px;
+          .brand-card .brand-card-column:first-child {
+            order:2;
+            border:1px solid #c3c3c3;
+            border-radius:2px;
+            padding:5px;
+            background:#fff;
+            position:relative;
       }
 
-      .brand-name {
-        font-size: 16px;
-        font-weight: bold;
-        color: #333;
-      }
+    span.collection-product-count {
+      border-radius: 2;
+      padding: 8px 16px;
+      background: #d6f9ff;
+      color: #222;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      font-size:14px;
+  }
 
-  /* END GRID SECTION */
+
+        .brand-logo {
+          width: 130px;  /* Standardized logo size */
+          height: 130px;
+          object-fit: contain;
+          margin-bottom: 10px;
+        }
+
+        .brand-name {
+          font-size: 16px;
+          font-weight: bold;
+          color: #333;
+        }
+
+    /* END GRID SECTION */
 </style>
 
 {% schema %}
