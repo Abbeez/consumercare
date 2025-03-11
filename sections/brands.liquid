@@ -47,7 +47,6 @@
 
         {% assign brand_collection = brand.products.value %}
         {% if brand_collection %}
-          <p><a href="{{ brand_collection.url }}" class="view-collection">View Collection</a></p>
           <div class="collection-products">
             {% for product in brand_collection.products limit: 4 %}
               <div class="product-card">
@@ -66,7 +65,7 @@
     {% endfor %}
   </div>
 </section>
-
+<!-- <p><a href="{{ brand_collection.url }}" class="view-collection">View Collection</a></p> -->
 <style>
     .brands-section {
       text-align: center;
