@@ -172,7 +172,10 @@
             <p>{{ brand.details | metafield_tag }}</p>
             <div class="brand-buttons">
               <a href="{{ brand_collection.url }}">View Products <span>&#8594;</span> </a>
-              <a href="{{ brand.landing[1]}}">Learn More <span>&#8594;</span> </a>
+              <a href="{{ brand.landing[1]}}">
+                {{- brand.landing[1] -}}
+                <span>&#8594;</span>
+              </a>
             </div>
           </div>
         </div>
