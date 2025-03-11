@@ -30,6 +30,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".quick-add__submit {background: #29C1E0; color:#fff;}"
+      ],
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 5,
