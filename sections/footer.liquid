@@ -27,46 +27,47 @@
   }
 {%- endstyle -%}
 {% style %}
-    .theme-stick--option {
-        max-width: 200px;
-        position: fixed;
-        top: 30%;
-        left: -70px;
-        background: #fff;
-        border: 1px solid #eaeaea;
-        padding: 1rem;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 10px;
-        border-radius:4px;
-        justify-content: center;
-        transition:all 0.5s;
-    }
+  .theme-stick--option {
+      max-width: 200px;
+      position: fixed;
+      top: 30%;
+      left: -70px;
+      background: #fff;
+      border: 1px solid #eaeaea;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-radius:4px;
+      justify-content: center;
+      transition:all 0.5s;
+  }
 
-    .theme-stick--option:after {
-      content: '→';
+  .theme-stick--option:after {
+      content: '\2192';
       position: absolute;
       right: -10px;
       background: #163340;
-      padding: 0 10px;
+      padding: 0 5px;
       border-radius: 50px;
       color: #fff;
-      border:1px solid #eaeaea;
+      font-size: 12px;
+      border: 1px solid #eaeaea;
   }
 
-    .theme-stick--option:hover {
-      left: 5px;
-    }
+  .theme-stick--option:hover {
+    left: 5px;
+  }
 
-    .theme-stick--option > * {
-      width:100%;
-      margin:0;
-    }
-    .theme-chatus a {text-decoration:none !important;}
-        .theme-stick--option img {max-width:25px;}
+  .theme-stick--option > * {
+    width:100%;
+    margin:0;
+  }
+  .theme-chatus a {text-decoration:none !important;}
+      .theme-stick--option img {max-width:25px;}
 {% endstyle %}
 <div class="theme-stick--option">
   <img src="https://cdn.shopify.com/s/files/1/0624/9365/5107/files/Consumer_Care_Bulk_Order.png?v=1741707489">
