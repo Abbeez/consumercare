@@ -59,6 +59,7 @@
       {% endif %}
       {% if brand_collection %}
         <div class="brand-collection--products">
+          <h3>Featured Products</h3>
           {% for product in brand_collection.products limit: 4 %}
             <div class="product-card">
               <a href="{{ product.url }}">
@@ -171,22 +172,3 @@
         color: #333;
       }
 </style>
-
-<!--
-  {% assign brand_collection = brand.products.value %}
-  {% if brand_collection %}
-    <div class="collection-products">
-      {% for product in brand_collection.products limit: 4 %}
-        <div class="product-card">
-          <a href="{{ product.url }}">
-            <img src="{{ product.featured_image | image_url }}" alt="{{ product.title }}">
-            <p class="product-title">{{ product.title }}</p>
-            <p class="product-price">{{ product.price | money }}</p>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p>No collection available for this brand.</p>
-  {% endif %}
--->
