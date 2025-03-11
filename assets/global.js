@@ -1281,10 +1281,14 @@ if (!customElements.get('bulk-add')) {
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("open-chat").addEventListener("click", function () {
-        if (window.ShopifyChat) {
-            window.ShopifyChat.open();
+        // Find the Shopify Inbox button
+        let chatButton = document.querySelector('iframe[src*="shopify-chat"]');
+        
+        if (chatButton) {
+            chatButton.contentWindow.postMessage({ type: "open" }, "*"); 
         } else {
-            console.error("Shopify Inbox is not loaded yet.");
+            console.error("Shopify Inbox chat button not found.");
         }
     });
 });
+
