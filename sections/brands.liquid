@@ -162,19 +162,19 @@
       {% assign brand_collection = brand.products.value %}
 
       {% if brand_collection %}
-        <a href="{{ brand_collection.url }}">
-          <div class="brand-card">
-            <div class="brand-card-column">
-              <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
-              <span class="collection-product-count">{{ brand_collection.products | size }}</span>
-            </div>
-            <div class="brand-card-column">
-              <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
-              <p>{{ brand.details | metafield_tag }}</p>
-              <p class="">Explore More <span>&#8594;</span></p>
-            </div>
+        <div class="brand-card">
+          <div class="brand-card-column">
+            <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
+            <span class="collection-product-count">{{ brand_collection.products | size }}</span>
           </div>
-        </a>
+          <div class="brand-card-column">
+            <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
+            <p>{{ brand.details | metafield_tag }}</p>
+            <p class="">
+              <a href="{{ brand_collection.url }}">Explore More <span>&#8594;</span> </a>
+            </p>
+          </div>
+        </div>
       {% endif %}
     </div>
   {% endfor %}
