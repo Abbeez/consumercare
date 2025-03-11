@@ -43,7 +43,7 @@
         "caption_VLCTQR": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "Looking to Order in Bulk?",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -51,14 +51,14 @@
         "heading_nVkiGM": {
           "type": "heading",
           "settings": {
-            "heading": "Wanna Order Bulk?",
+            "heading": "Get exclusive deals and special pricing when you buy in bulk!",
             "heading_size": "h1"
           }
         },
         "text_N7mfyC": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><strong>Send us a message</strong> with your product name or URL, or let us recommend the best options for you!</p>",
             "text_style": "body"
           }
         },
