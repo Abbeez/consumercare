@@ -29,7 +29,7 @@
     "brands_BmYUMf": {
       "type": "brands",
       "settings": {
-        "brand-header": false,
+        "brand-header": true,
         "heading": "Our Trusted Brands",
         "subheading": "Explore the Brands We Carry",
         "description": "Discover high-quality brands that bring reliability and performance to your everyday needs."
