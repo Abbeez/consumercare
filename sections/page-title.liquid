@@ -4,8 +4,8 @@
     background-repeat: no-repeat !important;
     padding: 7rem 1rem;
     color: #fff;
-    height: 270px;
-    min-height: 230px;
+    /* height: 270px;
+    min-height: 230px; */
     }
 
   .theme-container {
@@ -27,8 +27,8 @@
 >
   <div class="theme-container">
     <div class="theme-page--header">
-      <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
       <p class="caption-with-letter-spacing">{{ section.settings['theme-page--description'] | strip_html }}</p>
+      <h1>{{ section.settings['theme-page--title'] | strip_html }}</h1>
     </div>
   </div>
 </div>
