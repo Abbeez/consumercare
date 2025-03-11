@@ -1353,7 +1353,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Show fake purchases every 10 seconds
-    setInterval(showFakePurchase, 10000);
+    setInterval(showFakePurchase, 15000);
 
     // Show the first popup after 3 seconds
     setTimeout(showFakePurchase, 3000);
