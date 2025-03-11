@@ -59,7 +59,7 @@
       {% endif %}
       {% if brand_collection %}
         <div class="brand-collection--products">
-          <h3>Featured Products</h3>
+          <h3 style="width:100%;">Featured Products</h3>
           {% for product in brand_collection.products limit: 4 %}
             <div class="product-card">
               <a href="{{ product.url }}">
