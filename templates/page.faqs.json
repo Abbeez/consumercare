@@ -34,7 +34,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Where can I buy your products?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>You can purchase our products through our<strong>official Shopify store</strong>, as well as on<strong>Shopee, Lazada, and TikTok Shop</strong>.</p>",
             "page": ""
           }
@@ -43,7 +43,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What are your available payment methods?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We accept a variety of payment options, including:<br/><br/>✅ BillEase<br/>✅ Cebuana Lhuillier<br/>✅ GCash<br/>✅ GrabPay<br/>✅ BPI<br/>✅ Mastercard<br/>✅ Maya<br/>✅ RCBC<br/>✅ UnionBank<br/>✅ VIS</p>",
             "page": ""
           }
@@ -52,7 +52,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you offer Cash on Delivery (COD)?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>No, we currently do not offer Cash on Delivery (COD) on our website. However, you can choose from our secure and flexible payment options listed above or visit our Shopee, Lazada & Tiktok Store.</p>",
             "page": ""
           }
@@ -61,7 +61,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you accept bulk or wholesale orders?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Yes! We accept bulk and wholesale orders. Please<strong>contact us</strong>directly for pricing and special arrangements.</p>",
             "page": ""
           }
@@ -70,7 +70,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does shipping take?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Shipping times vary depending on your location and the platform you order from. Shopee, Lazada, and TikTok provide estimated delivery times at checkout. For Shopify orders, delivery time will be indicated at checkout as well.</p>",
             "page": ""
           }
@@ -79,7 +79,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What should I do if I receive a damaged or incorrect item?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>If you have any issues with your order, please reach out to the seller through Shopee, Lazada, or TikTok for assistance. For Shopify orders, kindly <strong>contact us</strong> directly.</p><p>Let me know if you'd like any adjustments!</p>",
             "page": ""
           }
