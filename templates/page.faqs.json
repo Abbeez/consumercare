@@ -106,7 +106,7 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
         "padding_top": 60,
-        "padding_bottom": 40
+        "padding_bottom": 0
       }
     }
   },
