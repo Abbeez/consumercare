@@ -43,6 +43,7 @@
           .brand-card {
             width: 100%;
             flex-grow:1;
+            max-width: 990px;
             justify-content: space-between;
             min-width: 250px;
             transition: all 0.2s ease-in-out;
@@ -72,10 +73,6 @@
     justify-content: center;
     }
 
-    /* .brand-body > * {
-      width: 100%;
-      margin: 0;
-  } */
 
       .brand-logo {
         width: 130px;  /* Standardized logo size */
@@ -151,6 +148,10 @@
           </a>
         </div>
       {% endif %}
+  {% endfor %}
+</section>
+
+            
       <!--
         {% if brand_collection %}
           <div class="brand-collection--products">
@@ -170,5 +171,3 @@
         {% endif %}
       -->
     </div>
-  {% endfor %}
-</section>
