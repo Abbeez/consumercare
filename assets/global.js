@@ -1282,8 +1282,13 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("open-chat").addEventListener("click", function () {
         let chatWidget = document.querySelector("inbox-online-store-chat");
         
-        if (chatWidget) {
-            chatWidget.setAttribute("is-open", "true"); // Open the chat
+        if (chatWidget && chatWidget.shadowRoot) {
+            let chatButton = chatWidget.shadowRoot.querySelector("button"); // Try to find the button inside
+            if (chatButton) {
+                chatButton.click();
+            } else {
+                console.error("Chat button inside Shadow DOM not found.");
+            }
         } else {
             console.error("Shopify Inbox chat widget not found.");
         }
