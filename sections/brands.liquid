@@ -3,6 +3,12 @@
   "name": "Brands Grid",
   "settings": [
     {
+      "type":"checkbox",
+      "id":"brand-header",
+      "label":"Show Header",
+      "default": false
+    },
+    {
       "type": "text",
       "id": "heading",
       "label": "Heading",
@@ -30,11 +36,13 @@
 {% endschema %}
 
 <section class="brands-section page-width">
-  <div class="brands-header">
-    <h2>{{ section.settings.heading }}</h2>
-    <p class="subheading">{{ section.settings.subheading }}</p>
-    <p class="description">{{ section.settings.description }}</p>
-  </div>
+  {% if section.settings['brand-header'] %}
+    <div class="brands-header">
+      <h2>{{ section.settings.heading }}</h2>
+      <p class="subheading">{{ section.settings.subheading }}</p>
+      <p class="description">{{ section.settings.description }}</p>
+    </div>
+  {% endif %}
 
   <div class="brands-grid">
     {% for brand in shop.metaobjects.brands.values %}
