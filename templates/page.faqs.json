@@ -93,6 +93,9 @@
         "collapsible_row_ENrQy4",
         "collapsible_row_nPVc3e"
       ],
+      "custom_css": [
+        ".collapsible-content__wrapper {margin-bottom:-48px;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "",
