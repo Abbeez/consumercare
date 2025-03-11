@@ -1280,12 +1280,12 @@ if (!customElements.get('bulk-add')) {
 // CUSTOM Js
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("open-chat").addEventListener("click", function () {
-        let chatButton = document.getElementById("shopify-chat");
+        let chatWidget = document.querySelector("inbox-online-store-chat");
         
-        if (chatButton) {
-            chatButton.click(); // Simulate a user click
+        if (chatWidget) {
+            chatWidget.setAttribute("is-open", "true"); // Open the chat
         } else {
-            console.error("Shopify Inbox chat button not found.");
+            console.error("Shopify Inbox chat widget not found.");
         }
     });
 });
