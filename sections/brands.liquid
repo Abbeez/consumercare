@@ -1,3 +1,96 @@
+<style>
+      .brands-section {
+        text-align: center;
+        padding: 50px 20px;
+      }
+
+      .brands-header {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: space-between;
+          margin-bottom: 25px;
+      }
+
+      .brands-header h2 {
+        /* font-size: 32px; */
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .brands-header .subheading {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+
+      .brands-header .description {
+        font-size: 16px;
+        color: #444;
+        max-width: 600px;
+        margin: 0 auto 30px;
+      }
+
+      .brands-grid {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 25px;
+          align-items: flex-start;
+          margin-bottom:25px;
+      }
+
+          .brand-card {
+            width: 100%;
+            flex-grow:1;
+            min-width: 250px;
+            transition: all 0.2s ease-in-out;
+        }
+
+  .brand-card a{text-decoration:none;color:#222;}
+
+  .brand-collection--products {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 15px;
+    width:100%;
+    flex-grow:1;
+    align-items: flex-start;
+  }
+
+  .brand-collection--products .product-card a {text-decoration:none; color:#222;}
+
+  .product-card {
+    width: 20%;
+    flex-grow: 1;
+  }
+    .brand-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    /* .brand-body > * {
+      width: 100%;
+      margin: 0;
+  } */
+
+      .brand-logo {
+        width: 130px;  /* Standardized logo size */
+        height: 130px;
+        object-fit: contain;
+        margin-bottom: 10px;
+      }
+
+      .brand-name {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #333;
+      }
+</style>
+
 {% schema %}
 {
   "name": "Brands Grid",
@@ -78,96 +171,3 @@
     </div>
   {% endfor %}
 </section>
-
-<style>
-      .brands-section {
-        text-align: center;
-        padding: 50px 20px;
-      }
-
-      .brands-header {
-          display: flex;
-          align-items: center;
-          align-content: center;
-          justify-content: space-between;
-          margin-bottom: 25px;
-      }
-
-      .brands-header h2 {
-        /* font-size: 32px; */
-        font-weight: bold;
-        margin-bottom: 10px;
-      }
-
-      .brands-header .subheading {
-        font-size: 18px;
-        color: #666;
-        margin-bottom: 10px;
-      }
-
-      .brands-header .description {
-        font-size: 16px;
-        color: #444;
-        max-width: 600px;
-        margin: 0 auto 30px;
-      }
-
-      .brands-grid {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          gap: 25px;
-          align-items: flex-start;
-          margin-bottom:25px;
-      }
-
-          .brand-card {
-            width: 100%;
-            flex-grow:1;
-            min-width: 250px;
-            transition: all 0.2s ease-in-out;
-        }
-
-  .brand-card a{text-decoration:none;color:#222;}
-
-  .brand-collection--products {
-    display: flex;
-    flex-wrap:wrap;
-    gap: 15px;
-    width:100%;
-    flex-grow:1;
-    align-items: flex-start;
-  }
-
-  .brand-collection--products .product-card a {text-decoration:none; color:#222;}
-
-  .product-card {
-    width: 20%;
-    flex-grow: 1;
-  }
-    .brand-body{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    }
-
-    .brand-body > * {
-      width: 100%;
-      margin: 0;
-  }
-
-      .brand-logo {
-        width: 130px;  /* Standardized logo size */
-        height: 130px;
-        object-fit: contain;
-        margin-bottom: 10px;
-      }
-
-      .brand-name {
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        color: #333;
-      }
-</style>
