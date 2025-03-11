@@ -34,6 +34,7 @@
       "block_order": [
         "column_XbhFEc"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
@@ -50,10 +51,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "brands_BmYUMf": {
+      "type": "brands",
+      "settings": {
+        "heading": "Our Trusted Brands",
+        "subheading": "Explore the Brands We Carry",
+        "description": "Discover high-quality brands that bring reliability and performance to your everyday needs."
+      }
     }
   },
   "order": [
     "main",
-    "multicolumn_yaDLRb"
+    "multicolumn_yaDLRb",
+    "brands_BmYUMf"
   ]
 }
