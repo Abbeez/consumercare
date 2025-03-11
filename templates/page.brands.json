@@ -109,7 +109,7 @@
         "button_e6fezN"
       ],
       "custom_css": [
-        ".section-template--16792004788291__image_with_text_FPPYan-padding.gradient.color-scheme-1 {margin-bottom: -48px;}"
+        ".image-with-text {margin-bottom: -48px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/CCPI_With_love.png",
