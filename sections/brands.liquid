@@ -43,9 +43,8 @@
       <!-- <p class="description">{{ section.settings.description }}</p> -->
     </div>
   {% endif %}
-
-  <div class="brands-grid">
-    {% for brand in shop.metaobjects.brands.values %}
+  {% for brand in shop.metaobjects.brands.values %}
+    <div class="brands-grid">
       {% assign brand_collection = brand.products.value %}
       {% if brand_collection %}
         <div class="brand-card">
@@ -72,8 +71,8 @@
       {% else %}
         <p>No collection available for this brand.</p>
       {% endif %}
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </section>
 
 <style>
