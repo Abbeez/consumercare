@@ -34,11 +34,102 @@
         "subheading": "Explore the Brands We Carry",
         "description": "Discover high-quality brands that bring reliability and performance to your everyday needs."
       }
+    },
+    "rich_text_jaVNyt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_icF7UA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_GfVf8d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_PXYUfk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_icF7UA",
+        "text_GfVf8d",
+        "button_PXYUfk"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_FPPYan": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GfK8xd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_3YQXDJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_e6fezN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GfK8xd",
+        "text_3YQXDJ",
+        "button_e6fezN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CCPI_With_love.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "page_title_hLDzVk",
     "main",
-    "brands_BmYUMf"
+    "brands_BmYUMf",
+    "rich_text_jaVNyt",
+    "image_with_text_FPPYan"
   ]
 }
