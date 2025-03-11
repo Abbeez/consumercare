@@ -11,62 +11,65 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
     },
-    "multicolumn_dkz7br": {
-      "type": "multicolumn",
+    "page_title_iF4zBk": {
+      "type": "page-title",
+      "settings": {
+        "theme-page--title": "CCPI provides high-quality, value-for-money products for home, personal, pet, and motor care—enriching Filipino lives every day.",
+        "theme-page--description": "Bulk order & Wholesale",
+        "theme-title--center": true,
+        "theme-text-color": false,
+        "theme-page--background": "shopify://shop_images/CCPI_Page_Title_2.png"
+      }
+    },
+    "image_with_text_xzMfMt": {
+      "type": "image-with-text",
       "blocks": {
-        "column_TzaDLU": {
-          "type": "column",
-          "source": "{{ metaobjects.brands.ambree }}",
+        "heading_wyjfxU": {
+          "type": "heading",
           "settings": {
-            "image": "{{ metaobjects.brands.ambree.logo.value }}",
-            "title": "{{ metaobjects.brands.ambree.name.value }}",
-            "text": "{{ metaobjects.brands.ambree.details | metafield_tag }}",
-            "link_label": "",
-            "link": ""
+            "heading": "Why Order in Bulk?",
+            "heading_size": "h1"
           }
         },
-        "column_jbEBdG": {
-          "type": "column",
+        "text_pXDEzR": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>🛠 <strong>Save More</strong> – Enjoy discounted rates on bulk purchases.<br/>🚚 <strong>Fast & Reliable Shipping</strong> – We deliver nationwide.<br/>📦 <strong>Flexible Order Sizes</strong> – No need to overcommit; we cater to various order quantities.<br/>🤝 <strong>Dedicated Support</strong> – Our team is here to assist you every step of the way.</p>",
+            "text_style": "body"
           }
         },
-        "column_BHTdBY": {
-          "type": "column",
+        "button_pPrbAK": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "column_TzaDLU",
-        "column_jbEBdG",
-        "column_BHTdBY"
+        "heading_wyjfxU",
+        "text_pXDEzR",
+        "button_pPrbAK"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "Button label",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
+        "image": "shopify://shop_images/Consumer_Care_Bulk_Order.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -74,6 +77,7 @@
   },
   "order": [
     "main",
-    "multicolumn_dkz7br"
+    "page_title_iF4zBk",
+    "image_with_text_xzMfMt"
   ]
 }
