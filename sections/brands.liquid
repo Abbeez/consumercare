@@ -147,7 +147,7 @@
   {% for brand in shop.metaobjects.brands.values %}
     <div class="brands-grid">
       {% assign brand_collection = brand.products.value %}
-      {% assign brand_collection_count = brand.products %}
+      {% assign brand_collection_count = brand_collection %}
 
       {% if brand_collection %}
         <a href="{{ brand_collection.url }}">
