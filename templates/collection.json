@@ -24,6 +24,7 @@
         "theme-page--title": "{{ collection.title }}",
         "theme-page--description": "Category",
         "theme-title--center": false,
+        "theme-text-color": true,
         "theme-page--background": "{{ collection.metafields.custom.banner.value }}"
       }
     },
