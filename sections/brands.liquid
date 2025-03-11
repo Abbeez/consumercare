@@ -1,24 +1,125 @@
-.brands-section { text-align: center; padding: 50px 20px; background-color: #f8f8f8; }
+{% schema %}
+{
+  "name": "Brands Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Our Trusted Brands"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Explore the Brands We Carry"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Discover high-quality brands that bring reliability and performance to your everyday needs."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brands Grid"
+    }
+  ]
+}
+{% endschema %}
 
-.brands-header h2 { font-size: 32px; font-weight: bold; margin-bottom: 10px; }
+<section class="brands-section page-width">
+  <div class="brands-header">
+    <h2>{{ section.settings.heading }}</h2>
+    <p class="subheading">{{ section.settings.subheading }}</p>
+    <p class="description">{{ section.settings.description }}</p>
+  </div>
 
-.brands-header .subheading { font-size: 18px; color: #666; margin-bottom: 10px; }
+  <div class="brands-grid">
+    {% for brand in shop.metaobjects.brands.values %}
+      <div class="brand-card">
+        <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
+        <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
+        <p class="brand-details">{{ brand.details | metafield_tag }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
-.brands-header .description { font-size: 16px; color: #444; max-width: 600px; margin: 0 auto 30px; }
+<style>
+  .brands-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
 
-.brands-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; justify-content:
-center; align-items: stretch; }
+  .brands-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-.brand-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
-text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between;
-min-height: 280px; /* Increased for better spacing */ transition: transform 0.2s, box-shadow 0.2s; }
+  .brands-header .subheading {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
 
-.brand-card:hover { transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12); }
+  .brands-header .description {
+    font-size: 16px;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
 
-.brand-logo { width: 100px; height: 100px; object-fit: contain; margin-bottom: 10px; }
+  .brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    align-items: stretch;
+  }
 
-.brand-name { font-size: 18px; font-weight: bold; margin-bottom: 5px; }
+  .brand-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 280px; /* Increased for better spacing */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
 
-.brand-details { font-size: 14px; color: #555; flex-grow: 1; /* Forces content to fill space equally */ overflow:
-hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; /* Limits to 3 lines */
--webkit-box-orient: vertical; }
+  .brand-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  }
+
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .brand-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .brand-details {
+    font-size: 14px;
+    color: #555;
+    flex-grow: 1; /* Forces content to fill space equally */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits to 3 lines */
+    -webkit-box-orient: vertical;
+  }
+</style>
