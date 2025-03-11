@@ -170,9 +170,10 @@
           <div class="brand-card-column">
             <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
             <p>{{ brand.details | metafield_tag }}</p>
-            <p class="">
+            <div class="brand-buttons">
               <a href="{{ brand_collection.url }}">Explore More <span>&#8594;</span> </a>
-            </p>
+              <a href="{{ brand.landing }}">Explore More <span>&#8594;</span> </a>
+            </div>
           </div>
         </div>
       {% endif %}
