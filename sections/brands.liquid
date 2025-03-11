@@ -39,15 +39,15 @@
   <div class="brands-grid">
     {% for brand in shop.metaobjects.brands.values %}
       <div class="brand-card">
-        <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
-        <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
-        <p class="brand-details">{{ brand.details | metafield_tag }}</p>
+        <div class="brand-body">
+          <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}" class="brand-logo">
+          <h3 class="brand-name">{{ brand.name | strip_html }}</h3>
+          <p class="brand-details">{{ brand.details | metafield_tag }}</p>
+        </div>
 
         {% assign brand_collection = brand.products.value %}
-
         {% if brand_collection %}
           <p><a href="{{ brand_collection.url }}" class="view-collection">View Collection</a></p>
-
           <div class="collection-products">
             {% for product in brand_collection.products limit: 4 %}
               <div class="product-card">
