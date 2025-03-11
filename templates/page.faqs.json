@@ -94,7 +94,7 @@
         "collapsible_row_nPVc3e"
       ],
       "custom_css": [
-        ".collapsible-content__wrapper {margin-bottom:-48px;}"
+        ".collapsible-content__wrapper {margin-bottom: -48px;}"
       ],
       "settings": {
         "caption": "",
@@ -108,7 +108,7 @@
         "image": "shopify://shop_images/FAQS_Tatara.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_first",
-        "padding_top": 60,
+        "padding_top": 68,
         "padding_bottom": 0
       }
     }
