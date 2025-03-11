@@ -39,33 +39,19 @@
                 gap: 25px;
                 align-items: flex-start;
                 margin-bottom:25px;
-                transition: all 0.5s;
+
                 border:1px solid #c3c3c3;
                 padding:2rem;
                 border-radius:2px;
             }
 
           .brands-grid:nth-child(odd){
-            background:#163340;
+            background:#5C9CA9;
           }
           .brands-grid:nth-child(odd) .brand-card,
           .brands-grid:nth-child(odd) .brand-name{
               color: #ffffff;
             }
-
-
-
-              .brands-grid:hover {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap: 25px;
-                align-items: flex-start;
-                margin-bottom:25px;
-                opacity:0.8;
-                transform:translateY(-5px)
-            }
-
 
 
         .brands-grid a{text-decoration:none;}
@@ -107,6 +93,7 @@
         flex-direction: row;
         gap: 20px;
         justify-content: flex-start;
+      transition: all 0.5s;
     }
 
   .brand-buttons a {
@@ -117,6 +104,17 @@
       border: 1px solid #e1e1e1;
       border-radius: 2px;
       background: #fff;
+  }
+
+    .brand-buttons a {
+      color: #222;
+      text-decoration: none;
+      display: block;
+      padding: 1rem 2rem;
+      border: 1px solid #e1e1e1;
+      border-radius: 2px;
+      background: #fff;
+
   }
 
             .brand-logo {
