@@ -1300,7 +1300,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Popup Purchase
 
-<script>
 document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("fake-purchase-popup");
     const popupLink = document.getElementById("popup-link");
@@ -1359,7 +1358,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Show the first popup after 3 seconds
     setTimeout(showFakePurchase, 3000);
 });
-</script>
 
 // ===========================
 
