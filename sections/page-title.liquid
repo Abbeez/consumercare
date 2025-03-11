@@ -27,7 +27,9 @@
 >
   <div class="theme-container page-width">
     <div class="theme-page--header">
-      <p class="caption-with-letter-spacing">{{ section.settings['theme-page--description'] | strip_html }}</p>
+      <p style="{% if themecolor %} color: #222; {% else %}color: #fff;{% endif %}" class="caption-with-letter-spacing">
+        {{ section.settings['theme-page--description'] | strip_html }}
+      </p>
       <h1 style="{% if themecolor %} color: #222; {% else %}color: #fff;{% endif %}">
         {{ section.settings['theme-page--title'] | strip_html }}
       </h1>
