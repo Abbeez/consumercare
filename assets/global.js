@@ -1274,3 +1274,17 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+
+
+// CUSTOM Js
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("open-chat").addEventListener("click", function () {
+        if (window.ShopifyChat) {
+            window.ShopifyChat.open();
+        } else {
+            console.error("Shopify Inbox is not loaded yet.");
+        }
+    });
+});
