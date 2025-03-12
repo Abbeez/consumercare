@@ -74,49 +74,93 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_xzMfMt": {
-      "type": "image-with-text",
+    "collapsible_content_RXLWPH": {
+      "type": "collapsible-content",
       "blocks": {
-        "heading_wyjfxU": {
-          "type": "heading",
+        "collapsible_row_zxWKGj": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Why Order in Bulk?",
-            "heading_size": "h1"
+            "heading": "What’s the minimum quantity for bulk pricing?",
+            "icon": "check_mark",
+            "row_content": "<p>No, we don’t require a minimum quantity! Just let us know what you need, and we’ll provide a custom quote based on your order size.</p>",
+            "page": ""
           }
         },
-        "text_pXDEzR": {
-          "type": "text",
+        "collapsible_row_eWnabe": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>🛠 <strong>Save More</strong> – Enjoy discounted rates on bulk purchases.<br/>🚚 <strong>Fast & Reliable Shipping</strong> – We deliver nationwide.<br/>📦 <strong>Flexible Order Sizes</strong> – No need to overcommit; we cater to various order quantities.<br/>🤝 <strong>Dedicated Support</strong> – Our team is here to assist you every step of the way.</p>",
-            "text_style": "body"
+            "heading": "How do I place a bulk order?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Simple! Follow these steps:</strong><br/>✅ Browse our products and choose what you need.<br/>✅ Send us the product name or URL along with the quantity.<br/>✅ Our team will provide a special bulk price quote.<br/>✅ Confirm your order and complete the payment.<br/>✅ We’ll process and ship your order right away!</p>",
+            "page": ""
           }
         },
-        "button_pPrbAK": {
-          "type": "button",
+        "collapsible_row_mKVbf7": {
+          "type": "collapsible_row",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "heading": "Do you offer discounts for bulk orders?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes! The bigger the order, the better the pricing. Let’s discuss a deal that works for you.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_djWNTa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "check_mark",
+            "row_content": "<p>We accept multiple payment options for your convenience:<br/>💳 Bank Transfer (BPI, RCBC, UB, etc.)<br/>📱 E-Wallets (Maya, GCash, GrabPay)<br/>💰 Cash on Delivery (COD – for select orders)<br/>💳 Credit & Debit Cards (Visa, Mastercard)</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8N99Th": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "check_mark",
+            "row_content": "<p>🚀 NCR: <strong>1-3 business days</strong><br/>🚛 Provincial: <strong>3-7 business days</strong> (depending on location & courier)</p><p><em>We partner with reliable couriers to ensure fast delivery.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ckjFdm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I track my bulk order?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes! You can track your order through:<br/>💬 Our chatbox (real-time updates)<br/>👤 Logging into your account to check order status</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pggeKf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I need help choosing the right products?",
+            "icon": "check_mark",
+            "row_content": "<p>Not sure what you need? Our team can help you find the perfect products for your business </p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "heading_wyjfxU",
-        "text_pXDEzR",
-        "button_pPrbAK"
+        "collapsible_row_zxWKGj",
+        "collapsible_row_eWnabe",
+        "collapsible_row_mKVbf7",
+        "collapsible_row_djWNTa",
+        "collapsible_row_8N99Th",
+        "collapsible_row_ckjFdm",
+        "collapsible_row_pggeKf"
       ],
       "settings": {
-        "image": "shopify://shop_images/Consumer_Care_Bulk_Order.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "caption": "Frequently Asked Questions (FAQ)",
+        "heading": "Most Common Bulk Order Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -126,6 +170,6 @@
     "main",
     "page_title_iF4zBk",
     "image_with_text_HNmiE7",
-    "image_with_text_xzMfMt"
+    "collapsible_content_RXLWPH"
   ]
 }
