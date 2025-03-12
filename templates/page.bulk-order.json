@@ -68,8 +68,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -169,7 +169,7 @@
   "order": [
     "main",
     "page_title_iF4zBk",
-    "image_with_text_HNmiE7",
-    "collapsible_content_RXLWPH"
+    "collapsible_content_RXLWPH",
+    "image_with_text_HNmiE7"
   ]
 }
