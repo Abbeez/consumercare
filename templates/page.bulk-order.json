@@ -59,10 +59,10 @@
         "button_czXt83"
       ],
       "settings": {
-        "image": "shopify://shop_images/Consumer_Care_Bulk_Order.png",
+        "image": "shopify://shop_images/Bulk_Order_CCPI.png",
         "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",
