@@ -1279,23 +1279,26 @@ if (!customElements.get('bulk-add')) {
 
 // CUSTOM Js
 
-// Triggers Shopify Inbox
+// Triggers Shopify Inbox from multiple elements
 document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("open-chat").addEventListener("click", function () {
-        let chatWidget = document.querySelector("inbox-online-store-chat");
-        
-        if (chatWidget && chatWidget.shadowRoot) {
-            let chatButton = chatWidget.shadowRoot.querySelector("button"); // Try to find the button inside
-            if (chatButton) {
-                chatButton.click();
+    document.querySelectorAll(".shopify-trigger--inbox").forEach(function (trigger) {
+        trigger.addEventListener("click", function () {
+            let chatWidget = document.querySelector("inbox-online-store-chat");
+
+            if (chatWidget && chatWidget.shadowRoot) {
+                let chatButton = chatWidget.shadowRoot.querySelector("button"); // Try to find the button inside
+                if (chatButton) {
+                    chatButton.click();
+                } else {
+                    console.error("Chat button inside Shadow DOM not found.");
+                }
             } else {
-                console.error("Chat button inside Shadow DOM not found.");
+                console.error("Shopify Inbox chat widget not found.");
             }
-        } else {
-            console.error("Shopify Inbox chat widget not found.");
-        }
+        });
     });
 });
+
 // ==============================
 
 // Popup Purchase
