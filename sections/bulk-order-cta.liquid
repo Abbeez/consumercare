@@ -1,4 +1,82 @@
-<div id="open-chat" class="theme-stick--option">
-  <img src="https://cdn.shopify.com/s/files/1/0624/9365/5107/files/Consumer_Care_Bulk_Order.png?v=1741707489">
-  <h4 class="caption-with-letter-spacing">Bulk Order</h4>
-</div>
+{% schema %}
+{
+  "name": "CTA with Inbox Trigger",
+  "settings": [
+    {
+      "type": "text",
+      "id": "cta_heading",
+      "label": "Heading",
+      "default": "Need Assistance?"
+    },
+    {
+      "type": "text",
+      "id": "cta_subheading",
+      "label": "Subheading",
+      "default": "Chat with us for bulk orders and inquiries!"
+    },
+    {
+      "type": "text",
+      "id": "cta_button_text",
+      "label": "Button Text",
+      "default": "Chat Now"
+    }
+  ],
+  "presets": [
+    {
+      "name": "CTA with Inbox Trigger",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<section class="cta-section">
+  <div class="cta-container">
+    <h2>{{ section.settings.cta_heading }}</h2>
+    <p>{{ section.settings.cta_subheading }}</p>
+    <button class="shopify-trigger--inbox">{{ section.settings.cta_button_text }}</button>
+  </div>
+</section>
+
+<style>
+  .cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+  }
+
+  .cta-container {
+    max-width: 600px;
+  }
+
+  .cta-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .cta-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .shopify-trigger--inbox {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .shopify-trigger--inbox:hover {
+    background: #005bb5;
+  }
+</style>
