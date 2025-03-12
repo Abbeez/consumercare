@@ -47,7 +47,7 @@
         "button_czXt83": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Chat with us.",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -62,13 +62,13 @@
         ".collapsible-content__wrapper {margin-bottom: -48px;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Bulk_Order_CCPI.png",
+        "image": "shopify://shop_images/Consumer_Care_Bulk_Order.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
