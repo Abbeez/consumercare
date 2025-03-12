@@ -30,10 +30,18 @@
     "image_with_text_HNmiE7": {
       "type": "image-with-text",
       "blocks": {
+        "caption_379qb6": {
+          "type": "caption",
+          "settings": {
+            "caption": "How It Works",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_qyCYcn": {
           "type": "heading",
           "settings": {
-            "heading": "How It Works",
+            "heading": "Step-by-step guide to simplify ordering process",
             "heading_size": "h1"
           }
         },
@@ -54,6 +62,7 @@
         }
       },
       "block_order": [
+        "caption_379qb6",
         "heading_qyCYcn",
         "text_YiyitG",
         "button_czXt83"
@@ -79,10 +88,8 @@
     },
     "bulk_order_cta_XKUqWC": {
       "type": "bulk-order-cta",
-      "settings": {
-        "cta_text": "Bulk Order",
-        "cta_link": ""
-      }
+      "disabled": true,
+      "settings": {}
     },
     "collapsible_content_RXLWPH": {
       "type": "collapsible-content",
