@@ -1,164 +1,168 @@
 <style>
-                .brands-section {
-                  text-align: center;
-                  padding: 50px 20px;
+  .brands-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .brands-header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .brands-header h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .brands-header .subheading {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .brands-header .description {
+    font-size: 16px;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  /* GRID SECTION */
+
+  .brands-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    border: 1px solid #c3c3c3;
+    padding: 2rem;
+    border-radius: 2px;
+    background: #fff;
+  }
+
+  /* .brands-grid:nth-child(odd){
+                  background:#5C9CA9;
                 }
+                .brands-grid:nth-child(odd) .brand-card,
+                .brands-grid:nth-child(odd) .brand-name{
+                    color: #ffffff;
+                  } */
 
-                .brands-header {
-                    display: flex;
-                    align-items: center;
-                    align-content: center;
-                    justify-content: space-between;
-                    margin-bottom: 25px;
-                }
+  .brands-grid a {
+    text-decoration: none;
+  }
 
-                .brands-header h2 {
-                  font-weight: bold;
-                  margin-bottom: 10px;
-                }
+  .brand-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+    color: #222;
+  }
 
-                .brands-header .subheading {
-                  font-size: 18px;
-                  color: #666;
-                  margin-bottom: 10px;
-                }
+  .brand-card .brand-card-column:first-child {
+    order: 2;
+    border: 1px solid #c3c3c3;
+    border-radius: 2px;
+    padding: 5px;
+    background: #fff;
+    position: relative;
+  }
 
-                .brands-header .description {
-                  font-size: 16px;
-                  color: #444;
-                  max-width: 600px;
-                  margin: 0 auto 30px;
-                }
+  span.collection-product-count {
+    border: 1px solid #c3c3c3;
+    border-radius: 2;
+    padding: 8px 16px;
+    background: #d6f9ff;
+    color: #222;
+    position: absolute;
+    right: -8px;
+    bottom: -8px;
+    font-size: 14px;
+  }
 
-            /* GRID SECTION */
+  .brand-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    transition: all 0.5s;
+  }
 
-                .brands-grid {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    gap: 25px;
-                    align-items: flex-start;
-                    margin-bottom:25px;
-                    border:1px solid #c3c3c3;
-                    padding:2rem;
-                    border-radius:2px;
-                    background:#fff;
-                }
+  .brand-buttons a {
+    color: #222;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    background: #fff;
+  }
 
-              /* .brands-grid:nth-child(odd){
-                background:#5C9CA9;
-              }
-              .brands-grid:nth-child(odd) .brand-card,
-              .brands-grid:nth-child(odd) .brand-name{
-                  color: #ffffff;
-                } */
+  .brand-buttons a:last-child {
+    background: transparent;
+    border: none;
+  }
 
+  .brand-buttons a:hover {
+    opacity: 0.7;
+  }
 
-            .brands-grid a{text-decoration:none;}
+  .brand-logo {
+    width: 130px; /* Standardized logo size */
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
 
-                .brand-card {
-                  display: flex;
-                  flex-direction: row;
-                  justify-content: space-between;
-                  align-items: center;
-                  gap: 25px;
-                  text-align:left;
-                  color:#222;
-              }
+  .brand-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
 
+  /* END GRID SECTION */
 
-                  .brand-card .brand-card-column:first-child {
-                    order:2;
-                    border:1px solid #c3c3c3;
-                    border-radius:2px;
-                    padding:5px;
-                    background:#fff;
-                    position:relative;
-              }
+  @media screen and (max-width: 750px) {
+    .brands-header {
+      flex-direction: column;
+    }
 
-            span.collection-product-count {
-              border:1px solid #c3c3c3;
-              border-radius: 2;
-              padding: 8px 16px;
-              background: #d6f9ff;
-              color: #222;
-              position: absolute;
-              right: -8px;
-              bottom: -8px;
-              font-size:14px;
-          }
+    .brands-header > * {
+      margin: 0;
+    }
 
-        .brand-buttons {
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            justify-content: flex-start;
-          transition: all 0.5s;
-        }
-
-      .brand-buttons a {
-          color: #222;
-          text-decoration: none;
-          display: block;
-          padding: 0.5rem 1.5rem;
-          border: 1px solid #e1e1e1;
-          border-radius: 2px;
-          background: #fff;
-      }
-
-      .brand-buttons a:last-child {
-        background:transparent;
-        border:none;
-
-      }
-
-
-      .brand-buttons a:hover {
-        opacity:0.7;
-      }
-
-          .brand-logo {
-            width: 130px;  /* Standardized logo size */
-            height: 130px;
-            object-fit: contain;
-            margin-bottom: 10px;
-          }
-
-          .brand-name {
-            font-size: 16px;
-            font-weight: bold;
-            color: #333;
-          }
-
-            /* END GRID SECTION */
-
-    @media screen and (max-width: 750px) {
-
-      .brand-card {
+    .brand-card {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-  }
-
-     .brand-card .brand-card-column:first-child {
-        order: 1 !important;
-     }
-
-     .brand-card .brand-card-column:last-child {
-        order: 2;
-       display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-     }
-
-
     }
 
-  @media screen and (max-width:375px){
+    .brand-card .brand-card-column:first-child {
+      order: 1 !important;
+    }
+
+    .brand-card .brand-card-column:last-child {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
     .brand-buttons {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: column;
+    }
   }
 </style>
 
