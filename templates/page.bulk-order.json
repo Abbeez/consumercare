@@ -73,11 +73,59 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_HNmiE7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qyCYcn": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It Works",
+            "heading_size": "h1"
+          }
+        },
+        "text_YiyitG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1️⃣ <strong>Choose Your Product</strong> – Browse our catalog or let us recommend the best options.<br/>2️⃣ <strong>Send Your Request</strong> – Provide the product name or URL and desired quantity.<br/>3️⃣ <strong>Get a Quote</strong> – We’ll send you a custom quote with bulk pricing.<br/>4️⃣ <strong>Confirm & Pay</strong> – Secure your order through our accepted payment methods.<br/>5️⃣ <strong>Receive Your Order</strong> – We ship fast, ensuring timely delivery.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_czXt83": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qyCYcn",
+        "text_YiyitG",
+        "button_czXt83"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Consumer_Care_Bulk_Order.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "page_title_iF4zBk",
-    "image_with_text_xzMfMt"
+    "image_with_text_xzMfMt",
+    "image_with_text_HNmiE7"
   ]
 }
