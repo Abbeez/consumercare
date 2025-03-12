@@ -26,7 +26,34 @@
     }
   }
 {%- endstyle -%}
-
+{% style %}
+  .theme-stick--option {
+      max-width: 200px;
+      position: fixed;
+      top: 35%;
+      left: -50px;
+      background: #163340;
+      border: 1px solid #163340;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-radius: 4px;
+      justify-content: center;
+      transition: all 0.5s;
+      cursor: pointer;
+      transform: rotate(90deg);
+      color:#fff;
+  }
+    .theme-stick--option h4{color:#fff;}
+    .theme-stick--option:hover {opacity:0.9;}
+    .theme-stick--option > * {margin:0;}
+    .theme-chatus a {text-decoration:none !important;}
+    .theme-stick--option img {max-width:20px;}
+{% endstyle %}
 {% render 'bulk-order' %}
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
