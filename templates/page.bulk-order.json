@@ -58,6 +58,9 @@
         "text_YiyitG",
         "button_czXt83"
       ],
+      "custom_css": [
+        ".collapsible-content__wrapper {margin-bottom: -48px;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Bulk_Order_CCPI.png",
         "height": "adapt",
@@ -77,6 +80,15 @@
     "collapsible_content_RXLWPH": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_C3J9FG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
         "collapsible_row_zxWKGj": {
           "type": "collapsible_row",
           "settings": {
@@ -142,6 +154,7 @@
         }
       },
       "block_order": [
+        "collapsible_row_C3J9FG",
         "collapsible_row_zxWKGj",
         "collapsible_row_eWnabe",
         "collapsible_row_mKVbf7",
@@ -150,26 +163,30 @@
         "collapsible_row_ckjFdm",
         "collapsible_row_pggeKf"
       ],
+      "custom_css": [
+        ".collapsible-content__wrapper {margin-bottom: -48px;}"
+      ],
       "settings": {
         "caption": "Frequently Asked Questions (FAQ)",
         "heading": "Most Common Bulk Order Questions",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
+        "layout": "row",
+        "container_color_scheme": "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4",
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/Bulk_Order_CCPI.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "main",
     "page_title_iF4zBk",
-    "collapsible_content_RXLWPH",
-    "image_with_text_HNmiE7"
+    "image_with_text_HNmiE7",
+    "collapsible_content_RXLWPH"
   ]
 }
