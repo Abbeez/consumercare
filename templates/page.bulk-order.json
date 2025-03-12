@@ -73,7 +73,7 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 0
       }
     },
@@ -172,7 +172,7 @@
         "image": "shopify://shop_images/Bulk_Order_CCPI.png",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 0
       }
     }
