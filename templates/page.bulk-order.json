@@ -48,7 +48,7 @@
         "text_YiyitG": {
           "type": "text",
           "settings": {
-            "text": "<p>1️⃣ <strong>Choose Your Product</strong> – Browse our catalog or let us recommend the best options.<br/>2️⃣ <strong>Send Your Request</strong> – Provide the product name or URL and desired quantity.<br/>3️⃣ <strong>Get a Quote</strong> – We’ll send you a custom quote with bulk pricing.<br/>4️⃣ <strong>Confirm & Pay</strong> – Secure your order through our accepted payment methods.<br/>5️⃣ <strong>Receive Your Order</strong> – We ship fast, ensuring timely delivery.</p>",
+            "text": "<ol><li><strong>Choose Your Product</strong> – Browse our catalog or let us recommend the best options.</li><li><strong>Send Your Request</strong> – Provide the product name or URL and desired quantity.</li><li><strong>Get a Quote</strong> – We’ll send you a custom quote with bulk pricing.</li><li><strong>Confirm & Pay</strong> – Secure your order through our accepted payment methods.</li><li><strong>Receive Your Order</strong> – We ship fast, ensuring timely delivery.</li></ol>",
             "text_style": "body"
           }
         }
@@ -88,7 +88,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What’s the minimum quantity for bulk pricing?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>No, we don’t require a minimum quantity! Just let us know what you need, and we’ll provide a custom quote based on your order size.</p>",
             "page": ""
           }
@@ -97,7 +97,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I place a bulk order?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p><strong>Simple! Follow these steps:</strong><br/>✅ Browse our products and choose what you need.<br/>✅ Send us the product name or URL along with the quantity.<br/>✅ Our team will provide a special bulk price quote.<br/>✅ Confirm your order and complete the payment.<br/>✅ We’ll process and ship your order right away!</p>",
             "page": ""
           }
@@ -106,7 +106,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Do you offer discounts for bulk orders?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Yes! The bigger the order, the better the pricing. Let’s discuss a deal that works for you.</p>",
             "page": ""
           }
@@ -115,7 +115,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What payment methods do you accept?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We accept multiple payment options for your convenience:<br/>💳 Bank Transfer (BPI, RCBC, UB, etc.)<br/>📱 E-Wallets (Maya, GCash, GrabPay)<br/>💰 Cash on Delivery (COD – for select orders)<br/>💳 Credit & Debit Cards (Visa, Mastercard)</p>",
             "page": ""
           }
@@ -124,7 +124,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does shipping take?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>🚀 NCR: <strong>1-3 business days</strong><br/>🚛 Provincial: <strong>3-7 business days</strong> (depending on location & courier)</p><p><em>We partner with reliable couriers to ensure fast delivery.</em></p>",
             "page": ""
           }
@@ -133,7 +133,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Can I track my bulk order?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Yes! You can track your order through:<br/>💬 Our chatbox (real-time updates)<br/>👤 Logging into your account to check order status</p>",
             "page": ""
           }
@@ -142,7 +142,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What if I need help choosing the right products?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Not sure what you need? Our team can help you find the perfect products for your business </p>",
             "page": ""
           }
