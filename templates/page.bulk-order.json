@@ -51,21 +51,12 @@
             "text": "<p>1️⃣ <strong>Choose Your Product</strong> – Browse our catalog or let us recommend the best options.<br/>2️⃣ <strong>Send Your Request</strong> – Provide the product name or URL and desired quantity.<br/>3️⃣ <strong>Get a Quote</strong> – We’ll send you a custom quote with bulk pricing.<br/>4️⃣ <strong>Confirm & Pay</strong> – Secure your order through our accepted payment methods.<br/>5️⃣ <strong>Receive Your Order</strong> – We ship fast, ensuring timely delivery.</p>",
             "text_style": "body"
           }
-        },
-        "button_czXt83": {
-          "type": "button",
-          "settings": {
-            "button_label": "Chat with us.",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "caption_379qb6",
         "heading_qyCYcn",
-        "text_YiyitG",
-        "button_czXt83"
+        "text_YiyitG"
       ],
       "custom_css": [
         ".collapsible-content__wrapper {margin-bottom: -48px;}"
