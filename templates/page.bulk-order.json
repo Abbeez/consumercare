@@ -181,12 +181,20 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "bulk_order_cta_XKUqWC": {
+      "type": "bulk-order-cta",
+      "settings": {
+        "cta_text": "Bulk Order",
+        "cta_link": ""
+      }
     }
   },
   "order": [
     "main",
     "page_title_iF4zBk",
     "image_with_text_HNmiE7",
+    "bulk_order_cta_XKUqWC",
     "collapsible_content_RXLWPH"
   ]
 }
