@@ -34,7 +34,7 @@
   <div class="cta-container">
     <h2>{{ section.settings.cta_heading }}</h2>
     <p>{{ section.settings.cta_subheading }}</p>
-    <button class="shopify-trigger--inbox">{{ section.settings.cta_button_text }}</button>
+    <button class="shopify-trigger--inbox shopify-trigger">{{ section.settings.cta_button_text }}</button>
   </div>
 </section>
 
@@ -64,7 +64,7 @@
     margin-bottom: 20px;
   }
 
-  .shopify-trigger--inbox {
+  .shopify-trigger {
     background: #0073e6;
     color: white;
     border: none;
@@ -76,7 +76,7 @@
     transition: background 0.3s ease-in-out;
   }
 
-  .shopify-trigger--inbox:hover {
+  .shopify-trigger {
     background: #005bb5;
   }
 </style>
