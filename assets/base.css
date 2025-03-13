@@ -3612,7 +3612,7 @@ details-disclosure > details {
 /* header */
 
 .mega-menu .mega-menu__list--condensed {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
 }
 
