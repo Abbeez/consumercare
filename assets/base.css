@@ -3609,6 +3609,15 @@ details-disclosure > details {
 
 /* Custom */
 
+/* header */
+
+.mega-menu .mega-menu__list--condensed {
+    display: inline;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+}
+
+
+/* Header End */
 
 #shopify-section-template--16780616663107__multicolumn {
   margin-top:0;
