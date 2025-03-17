@@ -3640,9 +3640,9 @@ button.slider-button {
     padding-right: 1%;
 } */
 
-button.slider-button {
+/* button.slider-button {
     background: #222 !important;
-}
+} */
 
 button.slideshow__autoplay.slider-button {
     display: none !important;
