@@ -72,6 +72,7 @@
         "slide_WMeFzK",
         "slide_QXELRb"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "layout": "full_bleed",
@@ -118,7 +119,6 @@
         "text_LaaAkB",
         "buttons_fYnQLm"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Product_Collection.webp",
         "image_overlay_opacity": 0,
