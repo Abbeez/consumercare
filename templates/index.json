@@ -101,18 +101,11 @@
             "heading": "The Brands Behind the Care",
             "heading_size": "h1"
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.</p>"
-          }
         }
       },
       "block_order": [
         "caption_Azxj4B",
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -193,7 +186,7 @@
         "collections_A93Xr8"
       ],
       "settings": {
-        "short_description": "",
+        "short_description": "Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.",
         "heading": "",
         "cta_text": "Shop by Brand",
         "cta_link": "shopify://pages/brands",
