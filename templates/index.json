@@ -115,8 +115,8 @@
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 24,
         "padding_bottom": 24
       }
