@@ -3644,6 +3644,10 @@ button.slider-button {
     background: #222 !important;
 } */
 
+button.slider-button {
+    background: #111 !important;
+}
+
 button.slideshow__autoplay.slider-button {
     display: none !important;
 } 
