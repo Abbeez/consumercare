@@ -3624,6 +3624,31 @@ details-disclosure > details {
   /* position: absolute !important; */
   /* visibility: hidden !important; */
 }
+
+
+  .slideshow__controls {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+  }
+  .slider-counter__link--dots .dot{
+    width: 100px;
+    height: 7px;
+    border: 0;
+    border-radius: 0;
+    background: #ffffff !important;
+    opacity: 0.3;
+  }
+  .slider-counter__link--active.slider-counter__link--dots .dot{
+    opacity: 1;
+  }
+  .slider-button{
+    display: none !important;
+  }
+
+
 /* end Slider */
 
 #shopify-section-template--16780616663107__multicolumn {
