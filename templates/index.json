@@ -250,6 +250,45 @@
         "show_text_below": false
       }
     },
+    "rich_text_gnaRqX": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_BnLBBX": {
+          "type": "caption",
+          "settings": {
+            "caption": "Shop by Brands",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_D6N9Uc": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Brands Behind the Care",
+            "heading_size": "h1"
+          }
+        },
+        "text_fdQUVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_BnLBBX",
+        "heading_D6N9Uc",
+        "text_fdQUVP"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -315,34 +354,6 @@
         "padding_bottom": 24
       }
     },
-    "featured_collection_nbaTUk": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products_to_show": 5,
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_3kcxWX": {
       "type": "image-with-text",
       "blocks": {
@@ -383,6 +394,7 @@
         "text_zirPMG",
         "button_apLQ3A"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Consumers_93a13c47-bc6c-4a4f-8838-41ac0be388c3.png",
         "height": "small",
@@ -397,6 +409,34 @@
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "padding_top": 36,
         "padding_bottom": 0
+      }
+    },
+    "featured_collection_nbaTUk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products_to_show": 5,
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_bm8Xiz": {
@@ -800,9 +840,10 @@
     "rich_text",
     "custom_collection_grid_q4VWbM",
     "image_banner",
+    "rich_text_gnaRqX",
     "multicolumn",
-    "featured_collection_nbaTUk",
     "image_with_text_3kcxWX",
+    "featured_collection_nbaTUk",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
     "image_with_text_dGLEMC",
