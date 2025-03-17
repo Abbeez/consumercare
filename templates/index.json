@@ -236,45 +236,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_Azxj4B": {
-          "type": "caption",
-          "settings": {
-            "caption": "Shop by Brands",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Brands Behind the Care",
-            "heading_size": "h1"
-          }
-        },
-        "text_eDGUeF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "caption_Azxj4B",
-        "heading",
-        "text_eDGUeF"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection_nbaTUk": {
       "type": "featured-collection",
       "settings": {
@@ -453,6 +414,45 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_Azxj4B": {
+          "type": "caption",
+          "settings": {
+            "caption": "Shop by Brands",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Brands Behind the Care",
+            "heading_size": "h1"
+          }
+        },
+        "text_eDGUeF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_Azxj4B",
+        "heading",
+        "text_eDGUeF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "custom_collection_grid_q4VWbM": {
@@ -839,9 +839,9 @@
         "collapsible_row_kQjywx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I buy your products?",
+            "heading": "Where can I find Consumer Care brands and products?",
             "icon": "check_mark",
-            "row_content": "<p>You can purchase our products through our <strong>official Shopify store</strong>, as well as on <strong>Shopee, Lazada, and TikTok Shop</strong>.</p>",
+            "row_content": "<p>Consumer Care products are available through our official website and official stores on Shopee (@<a href=\"https://shopee.ph/consumercareproducts?categoryId=100636&entryPoint=ShopByPDP&itemId=22148743075\"><span style=\"text-decoration:underline\">consumercareproductsinc.</span></a>), Lazada (@<a href=\"https://www.lazada.com.ph/shop/consumer-care-products-inc/\"><span style=\"text-decoration:underline\">consumercareproductsinc.</span></a>), and TikTok Shop (@<a href=\"https://www.tiktok.com/@kwik.ph\"><span style=\"text-decoration:underline\">kwik.ph</span></a>).</p>",
             "page": ""
           }
         },
@@ -850,7 +850,7 @@
           "settings": {
             "heading": "What are your available payment methods?",
             "icon": "check_mark",
-            "row_content": "<p>We accept a variety of payment options, including:<br/><br/>✅ BillEase<br/><br/>✅ Cebuana Lhuillier<br/><br/>✅ GCash<br/><br/>✅ GrabPay<br/><br/>✅ BPI<br/><br/>✅ Mastercard<br/><br/>✅ Maya<br/><br/>✅ RCBC<br/><br/>✅ UnionBank<br/><br/>✅ VISA</p>",
+            "row_content": "<p>What are your available payment methods?</p><ul><li><strong>Credit & Debit Cards</strong> – Mastercard, VISA</li><li><strong>E-Wallets</strong> – GCash, GrabPay, Maya</li><li><strong>Online Banking</strong> – BPI, RCBC, UnionBank</li><li><strong>Alternative Payment Options</strong> – BillEase, Cebuana Lhuillier</li></ul>",
             "page": ""
           }
         },
@@ -859,7 +859,7 @@
           "settings": {
             "heading": "Do you offer Cash on Delivery (COD)?",
             "icon": "check_mark",
-            "row_content": "<p>No, we currently do not offer Cash on Delivery (COD) on our website. However, you can choose from our secure and flexible payment options listed above or visit our Shopee, Lazada & Tiktok Store.</p>",
+            "row_content": "<p>No, we currently do not offer Cash on Delivery (COD) on our website. However, you can choose from our secure and flexible payment options listed above or visit our Shopee, Lazada & Tiktok Stores.</p>",
             "page": ""
           }
         },
@@ -868,7 +868,7 @@
           "settings": {
             "heading": "Do you accept bulk or wholesale orders?",
             "icon": "check_mark",
-            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please <strong>contact us</strong> directly for pricing and special arrangements.</p>",
+            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please contact us directly for pricing and special arrangements</p>",
             "page": ""
           }
         },
@@ -877,12 +877,13 @@
           "settings": {
             "heading": "How long does shipping take?",
             "icon": "check_mark",
-            "row_content": "<p>Shipping times vary depending on your location and the platform you order from. Shopee, Lazada, and TikTok provide estimated delivery times at checkout. For Shopify orders, delivery time will be indicated at checkout as well.</p>",
+            "row_content": "<p>Shipping times vary depending on your location and the platform from which you order. Shopee, Lazada, and TikTok provide estimated delivery times at checkout. For orders placed on our website, the delivery time will also be indicated at checkout.</p>",
             "page": ""
           }
         },
         "collapsible_row_K3NxYY": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What should I do if I receive a damaged or incorrect item?",
             "icon": "check_mark",
@@ -925,6 +926,7 @@
     "featured_collection_YCNVgV",
     "image_banner_f9CkB4",
     "featured_collection_enXjUU",
+    "collapsible_content_ERkQMF",
     "rich_text",
     "custom_collection_grid_q4VWbM",
     "image_with_text_3kcxWX",
@@ -932,7 +934,6 @@
     "image_with_text_wtQ8Dm",
     "image_with_text_dGLEMC",
     "featured_collection_NWWRzy",
-    "image_with_text_XcHJgm",
-    "collapsible_content_ERkQMF"
+    "image_with_text_XcHJgm"
   ]
 }
