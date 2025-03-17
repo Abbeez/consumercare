@@ -15,7 +15,7 @@
         "theme-collection--title": "CCPI provides high-quality, value-for-money products enriching Filipino lives every day.",
         "theme-collection--description": "CCPI provides high-quality, value-for-money products for home, personal, pet, and motor care—enriching Filipino lives every day.",
         "theme-title--center": false,
-        "theme-text-color": false
+        "theme-text-color": true
       }
     },
     "banner": {
