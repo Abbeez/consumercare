@@ -34,13 +34,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-    .theme-collection--title{
-      background-size: cover !important;
-      background-repeat: no-repeat !important;
-      padding: 6rem 1rem;
-      color: #fff;
-      height: 605px;
-    }
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
@@ -131,7 +124,15 @@
           data-cascade
         {% endif %}
       >
-        <p>test</p>
+        {% style %}
+                    .theme-collection--title{
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+            padding: 6rem 1rem;
+            color: #fff;
+            height: 605px;
+          }
+        {% endstyle %}
         {% assign collectionbg = collection.metafields.custom.banner %}
         <div
           class="theme-collection--title"
