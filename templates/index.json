@@ -15,24 +15,25 @@
         "slide_UX34x9": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3e25a33905eede8a353ef5731ef92c60.png",
+            "image": "shopify://shop_images/CCPI_Product_Collection.webp",
             "image_overlay_opacity": 0,
-            "heading": "",
+            "heading": "Trusted Brands for Everyday Care & Protection",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/ambree",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
           }
         },
         "slide_WMeFzK": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/VS1_Product_Collection.webp",
             "image_overlay_opacity": 0,
             "heading": "Image slide",
             "heading_size": "h1",
@@ -40,11 +41,11 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
           }
         }
       },
@@ -97,7 +98,6 @@
         "text",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Items.png",
         "image_overlay_opacity": 0,
