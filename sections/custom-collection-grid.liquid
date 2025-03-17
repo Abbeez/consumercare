@@ -17,6 +17,9 @@
           {% assign collection = collections[collection_handle] %}
           <div class="collection-container">
             <a href="{{ collection.url }}" alt="{{ collection.title }}">
+              {% if collection.image %}
+                <img src="{{ collection.image | image_url }}" alt="{{ collection.title }}">
+              {% endif %}
               <div class="collection-card">
                 <h3>{{ collection.title | truncate: 55 }}</h3>
               </div>
