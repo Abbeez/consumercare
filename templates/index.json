@@ -84,6 +84,84 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "custom_collection_grid_q4VWbM": {
+      "type": "custom-collection-grid",
+      "blocks": {
+        "collections_k9dTJC": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "ambree"
+          }
+        },
+        "collections_iGhwrC": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "clareo"
+          }
+        },
+        "collections_nBpUnc": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "guard"
+          }
+        },
+        "collections_pF8KCd": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "kwik"
+          }
+        },
+        "collections_AADL6a": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "mototek"
+          }
+        },
+        "collections_PxXcYy": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "porma"
+          }
+        },
+        "collections_bd3fmL": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "solbac"
+          }
+        },
+        "collections_rYAKgL": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "splenda"
+          }
+        },
+        "collections_A93Xr8": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "vs1"
+          }
+        }
+      },
+      "block_order": [
+        "collections_k9dTJC",
+        "collections_iGhwrC",
+        "collections_nBpUnc",
+        "collections_pF8KCd",
+        "collections_AADL6a",
+        "collections_PxXcYy",
+        "collections_bd3fmL",
+        "collections_rYAKgL",
+        "collections_A93Xr8"
+      ],
+      "settings": {
+        "short_description": "Tatara isn’t just another brand—it’s a guarantee of power, precision, and durability.",
+        "heading": "Explore Our Collections",
+        "cta_text": "Shop Now & Upgrade Your Toolkit",
+        "cta_link": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -198,6 +276,34 @@
         "padding_bottom": 24
       }
     },
+    "featured_collection_nbaTUk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products_to_show": 5,
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -212,14 +318,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Find the Perfect Products from Your Trusted Brands",
+            "heading": "The Brands Behind the Care",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Discover a wide range of high-quality products from our carefully curated brands. Whether you're looking for home essentials, personal care, or automotive protection, we've got you covered.</p>"
+            "text": "<p>Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.</p>"
           }
         }
       },
@@ -691,8 +797,10 @@
   },
   "order": [
     "slideshow_fLRi6E",
+    "custom_collection_grid_q4VWbM",
     "image_banner",
     "multicolumn",
+    "featured_collection_nbaTUk",
     "rich_text",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
