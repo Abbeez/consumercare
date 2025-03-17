@@ -3632,7 +3632,7 @@ details-disclosure > details {
 }
 
 .slideshow__controls button.slider-counter__link .slider-counter__link--active span {
-  color:#fff !important;
+  background:#fff !important;
 }
 
 
