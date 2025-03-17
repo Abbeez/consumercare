@@ -3640,6 +3640,8 @@ button.slider-button {
 }
 .slideshow__controls.slideshow__controls--top.slider-buttons.slideshow__controls--border-radius-mobile {
     justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 button.slideshow__autoplay.slider-button {
