@@ -317,7 +317,7 @@
       "settings": {
         "collection": "vs1",
         "products_to_show": 10,
-        "title": "Explore {{ section.settings.collection.title }}Products",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -336,7 +336,7 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -393,7 +393,7 @@
       "settings": {
         "collection": "mototek",
         "products_to_show": 10,
-        "title": "Explore {{ section.settings.collection.title }}Products",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -412,7 +412,7 @@
         "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
