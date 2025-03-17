@@ -3631,11 +3631,14 @@ details-disclosure > details {
 
 .slideshow__controls .slider-button {
   color:#fff;
+  justify-content: space-between !important;
 }
 
 .slideshow__control-wrapper {
     display: none !important;
 }
+
+
 
 
 button.slideshow__autoplay.slider-button {
