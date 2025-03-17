@@ -6,11 +6,11 @@
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
-  --custom-color-primary: #186F9F;
+  /* --custom-color-primary: #186F9F;
   --custom-color-primary-light:#2984E6;
   --custom-color-text: #010101;
   --custom-color-white:#ffffff;
-  --custom-color-off-white:#f0f0f0;
+  --custom-color-off-white:#f0f0f0; */
   
 }
 img{
