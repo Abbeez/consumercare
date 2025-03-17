@@ -12,16 +12,16 @@
     "slideshow_fLRi6E": {
       "type": "slideshow",
       "blocks": {
-        "slide_WMeFzK": {
+        "slide_UX34x9": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/VS1_Product_Collection.webp",
-            "image_overlay_opacity": 10,
-            "heading": "Explore VS1 Products",
-            "heading_size": "h0",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Explore VS1 Products",
-            "link": "shopify://collections/vs1",
+            "image": "shopify://shop_images/CCPI_Product_Collection.webp",
+            "image_overlay_opacity": 0,
+            "heading": "Only the Best Products from the Brands that Care",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-left",
@@ -30,17 +30,16 @@
             "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
           }
         },
-        "slide_UX34x9": {
+        "slide_WMeFzK": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/CCPI_Product_Collection.webp",
-            "image_overlay_opacity": 0,
-            "heading": "Trusted Brands for Everyday Care & Protection",
+            "image": "shopify://shop_images/VS1_Product_Collection.webp",
+            "image_overlay_opacity": 10,
+            "heading": "Explore VS1 Products",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections/all",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Explore VS1 Products",
+            "link": "shopify://collections/vs1",
             "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-left",
@@ -55,7 +54,7 @@
             "image": "shopify://shop_images/Mototek_Products.webp",
             "image_overlay_opacity": 10,
             "heading": "Explore Mototek",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Explore Mototek Products",
             "link": "shopify://collections/mototek",
@@ -69,15 +68,15 @@
         }
       },
       "block_order": [
-        "slide_WMeFzK",
         "slide_UX34x9",
+        "slide_WMeFzK",
         "slide_QXELRb"
       ],
       "custom_css": [],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "dots",
+        "slider_visual": "numbers",
         "auto_rotate": true,
         "change_slides_speed": 3,
         "image_behavior": "none",
