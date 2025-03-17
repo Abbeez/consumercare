@@ -3638,11 +3638,11 @@ button.slider-button {
     justify-content: space-between;
     padding-left: 1%;
     padding-right: 1%;
-}
+} */
 
 button.slideshow__autoplay.slider-button {
     display: none !important;
-} */
+} 
 
 .slideshow__controls .slideshow__control-wrapper {
     display: none !important;
