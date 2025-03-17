@@ -256,7 +256,7 @@
         "caption_BnLBBX": {
           "type": "caption",
           "settings": {
-            "caption": "Shop by Brands",
+            "caption": "Home Care Brands",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -264,14 +264,14 @@
         "heading_D6N9Uc": {
           "type": "heading",
           "settings": {
-            "heading": "The Brands Behind the Care",
+            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
             "heading_size": "h1"
           }
         },
         "text_fdQUVP": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.</p>"
+            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
           }
         }
       },
