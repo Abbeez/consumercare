@@ -60,11 +60,11 @@
             "button_label": "Explore Mototek Products",
             "link": "shopify://collections/mototek",
             "button_style_secondary": false,
-            "show_text_box": false,
+            "show_text_box": true,
             "box_align": "middle-left",
             "text_alignment": "left",
             "text_alignment_mobile": "left",
-            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
+            "color_scheme": "scheme-28c0bdb1-e19b-4776-a013-450b74b1699d"
           }
         }
       },
