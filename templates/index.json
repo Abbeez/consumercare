@@ -197,50 +197,11 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_gnaRqX": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_BnLBBX": {
-          "type": "caption",
-          "settings": {
-            "caption": "Home Care Brands",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_D6N9Uc": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_fdQUVP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "caption_BnLBBX",
-        "heading_D6N9Uc",
-        "text_fdQUVP"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection_nbaTUk": {
       "type": "featured-collection",
       "settings": {
         "collection": "home-care-products",
-        "products_to_show": 5,
+        "products_to_show": 10,
         "title": "",
         "heading_size": "h1",
         "description": "",
@@ -301,84 +262,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
-      }
-    },
-    "custom_collection_grid_q4VWbM": {
-      "type": "custom-collection-grid",
-      "blocks": {
-        "collections_k9dTJC": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "ambree"
-          }
-        },
-        "collections_iGhwrC": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "clareo"
-          }
-        },
-        "collections_nBpUnc": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "guard"
-          }
-        },
-        "collections_pF8KCd": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "kwik"
-          }
-        },
-        "collections_AADL6a": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "mototek"
-          }
-        },
-        "collections_PxXcYy": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "porma"
-          }
-        },
-        "collections_bd3fmL": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "solbac"
-          }
-        },
-        "collections_rYAKgL": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "splenda"
-          }
-        },
-        "collections_A93Xr8": {
-          "type": "Collections",
-          "settings": {
-            "boxed_collection": "vs1"
-          }
-        }
-      },
-      "block_order": [
-        "collections_k9dTJC",
-        "collections_iGhwrC",
-        "collections_nBpUnc",
-        "collections_pF8KCd",
-        "collections_AADL6a",
-        "collections_PxXcYy",
-        "collections_bd3fmL",
-        "collections_rYAKgL",
-        "collections_A93Xr8"
-      ],
-      "settings": {
-        "short_description": "",
-        "heading": "",
-        "cta_text": "",
-        "cta_link": "shopify://pages/brands",
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "image_banner": {
@@ -531,6 +414,123 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_gnaRqX": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_BnLBBX": {
+          "type": "caption",
+          "settings": {
+            "caption": "Home Care Brands",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_D6N9Uc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_fdQUVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_BnLBBX",
+        "heading_D6N9Uc",
+        "text_fdQUVP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_collection_grid_q4VWbM": {
+      "type": "custom-collection-grid",
+      "blocks": {
+        "collections_k9dTJC": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "ambree"
+          }
+        },
+        "collections_iGhwrC": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "clareo"
+          }
+        },
+        "collections_nBpUnc": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "guard"
+          }
+        },
+        "collections_pF8KCd": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "kwik"
+          }
+        },
+        "collections_AADL6a": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "mototek"
+          }
+        },
+        "collections_PxXcYy": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "porma"
+          }
+        },
+        "collections_bd3fmL": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "solbac"
+          }
+        },
+        "collections_rYAKgL": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "splenda"
+          }
+        },
+        "collections_A93Xr8": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "vs1"
+          }
+        }
+      },
+      "block_order": [
+        "collections_k9dTJC",
+        "collections_iGhwrC",
+        "collections_nBpUnc",
+        "collections_pF8KCd",
+        "collections_AADL6a",
+        "collections_PxXcYy",
+        "collections_bd3fmL",
+        "collections_rYAKgL",
+        "collections_A93Xr8"
+      ],
+      "settings": {
+        "short_description": "",
+        "heading": "",
+        "cta_text": "",
+        "cta_link": "shopify://pages/brands",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "image_with_text_3kcxWX": {
@@ -919,14 +919,14 @@
     "image_banner_egFdL8",
     "multicolumn",
     "slideshow_fLRi6E",
-    "rich_text_gnaRqX",
-    "featured_collection_nbaTUk",
     "rich_text",
-    "custom_collection_grid_q4VWbM",
+    "featured_collection_nbaTUk",
     "image_banner",
     "featured_collection_YCNVgV",
     "image_banner_f9CkB4",
     "featured_collection_enXjUU",
+    "rich_text_gnaRqX",
+    "custom_collection_grid_q4VWbM",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
