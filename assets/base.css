@@ -3640,13 +3640,17 @@ button.slider-button {
     padding-right: 1%;
 } */
 
+button.slider-button {
+    background: #222 !important;
+}
+
 button.slideshow__autoplay.slider-button {
     display: none !important;
 } 
 
-.slideshow__controls .slideshow__control-wrapper {
+/* .slideshow__controls .slideshow__control-wrapper {
     display: none !important;
-}
+} */
 
 .slideshow__controlsbutton.slideshow__autoplay.slider-button {
     display: none;
