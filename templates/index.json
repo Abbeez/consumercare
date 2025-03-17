@@ -201,6 +201,73 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_gnaRqX": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_BnLBBX": {
+          "type": "caption",
+          "settings": {
+            "caption": "Home Care Brands",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_D6N9Uc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_fdQUVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_BnLBBX",
+        "heading_D6N9Uc",
+        "text_fdQUVP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_nbaTUk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "home-care-products",
+        "products_to_show": 5,
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -248,45 +315,6 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
-      }
-    },
-    "rich_text_gnaRqX": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_BnLBBX": {
-          "type": "caption",
-          "settings": {
-            "caption": "Home Care Brands",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_D6N9Uc": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_fdQUVP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "caption_BnLBBX",
-        "heading_D6N9Uc",
-        "text_fdQUVP"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "image_with_text_3kcxWX": {
@@ -346,34 +374,6 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_nbaTUk": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "home-care-products",
-        "products_to_show": 5,
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_bm8Xiz": {
       "type": "image-with-text",
       "blocks": {
@@ -414,6 +414,7 @@
         "text_LGhMDw",
         "button_WRVmLk"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Family_Protection_Products_f0b5257a-0dbd-409e-907f-654520c9fa34.png",
         "height": "adapt",
@@ -470,6 +471,7 @@
         "text_ic9CNb",
         "button_VjjqF6"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Motorcycle_Maintenance_747a1dde-7ba4-484a-9171-9b40cb4689df.png",
         "height": "small",
@@ -534,18 +536,9 @@
         "padding_bottom": 36
       }
     },
-    "brands_eRHmfn": {
-      "type": "brands",
-      "disabled": true,
-      "settings": {
-        "brand-header": false,
-        "heading": "Our Trusted Brands",
-        "subheading": "Explore the Brands We Carry",
-        "description": "Discover high-quality brands that bring reliability and performance to your everyday needs."
-      }
-    },
     "featured_collection_NWWRzy": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".title {text-align: center;}",
         ".collection__description {text-align: center;}"
@@ -607,6 +600,7 @@
         "heading_RnqBMy",
         "text_KDCLjm"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Motorcycle_Maintenance.png",
         "height": "small",
@@ -704,71 +698,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_ytqEg4": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_DpUHgB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ambree"
-          }
-        },
-        "featured_collection_fpVVUt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "clareo"
-          }
-        },
-        "featured_collection_CUG4VR": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guard"
-          }
-        },
-        "featured_collection_Y3iERK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kwik"
-          }
-        },
-        "featured_collection_NAMrQ7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mototek"
-          }
-        },
-        "featured_collection_8j4DRN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "porma"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_DpUHgB",
-        "featured_collection_fpVVUt",
-        "featured_collection_CUG4VR",
-        "featured_collection_Y3iERK",
-        "featured_collection_NAMrQ7",
-        "featured_collection_8j4DRN"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".card__information {display: none;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 6,
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -836,20 +765,18 @@
   },
   "order": [
     "slideshow_fLRi6E",
+    "rich_text_gnaRqX",
+    "featured_collection_nbaTUk",
     "rich_text",
     "custom_collection_grid_q4VWbM",
     "image_banner",
-    "rich_text_gnaRqX",
     "image_with_text_3kcxWX",
-    "featured_collection_nbaTUk",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
     "image_with_text_dGLEMC",
-    "brands_eRHmfn",
     "featured_collection_NWWRzy",
     "image_with_text_XcHJgm",
     "collapsible_content_ERkQMF",
-    "collection_list_ytqEg4",
     "multicolumn"
   ]
 }
