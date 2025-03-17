@@ -3622,7 +3622,9 @@ details-disclosure > details {
 /* Slider */
 .slideshow__controls {
     position: absolute !important;
-    bottom: 0 !important;
+    top: 35% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
     background: transparent !important;
     width: 100% !important;
     border:none !important;
