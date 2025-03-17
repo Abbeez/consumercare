@@ -3621,9 +3621,6 @@ details-disclosure > details {
 
 /* Slider */
 
-button.slider-button {
-    background: #111 !important;
-}
 
 button.slideshow__autoplay.slider-button {
     display: none !important;
