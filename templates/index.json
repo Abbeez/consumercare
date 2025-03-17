@@ -305,7 +305,7 @@
       "settings": {
         "image": "shopify://shop_images/VS1_Product_Collection.webp",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "middle-left",
         "desktop_content_alignment": "left",
@@ -342,6 +342,54 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_f9CkB4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_8Cfxyx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trusted Brands for Everyday Care & Protection",
+            "heading_size": "h0"
+          }
+        },
+        "text_J3gUw4": {
+          "type": "text",
+          "settings": {
+            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
+            "text_style": "body"
+          }
+        },
+        "buttons_3DLFFH": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Cfxyx",
+        "text_J3gUw4",
+        "buttons_3DLFFH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Mototek_Products.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
       }
     },
     "image_with_text_3kcxWX": {
@@ -800,6 +848,7 @@
     "custom_collection_grid_q4VWbM",
     "image_banner",
     "featured_collection_YCNVgV",
+    "image_banner_f9CkB4",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
     "image_with_text_wtQ8Dm",
