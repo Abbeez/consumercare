@@ -22,19 +22,21 @@
   class="theme-collection--title"
   style="{% if collectionbg %} background: url('{{ collectionbg | image_url }}');{% else %}background: url('https://cdn.shopify.com/s/files/1/0624/9365/5107/files/KWiK_Product_Collection_093751fe-0127-483a-adc4-410cddebfbd7.png?v=1741703247');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
 >
-  <div class="theme-container page-width">
-    <div class="theme-page--header">
-      <p
-        style="{% if themecolor %} color: #121212; {% else %}color: #fff;{% endif %}"
-        class="caption-with-letter-spacing"
-      >
-        {{ section.settings['theme-page--description'] | strip_html }}
-      </p>
-      <h1 style="{% if themecolor %} color: #121212; {% else %}color: #fff;{% endif %}">
-        {{ section.settings['theme-collection--title'] | strip_html }}
-      </h1>
+  <!--
+    <div class="theme-container page-width">
+      <div class="theme-page--header">
+        <p
+          style="{% if themecolor %} color: #121212; {% else %}color: #fff;{% endif %}"
+          class="caption-with-letter-spacing"
+        >
+          {{ section.settings['theme-page--description'] | strip_html }}
+        </p>
+        <h1 style="{% if themecolor %} color: #121212; {% else %}color: #fff;{% endif %}">
+          {{ section.settings['theme-collection--title'] | strip_html }}
+        </h1>
+      </div>
     </div>
-  </div>
+  -->
 </div>
 
 {% schema %}
