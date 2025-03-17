@@ -12,24 +12,6 @@
     "slideshow_fLRi6E": {
       "type": "slideshow",
       "blocks": {
-        "slide_UX34x9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CCPI_Product_Collection.webp",
-            "image_overlay_opacity": 0,
-            "heading": "Only the Best Products from the Brands that Care",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections/all",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "left",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
-          }
-        },
         "slide_WMeFzK": {
           "type": "slide",
           "settings": {
@@ -40,6 +22,24 @@
             "subheading": "Tell your brand's story through images",
             "button_label": "Explore VS1 Products",
             "link": "shopify://collections/vs1",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
+          }
+        },
+        "slide_UX34x9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/CCPI_Product_Collection.webp",
+            "image_overlay_opacity": 0,
+            "heading": "Only the Best Products from the Brands that Care",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop Now",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-left",
@@ -68,8 +68,8 @@
         }
       },
       "block_order": [
-        "slide_UX34x9",
         "slide_WMeFzK",
+        "slide_UX34x9",
         "slide_QXELRb"
       ],
       "custom_css": [],
@@ -281,8 +281,8 @@
         "text_fdQUVP"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "full_width": true,
         "padding_top": 40,
@@ -370,7 +370,7 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
