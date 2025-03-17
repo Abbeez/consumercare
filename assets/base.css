@@ -3620,29 +3620,6 @@ details-disclosure > details {
 /* Header End */
 
 /* Slider */
-/* .slideshow__controls {
-    position: absolute !important;
-    top: 35% !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    background: transparent !important;
-    width: 100% !important;
-    border:none !important;
-}
-
-
-button.slider-button {
-    background: #fff !important;
-}
-.slideshow__controls.slideshow__controls--top.slider-buttons.slideshow__controls--border-radius-mobile {
-    justify-content: space-between;
-    padding-left: 1%;
-    padding-right: 1%;
-} */
-
-/* button.slider-button {
-    background: #222 !important;
-} */
 
 button.slider-button {
     background: #111 !important;
@@ -3652,9 +3629,6 @@ button.slideshow__autoplay.slider-button {
     display: none !important;
 } 
 
-/* .slideshow__controls .slideshow__control-wrapper {
-    display: none !important;
-} */
 
 .slideshow__controlsbutton.slideshow__autoplay.slider-button {
     display: none;
