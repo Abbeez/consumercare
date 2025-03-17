@@ -32,6 +32,7 @@
         },
         "slide_UX34x9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/CCPI_Product_Collection.webp",
             "image_overlay_opacity": 0,
@@ -47,11 +48,30 @@
             "text_alignment_mobile": "left",
             "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
           }
+        },
+        "slide_QXELRb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mototek_Products.webp",
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
+          }
         }
       },
       "block_order": [
         "slide_WMeFzK",
-        "slide_UX34x9"
+        "slide_UX34x9",
+        "slide_QXELRb"
       ],
       "settings": {
         "layout": "full_bleed",
