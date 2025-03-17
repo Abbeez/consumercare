@@ -9,6 +9,118 @@
  */
 {
   "sections": {
+    "image_banner_egFdL8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fxJdMV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Only the Best Products from the Brands that Care",
+            "heading_size": "h0"
+          }
+        },
+        "text_LaaAkB": {
+          "type": "text",
+          "settings": {
+            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
+            "text_style": "body"
+          }
+        },
+        "buttons_fYnQLm": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fxJdMV",
+        "text_LaaAkB",
+        "buttons_fYnQLm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CCPI_Product_Collection.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_byxbqT": {
+          "type": "column",
+          "settings": {
+            "title": "Official Store",
+            "text": "<p>Shop only in Consumer Care Product's official store with wide variety of items.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DG9BFR": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping",
+            "text": "<p>Free Shipping to greater Metro Mania. With min. spend of PHP 1000</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TwTLyV": {
+          "type": "column",
+          "settings": {
+            "title": "Wholesale Pricing",
+            "text": "<p>Get the best prices and deals. With additional discounts in bulk purchases</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rzVUr4": {
+          "type": "column",
+          "settings": {
+            "title": "Guaranteed Original",
+            "text": "<p>Consumer Care Products guarantees the brand and product's authenticity</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_byxbqT",
+        "column_DG9BFR",
+        "column_TwTLyV",
+        "column_rzVUr4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-84561f81-d6c0-482b-8777-635dc3bb15a4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
     "slideshow_fLRi6E": {
       "type": "slideshow",
       "blocks": {
@@ -72,6 +184,7 @@
         "slide_UX34x9",
         "slide_QXELRb"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "layout": "full_bleed",
@@ -786,7 +899,6 @@
         "collapsible_row_yJjCPw",
         "collapsible_row_K3NxYY"
       ],
-      "disabled": true,
       "settings": {
         "caption": "Frequently Asked Questions (FAQs)",
         "heading": "Everything You Need to Know Before You Order",
@@ -801,74 +913,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_byxbqT": {
-          "type": "column",
-          "settings": {
-            "title": "Official Store",
-            "text": "<p>Shop only in Consumer Care Product's official store with wide variety of items.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DG9BFR": {
-          "type": "column",
-          "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Free Shipping to greater Metro Mania. With min. spend of PHP 1000</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_TwTLyV": {
-          "type": "column",
-          "settings": {
-            "title": "Wholesale Pricing",
-            "text": "<p>Get the best prices and deals. With additional discounts in bulk purchases</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_rzVUr4": {
-          "type": "column",
-          "settings": {
-            "title": "Guaranteed Original",
-            "text": "<p>Consumer Care Products guarantees the brand and product's authenticity</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_byxbqT",
-        "column_DG9BFR",
-        "column_TwTLyV",
-        "column_rzVUr4"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-35cb8163-a769-414a-9ce6-673b88ddd8ca",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
     }
   },
   "order": [
+    "image_banner_egFdL8",
+    "multicolumn",
     "slideshow_fLRi6E",
     "rich_text_gnaRqX",
     "featured_collection_nbaTUk",
@@ -884,7 +933,6 @@
     "image_with_text_dGLEMC",
     "featured_collection_NWWRzy",
     "image_with_text_XcHJgm",
-    "collapsible_content_ERkQMF",
-    "multicolumn"
+    "collapsible_content_ERkQMF"
   ]
 }
