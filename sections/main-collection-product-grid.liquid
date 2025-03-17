@@ -35,12 +35,11 @@
     }
   }
     .theme-collection--title{
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    padding: 6rem 1rem;
-    color: #fff;
-    min-height: 605px;
-    /* max-height:605px; */
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      padding: 6rem 1rem;
+      color: #fff;
+      min-height: 605px;
     }
 {%- endstyle -%}
 
@@ -136,7 +135,7 @@
         {% assign collectionbg = collection.metafields.custom.banner %}
         <div
           class="theme-collection--title"
-          style="{% if collectionbg %} background: url('{{ collectionbg | image_url }}');{% else %}background: url('https://cdn.shopify.com/s/files/1/0624/9365/5107/files/KWiK_Product_Collection_093751fe-0127-483a-adc4-410cddebfbd7.png?v=1741703247');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
+          style="{% if collectionbg %} background: url('{{ collectionbg | image_url }}');{% endif %}"
         ></div>
         {%- if collection.products.size == 0 -%}
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
