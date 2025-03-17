@@ -13,9 +13,9 @@
   .theme-collection--title h1 {margin:0;}
 {% endstyle %}
 
-{% assign themebg = section.settings['theme-collection--background'] %}
-{% assign titlecenter = section.settings['theme-title--center'] %}
-{% assign themecolor = section.settings['theme-text-color'] %}
+<!-- {% assign themebg = section.settings['theme-collection--background'] %} -->
+<!-- {% assign titlecenter = section.settings['theme-title--center'] %} -->
+<!-- {% assign themecolor = section.settings['theme-text-color'] %} -->
 <div
   class="theme-collection--title"
   style="{% if themebg %} background: url('{{ themebg | image_url }}');{% else %}background: url('https://cdn.shopify.com/s/files/1/0624/9365/5107/files/KWiK_Product_Collection_093751fe-0127-483a-adc4-410cddebfbd7.png?v=1741703247');{% endif %}{% if titlecenter %} text-align:center; {% endif %}"
