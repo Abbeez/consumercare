@@ -3620,7 +3620,7 @@ details-disclosure > details {
 /* Header End */
 
 /* Slider */
-.slideshow__controls {
+/* .slideshow__controls {
     position: absolute !important;
     top: 35% !important;
     left: 50% !important;
@@ -3630,10 +3630,6 @@ details-disclosure > details {
     border:none !important;
 }
 
-
-/* .slideshow__controls .slider-button {
-  color:#fff; 
-} */
 
 button.slider-button {
     background: #fff !important;
@@ -3646,7 +3642,7 @@ button.slider-button {
 
 button.slideshow__autoplay.slider-button {
     display: none !important;
-}
+} */
 
 .slideshow__controls .slideshow__control-wrapper {
     display: none !important;
