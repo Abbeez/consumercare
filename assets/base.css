@@ -3626,6 +3626,7 @@ details-disclosure > details {
     background: transparent !important;
     width: 100% !important;
     border:none !important;
+    justify-content: space-between;
 }
 
 
@@ -3633,9 +3634,7 @@ details-disclosure > details {
   color:#fff;
   
 }
-.slideshow__controls.slideshow__controls--top.slider-buttons.slideshow__controls--border-radius-mobile {
-    justify-content: space-between;
-}
+
 
 button.slideshow__autoplay.slider-button {
     display: none !important;
