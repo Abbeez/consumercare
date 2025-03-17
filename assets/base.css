@@ -3631,17 +3631,16 @@ details-disclosure > details {
 
 .slideshow__controls .slider-button {
   color:#fff;
+  
+}
+.slideshow__controls .slider-buttons {
   justify-content: space-between !important;
 }
-
-.slideshow__control-wrapper {
+.slideshow__controls .slideshow__control-wrapper {
     display: none !important;
 }
 
-
-
-
-button.slideshow__autoplay.slider-button {
+.slideshow__controlsbutton.slideshow__autoplay.slider-button {
     display: none;
 }
 
