@@ -3631,6 +3631,10 @@ details-disclosure > details {
   color:#fff;
 }
 
+.slideshow__controls button.slider-counter__link .slider-counter__link--active span {
+  color:#fff;
+}
+
 
 button.slideshow__autoplay.slider-button {
     display: none;
