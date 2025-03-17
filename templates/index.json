@@ -335,7 +335,6 @@
         "column_TwTLyV",
         "column_rzVUr4"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "",
@@ -836,12 +835,12 @@
     }
   },
   "order": [
+    "multicolumn",
     "slideshow_fLRi6E",
     "rich_text",
     "custom_collection_grid_q4VWbM",
     "image_banner",
     "rich_text_gnaRqX",
-    "multicolumn",
     "image_with_text_3kcxWX",
     "featured_collection_nbaTUk",
     "image_with_text_bm8Xiz",
