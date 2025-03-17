@@ -3619,6 +3619,13 @@ details-disclosure > details {
 
 /* Header End */
 
+/* Slider */
+.slideshow__controls {
+  position: absolute;
+  visibility: hidden;
+}
+/* end Slider */
+
 #shopify-section-template--16780616663107__multicolumn {
   margin-top:0;
 }
