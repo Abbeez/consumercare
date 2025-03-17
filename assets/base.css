@@ -3621,8 +3621,10 @@ details-disclosure > details {
 
 /* Slider */
 .slideshow__controls {
-  /* position: absolute !important;
- visibility: hidden !important; */
+position: absolute;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
 }
 
 
