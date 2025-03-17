@@ -3625,7 +3625,9 @@ details-disclosure > details {
     bottom: 0 !important;
     background: transparent !important;
     width: 100% !important;
+    border:none !important;
 }
+
 
 .slideshow__controls .slider-button {
   color:#fff;
