@@ -197,32 +197,43 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection_nbaTUk": {
-      "type": "featured-collection",
+    "rich_text_gnaRqX": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_BnLBBX": {
+          "type": "caption",
+          "settings": {
+            "caption": "Home Care Brands",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_D6N9Uc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_fdQUVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption_BnLBBX",
+        "heading_D6N9Uc",
+        "text_fdQUVP"
+      ],
       "settings": {
-        "collection": "home-care-products",
-        "products_to_show": 10,
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "rich_text": {
@@ -262,6 +273,34 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "featured_collection_nbaTUk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "home-care-products",
+        "products_to_show": 10,
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "image_banner": {
@@ -414,45 +453,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_gnaRqX": {
-      "type": "rich-text",
-      "blocks": {
-        "caption_BnLBBX": {
-          "type": "caption",
-          "settings": {
-            "caption": "Home Care Brands",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_D6N9Uc": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>For a Clean, Fresh, and Worry-Free Home</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_fdQUVP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Consumer Care brings you trusted brands for your household, accessories, and pest control: <strong>Solbac, Splenda, Ambree, Klensa, Kwik, Guard, and Porma</strong>. Each one delivers premium products to keep your home clean and your family safe.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "caption_BnLBBX",
-        "heading_D6N9Uc",
-        "text_fdQUVP"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "custom_collection_grid_q4VWbM": {
@@ -919,13 +919,13 @@
     "image_banner_egFdL8",
     "multicolumn",
     "slideshow_fLRi6E",
-    "rich_text",
+    "rich_text_gnaRqX",
     "featured_collection_nbaTUk",
     "image_banner",
     "featured_collection_YCNVgV",
     "image_banner_f9CkB4",
     "featured_collection_enXjUU",
-    "rich_text_gnaRqX",
+    "rich_text",
     "custom_collection_grid_q4VWbM",
     "image_with_text_3kcxWX",
     "image_with_text_bm8Xiz",
