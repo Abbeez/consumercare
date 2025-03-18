@@ -9,6 +9,23 @@
  */
 {
   "sections": {
+    "custom_banner_xpbMry": {
+      "type": "custom-banner",
+      "blocks": {
+        "image_k8AMcD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CCPI_BANNER_1-04.webp",
+            "alt_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_k8AMcD"
+      ],
+      "settings": {}
+    },
     "slideshow_fLRi6E": {
       "type": "slideshow",
       "blocks": {
@@ -917,6 +934,7 @@
     }
   },
   "order": [
+    "custom_banner_xpbMry",
     "slideshow_fLRi6E",
     "image_banner_egFdL8",
     "multicolumn",

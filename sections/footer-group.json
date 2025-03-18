@@ -11,32 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_banner_Rh33F6": {
-      "type": "custom-banner",
-      "blocks": {
-        "image_4rC6wR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/CCPI_BANNER_1-04.webp",
-            "alt_text": "",
-            "link": "shopify://collections/all"
-          }
-        },
-        "image_frfLtE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Mototek_Products.webp",
-            "alt_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_4rC6wR",
-        "image_frfLtE"
-      ],
-      "settings": {}
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -44,21 +18,21 @@
           "type": "link_list",
           "settings": {
             "heading": "Accounts",
-            "menu": ""
+            "menu": "accounts"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Policies",
-            "menu": ""
+            "menu": "policies"
           }
         },
         "link_list_Xygep7": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": ""
+            "menu": "quicklinks"
           }
         },
         "footer-2": {
@@ -92,7 +66,6 @@
     }
   },
   "order": [
-    "custom_banner_Rh33F6",
     "footer"
   ]
 }
