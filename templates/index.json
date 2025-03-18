@@ -44,131 +44,6 @@
       ],
       "settings": {}
     },
-    "slideshow_fLRi6E": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_UX34x9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CCPI_Product_Collection.webp",
-            "image_overlay_opacity": 0,
-            "heading": "Only the Best Products from the Brands that Care",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop Now",
-            "link": "shopify://collections/all",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "left",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
-          }
-        },
-        "slide_WMeFzK": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/VS1_Product_Collection.webp",
-            "image_overlay_opacity": 10,
-            "heading": "Explore VS1 Products",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Explore VS1 Products",
-            "link": "shopify://collections/vs1",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "left",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
-          }
-        },
-        "slide_QXELRb": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Mototek_Products.webp",
-            "image_overlay_opacity": 10,
-            "heading": "Explore Mototek",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Explore Mototek Products",
-            "link": "shopify://collections/mototek",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "left",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0"
-          }
-        }
-      },
-      "block_order": [
-        "slide_UX34x9",
-        "slide_WMeFzK",
-        "slide_QXELRb"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner_egFdL8": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_fxJdMV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Only the Best Products from the Brands that Care",
-            "heading_size": "h0"
-          }
-        },
-        "text_LaaAkB": {
-          "type": "text",
-          "settings": {
-            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
-            "text_style": "body"
-          }
-        },
-        "buttons_fYnQLm": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fxJdMV",
-        "text_LaaAkB",
-        "buttons_fYnQLm"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Product_Collection.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -300,53 +175,22 @@
         "padding_bottom": 36
       }
     },
-    "image_banner": {
-      "type": "image-banner",
+    "custom_banner_Bbi6WV": {
+      "type": "custom-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "image_fgNMfg": {
+          "type": "image",
           "settings": {
-            "heading": "Trusted Brands for Everyday Care & Protection",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/vs1",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/Consumercare_VS1_Products.webp",
+            "alt_text": "",
+            "link": "shopify://collections/vs1"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "image_fgNMfg"
       ],
-      "settings": {
-        "image": "shopify://shop_images/VS1_Product_Collection.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
+      "settings": {}
     },
     "featured_collection_YCNVgV": {
       "type": "featured-collection",
@@ -376,53 +220,22 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_f9CkB4": {
-      "type": "image-banner",
+    "custom_banner_B3ce9q": {
+      "type": "custom-banner",
       "blocks": {
-        "heading_8Cfxyx": {
-          "type": "heading",
+        "image_tRpdWx": {
+          "type": "image",
           "settings": {
-            "heading": "Trusted Brands for Everyday Care & Protection",
-            "heading_size": "h0"
-          }
-        },
-        "text_J3gUw4": {
-          "type": "text",
-          "settings": {
-            "text": "From home essentials to motor care, shop top-quality products designed for your needs",
-            "text_style": "body"
-          }
-        },
-        "buttons_3DLFFH": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/mototek",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/Consumercare_Mototek_Products.webp",
+            "alt_text": "",
+            "link": "shopify://collections/mototek"
           }
         }
       },
       "block_order": [
-        "heading_8Cfxyx",
-        "text_J3gUw4",
-        "buttons_3DLFFH"
+        "image_tRpdWx"
       ],
-      "settings": {
-        "image": "shopify://shop_images/Mototek_Products.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-c881df90-2854-4fb1-8c09-26bdfd9306e0",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
+      "settings": {}
     },
     "featured_collection_enXjUU": {
       "type": "featured-collection",
@@ -954,14 +767,12 @@
   },
   "order": [
     "custom_banner_xpbMry",
-    "slideshow_fLRi6E",
-    "image_banner_egFdL8",
     "multicolumn",
     "rich_text_gnaRqX",
     "featured_collection_nbaTUk",
-    "image_banner",
+    "custom_banner_Bbi6WV",
     "featured_collection_YCNVgV",
-    "image_banner_f9CkB4",
+    "custom_banner_B3ce9q",
     "featured_collection_enXjUU",
     "collapsible_content_ERkQMF",
     "rich_text",
