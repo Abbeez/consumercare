@@ -4,7 +4,16 @@
       {% for block in section.blocks %}
         <div class="swiper-slide">
           <a href="{{ block.settings.link }}">
-            <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
+            <img
+              src="{{ block.settings.desktopimage | img_url: 'master' }}"
+              alt="{{ block.settings.alt_text }}"
+              class="slider-desktop"
+            >
+            <img
+              src="{{ block.settings.mobileimage | img_url: 'master' }}"
+              alt="{{ block.settings.alt_text }}"
+              class="slider-mobile"
+            >
           </a>
         </div>
       {% endfor %}
@@ -54,6 +63,22 @@
       width: 100%;
       height: auto;
   }
+
+  .slider-mobile{display:none;}
+
+      /* Responsive Adjustments */
+    @media (max-width: 1024px) {
+    }
+
+    @media (max-width: 768px) {
+        .slider-desktop {display:none;}
+        .slider-mobile{display:block;}
+
+    }
+
+    @media (max-width: 480px) {
+
+    }
 </style>
 
 {% schema %}
@@ -67,8 +92,13 @@
             "settings": [
                 {
                     "type": "image_picker",
-                    "id": "image",
-                    "label": "Slide Image"
+                    "id": "desktopimage",
+                    "label": "Desktop Slide Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "mobileimage",
+                    "label": "Mobile Slide Image"
                 },
                 {
                     "type": "text",
