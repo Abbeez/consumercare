@@ -296,6 +296,9 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    {{ 'slick.css' | asset_url | stylesheet_tag }}
+    {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -374,5 +377,9 @@
     {%- endif -%}
 
     {% render 'popup-purchase' %}
+    <script src="{{ 'jquery-1.11.0.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'jquery-migrate-1.2.1.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'slick.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'smooth-scroll.js' | asset_url }}" defer></script>
   </body>
 </html>
