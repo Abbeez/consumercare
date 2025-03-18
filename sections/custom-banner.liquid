@@ -1,6 +1,6 @@
 <section class="banner-slider">
   {% for block in section.blocks %}
-    <div class="slider">
+    <div class="customslider">
       <a href="{{ block.settings.link }}">
         <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
       </a>
@@ -9,15 +9,14 @@
 </section>
 
 <script>
-  jQuery(document).ready(function($){
-      $('.slider').slick({
-          dots: true,
-          arrows: true,
+  document.addEventListener("DOMContentLoaded", function () {
+      $('.customslider').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 3000,
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1
+          dots: true,
+          arrows: true,
       });
   });
 </script>
