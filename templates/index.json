@@ -17,12 +17,30 @@
           "settings": {
             "image": "shopify://shop_images/CCPI_BANNER_1-04.webp",
             "alt_text": "",
-            "link": ""
+            "link": "shopify://collections/all"
+          }
+        },
+        "image_KbTjBt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Consumercare_Mototek_Products.webp",
+            "alt_text": "",
+            "link": "shopify://collections/mototek"
+          }
+        },
+        "image_GMLMK8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Consumercare_VS1_Products.webp",
+            "alt_text": "",
+            "link": "shopify://collections/vs1"
           }
         }
       },
       "block_order": [
-        "image_k8AMcD"
+        "image_k8AMcD",
+        "image_KbTjBt",
+        "image_GMLMK8"
       ],
       "settings": {}
     },
@@ -136,6 +154,7 @@
         "text_LaaAkB",
         "buttons_fYnQLm"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CCPI_Product_Collection.webp",
         "image_overlay_opacity": 0,
