@@ -539,8 +539,8 @@
       "shipping": {
         "free_rate_label": "To be announced"
       },
-      "delivery_options": {
-        "free_total_label": "To be announced"
+      "order_summary": {
+        "free_shipping_total_label": "To be announced"
       }
     }
   }
