@@ -1,6 +1,75 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<section class="banner-slider">
+  <div class="slider">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.link }}">
+        <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+  jQuery(document).ready(function($){
+      $('.slider').slick({
+          dots: true,
+          arrows: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+      });
+  });
+</script>
+
+<style>
+  .banner-slider {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
   }
+  .slider a {
+      display: block;
+  }
+  .slider img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+</style>
+
+{% schema %}
+{
+    "name": "Banner Slider",
+    "settings": [],
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Slide",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Slide Image"
+                },
+                {
+                    "type": "text",
+                    "id": "alt_text",
+                    "label": "Alt Text"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Slide Link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Banner Slider",
+            "category": "Image"
+        }
+    ]
+}
 {% endschema %}
