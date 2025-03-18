@@ -1,11 +1,11 @@
 <section class="banner-slider">
-  {% for block in section.blocks %}
-    <div class="customslider">
+  <div class="customslider">
+    {% for block in section.blocks %}
       <a href="{{ block.settings.link }}">
         <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
       </a>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
 
 <script>
