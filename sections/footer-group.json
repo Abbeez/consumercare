@@ -11,6 +11,23 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_banner_Rh33F6": {
+      "type": "custom-banner",
+      "blocks": {
+        "image_4rC6wR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CCPI_BANNER_1-04.webp",
+            "alt_text": "",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "image_4rC6wR"
+      ],
+      "settings": {}
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -18,21 +35,21 @@
           "type": "link_list",
           "settings": {
             "heading": "Accounts",
-            "menu": "accounts"
+            "menu": ""
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Policies",
-            "menu": "policies"
+            "menu": ""
           }
         },
         "link_list_Xygep7": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "quicklinks"
+            "menu": ""
           }
         },
         "footer-2": {
@@ -66,6 +83,7 @@
     }
   },
   "order": [
+    "custom_banner_Rh33F6",
     "footer"
   ]
 }
