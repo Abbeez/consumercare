@@ -190,6 +190,9 @@
       "block_order": [
         "image_fgNMfg"
       ],
+      "custom_css": [
+        ".banner-slider {margin-bottom:60px;}"
+      ],
       "settings": {}
     },
     "featured_collection_YCNVgV": {
@@ -234,6 +237,9 @@
       },
       "block_order": [
         "image_tRpdWx"
+      ],
+      "custom_css": [
+        ".banner-slider {margin-bottom: 60px;}"
       ],
       "settings": {}
     },
