@@ -537,7 +537,7 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "free_rate_label": "TBH"
+        "free_rate_label": "To be announced"
       }
     }
   }
