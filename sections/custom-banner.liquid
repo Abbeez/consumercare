@@ -1,43 +1,61 @@
 <section class="banner-slider">
-  <div class="customslider">
-    {% for block in section.blocks %}
-      <a href="{{ block.settings.link }}">
-        <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
-      </a>
-    {% endfor %}
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide">
+          <a href="{{ block.settings.link }}">
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
 </section>
 
+<!-- Swiper.js CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-      const slider = document.querySelector(".customslider");
-      if (slider) {
-          const slickOptions = {
-              dots: true,
-              arrows: true,
-              autoplay: true,
-              autoplaySpeed: 3000,
-              infinite: true,
-              slidesToShow: 1,
-              slidesToScroll: 1
-          };
-          new Slick(slider, slickOptions);
-      }
+      new Swiper(".swiper-container", {
+          loop: true,
+          autoplay: {
+              delay: 3000,
+              disableOnInteraction: false,
+          },
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+          },
+          navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+          },
+      });
   });
 </script>
 
 <style>
   .banner-slider {
-      /* max-width: 1200px; */
+      max-width: 1200px;
       margin: 0 auto;
-      /* padding: 20px; */
+      padding: 20px;
   }
-  .slider a {
+  .swiper-container {
+      width: 100%;
+      overflow: hidden;
+  }
+  .swiper-slide a {
       display: block;
   }
-  .slider img {
+  .swiper-slide img {
       width: 100%;
       height: auto;
+      border-radius: 10px;
   }
 </style>
 
