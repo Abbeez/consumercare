@@ -233,6 +233,8 @@
         "image_tRpdWx": {
           "type": "image",
           "settings": {
+            "desktopimage": "shopify://shop_images/Consumercare_Mototek_Products.webp",
+            "mobileimage": "shopify://shop_images/Mototek_Product_Collection.webp",
             "alt_text": "",
             "link": "shopify://collections/mototek"
           }
