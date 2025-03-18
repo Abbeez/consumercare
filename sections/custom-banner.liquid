@@ -4,7 +4,10 @@
       {% for block in section.blocks %}
         <div class="swiper-slide">
           <a href="{{ block.settings.link }}">
-            <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
+            <picture>
+              <source srcset="{{ block.settings.mobile_image | img_url: 'master' }}" media="(max-width: 768px)">
+              <img src="{{ block.settings.desktop_image | img_url: 'master' }}" alt="{{ block.settings.alt_text }}">
+            </picture>
           </a>
         </div>
       {% endfor %}
@@ -67,8 +70,13 @@
             "settings": [
                 {
                     "type": "image_picker",
-                    "id": "image",
-                    "label": "Slide Image"
+                    "id": "desktop_image",
+                    "label": "Desktop Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "mobile_image",
+                    "label": "Mobile Image"
                 },
                 {
                     "type": "text",
