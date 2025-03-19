@@ -52,6 +52,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_7U8w9N": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"\" class=\"single-product---wholesale shopify-trigger--inbox\">Contact us for wholesale orders.</a>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -107,13 +113,6 @@
           "settings": {
             "custom_liquid": "{% render 'product-redirect'%}"
           }
-        },
-        "popup_ta4g9i": {
-          "type": "popup",
-          "settings": {
-            "text": "Contact us for wholesale orders",
-            "page": "bulk-order"
-          }
         }
       },
       "block_order": [
@@ -124,14 +123,14 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_7U8w9N",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "custom_liquid_MfiXzE",
-        "popup_ta4g9i"
+        "custom_liquid_MfiXzE"
       ],
       "settings": {
         "enable_sticky_info": true,
