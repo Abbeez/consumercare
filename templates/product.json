@@ -177,7 +177,7 @@
       "settings": {
         "collection": "{{ product.metafields.custom.related_collection.value }}",
         "products_to_show": 6,
-        "title": "More from {{ product.vendor }}",
+        "title": "More From {{ product.vendor }} Collection",
         "heading_size": "h2",
         "description": "",
         "show_description": true,
