@@ -9,23 +9,6 @@
  */
 {
   "sections": {
-    "custom_banner_YRBiLe": {
-      "type": "custom-banner",
-      "blocks": {
-        "image_AA4Xzq": {
-          "type": "image",
-          "settings": {
-            "desktopimage": "shopify://shop_images/Consumercare_Mototek_Products.webp",
-            "alt_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_AA4Xzq"
-      ],
-      "settings": {}
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -250,6 +233,23 @@
         "padding_bottom": 20
       }
     },
+    "custom_banner_YRBiLe": {
+      "type": "custom-banner",
+      "blocks": {
+        "image_AA4Xzq": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/Consumercare_Mototek_Products.webp",
+            "alt_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AA4Xzq"
+      ],
+      "settings": {}
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -302,9 +302,9 @@
     }
   },
   "order": [
-    "custom_banner_YRBiLe",
     "main",
     "custom_collection_grid_MXM3AL",
+    "custom_banner_YRBiLe",
     "related-products",
     "featured_collection_rk6RCE"
   ]
