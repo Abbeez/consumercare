@@ -36,7 +36,14 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
+        },
+        "custom_liquid_zxCrGH": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.short_description != blank %}\n        <div class=\"short-description\">\n                {{ product.metafields.custom.short_description | metafield_tag }}\n        </div>\n        {% endif %}"
+          }
         },
         "custom_liquid_GThaYV": {
           "type": "custom_liquid",
@@ -127,6 +134,7 @@
         "caption",
         "price",
         "description",
+        "custom_liquid_zxCrGH",
         "custom_liquid_GThaYV",
         "variant_picker",
         "quantity_selector",
