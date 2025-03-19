@@ -58,6 +58,7 @@
         "heading_qyCYcn",
         "text_YiyitG"
       ],
+      "disabled": true,
       "custom_css": [
         ".collapsible-content__wrapper {margin-bottom: -48px;}"
       ],
@@ -79,7 +80,40 @@
     },
     "bulk_order_cta_XKUqWC": {
       "type": "bulk-order-cta",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "cta_heading": "Need Assistance?",
+        "cta_subheading": "Chat with us for bulk orders and inquiries!",
+        "cta_button_text": "Chat Now"
+      }
+    },
+    "17423896877c728c7c": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_DJNGCm": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "395347",
+            "text_color": "#202020",
+            "button_background_color": "#1773b0",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 64,
+            "padding_bottom": 64,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_DJNGCm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     },
     "collapsible_content_RXLWPH": {
       "type": "collapsible-content",
@@ -182,6 +216,7 @@
     "page_title_iF4zBk",
     "image_with_text_HNmiE7",
     "bulk_order_cta_XKUqWC",
+    "17423896877c728c7c",
     "collapsible_content_RXLWPH"
   ]
 }
