@@ -247,12 +247,91 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "custom_collection_grid_MXM3AL": {
+      "type": "custom-collection-grid",
+      "blocks": {
+        "collections_cTN3WQ": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "ambree"
+          }
+        },
+        "collections_KEcmdz": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "clareo"
+          }
+        },
+        "collections_Mr3APM": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "guard"
+          }
+        },
+        "collections_Q3QWDB": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "kwik"
+          }
+        },
+        "collections_zDbJTp": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "mototek"
+          }
+        },
+        "collections_nV4fb3": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "porma"
+          }
+        },
+        "collections_8fazWA": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "solbac"
+          }
+        },
+        "collections_D9DA3Q": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "splenda"
+          }
+        },
+        "collections_WKcLiH": {
+          "type": "Collections",
+          "settings": {
+            "boxed_collection": "vs1"
+          }
+        }
+      },
+      "block_order": [
+        "collections_cTN3WQ",
+        "collections_KEcmdz",
+        "collections_Mr3APM",
+        "collections_Q3QWDB",
+        "collections_zDbJTp",
+        "collections_nV4fb3",
+        "collections_8fazWA",
+        "collections_D9DA3Q",
+        "collections_WKcLiH"
+      ],
+      "settings": {
+        "short_description": "Explore a selection of high-quality products from Consumer Care’s trusted brands. Each one is designed to enrich every Filipino home, family, and lifestyle.",
+        "heading": "The Brands Behind the Care",
+        "cta_text": "Explore Our Brands",
+        "cta_link": "shopify://pages/brands",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "custom_collection_grid_MXM3AL"
   ]
 }
