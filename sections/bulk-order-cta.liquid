@@ -90,9 +90,9 @@
                       {% if block.settings.button_link == blank %}
                         role="link" aria-disabled="true"
                       {% else %}
-                        href="{{ block.settings.button_link }}"
+                        href="javascript:void(0)"
                       {% endif %}
-                      class="shopify-trigger--inbox button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                      class="prevent-default shopify-trigger--inbox button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
                       {{ block.settings.button_label | escape }}
