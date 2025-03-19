@@ -59,7 +59,7 @@
         "custom_liquid_7U8w9N": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span class=\"single-product---wholesale shopify-trigger--inbox\">\n    Reach out to us for wholesale orders.  \n    <span style=\"color: var(--custom-color-primary) !important; cursor:pointer;\">[Click here]</span> to inquire.\n</span>"
+            "custom_liquid": "{% render 'single-product-wholesale' %}"
           }
         },
         "collapsible-row-0": {
