@@ -63,6 +63,7 @@
     },
     "bulk_order_cta_eLVpyi": {
       "type": "bulk-order-cta",
+      "disabled": true,
       "settings": {
         "cta_heading": "Wanna Bulk Order This?",
         "cta_subheading": "Chat with us for bulk orders and inquiries!",
