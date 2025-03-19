@@ -1,8 +1,44 @@
+{% schema %}
+{
+  "name": "Brand Info",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Brand Info"
+    }
+  ]
+}
+{% endschema %}
+
 {% if product.metafields.custom.about_the_brand != blank %}
   {% assign brand = product.metafields.custom.about_the_brand.value %}
 
   {% if brand != blank %}
-    <div class="brand-info">
+    <div
+      class="brand-info"
+      style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;"
+    >
       <div class="brand-logo">
         <img src="{{ brand.logo | image_url }}" alt="{{ brand.name }}">
       </div>
@@ -18,7 +54,7 @@
         align-items: center;
         gap: 20px; /* Space between columns */
         max-width: 800px; /* Adjust width as needed */
-        margin: 20px auto; /* Center align */
+        margin: 0 auto; /* Center align */
       }
 
       .brand-logo img {
