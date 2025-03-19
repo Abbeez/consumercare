@@ -164,8 +164,8 @@
     "about_the_brand_T9W7JL": {
       "type": "about-the-brand",
       "settings": {
-        "padding_top": 35,
-        "padding_bottom": 35
+        "padding_top": 15,
+        "padding_bottom": 15
       }
     },
     "featured_collection_rk6RCE": {
