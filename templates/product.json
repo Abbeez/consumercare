@@ -271,15 +271,18 @@
     },
     "featured_collection_rk6RCE": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
       "settings": {
         "collection": "{{ product.metafields.custom.related_collection.value }}",
-        "products_to_show": 4,
-        "title": "Featured collection",
+        "products_to_show": 6,
+        "title": "{{ product.vendor }} PRODUCTS",
         "heading_size": "h1",
         "description": "",
-        "show_description": false,
+        "show_description": true,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 6,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
