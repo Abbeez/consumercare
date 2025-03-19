@@ -298,10 +298,18 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "about_the_brand_T9W7JL": {
+      "type": "about-the-brand",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "main",
+    "about_the_brand_T9W7JL",
     "custom_collection_grid_MXM3AL",
     "custom_banner_YRBiLe",
     "related-products",
