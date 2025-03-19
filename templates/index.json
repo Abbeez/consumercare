@@ -21,6 +21,24 @@
             "link": "shopify://collections/all"
           }
         },
+        "image_XaJnCA": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/Solbac_Products.webp",
+            "mobileimage": "shopify://shop_images/Solbac_Product_Collection.webp",
+            "alt_text": "",
+            "link": ""
+          }
+        },
+        "image_L3p4t7": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/Porma_Products.webp",
+            "mobileimage": "shopify://shop_images/Porma_Product_Collection.webp",
+            "alt_text": "",
+            "link": ""
+          }
+        },
         "image_KbTjBt": {
           "type": "image",
           "settings": {
@@ -42,6 +60,8 @@
       },
       "block_order": [
         "image_k8AMcD",
+        "image_XaJnCA",
+        "image_L3p4t7",
         "image_KbTjBt",
         "image_GMLMK8"
       ],
