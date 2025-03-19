@@ -201,12 +201,15 @@
     },
     "featured_collection_YCNVgV": {
       "type": "featured-collection",
+      "custom_css": [
+        ".collection__title {text-align: center;}"
+      ],
       "settings": {
         "collection": "vs1",
         "products_to_show": 10,
-        "title": "",
+        "title": "<strong>Keep Your Ride Sleek and Protected with VS1</strong>",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Keep your vehicle protected and looking its best with VS1. From tire black and protectors to refresh sprays, VS1 products keep your ride smooth, sleek, and road-ready.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 5,
