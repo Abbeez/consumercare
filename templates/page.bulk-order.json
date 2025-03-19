@@ -20,11 +20,11 @@
     "page_title_iF4zBk": {
       "type": "page-title",
       "settings": {
-        "theme-page--title": "Need a large quantity of our products? Whether for retail, corporate needs, or reselling, we offer competitive bulk pricing and exclusive deals.",
-        "theme-page--description": "Bulk order & Wholesale",
-        "theme-title--center": false,
-        "theme-text-color": false,
-        "theme-page--background": "shopify://shop_images/CCPI_Page_Title_2.png"
+        "theme-page--title": "Get the best prices on bulk purchases!",
+        "theme-page--description": "Bulk Orders & Wholesale Deals",
+        "theme-title--center": true,
+        "theme-text-color": true,
+        "theme-page--background": "shopify://shop_images/VS1_Product_Collection_346a0f9b-5392-4dcf-8218-11b8f2b3aded.png"
       }
     },
     "image_with_text_HNmiE7": {
@@ -33,7 +33,7 @@
         "caption_379qb6": {
           "type": "caption",
           "settings": {
-            "caption": "How It Works",
+            "caption": "Buy in Bulk & Save More!",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -41,31 +41,22 @@
         "heading_qyCYcn": {
           "type": "heading",
           "settings": {
-            "heading": "Step-by-step guide to simplify ordering process",
+            "heading": "Chat with us and select <strong>\"Bulk Order\"</strong> for exclusive discounts!",
             "heading_size": "h1"
           }
         },
         "text_YiyitG": {
           "type": "text",
           "settings": {
-            "text": "<ol><li><strong>Choose Your Product</strong> – Browse our catalog or let us recommend the best options.</li><li><strong>Send Your Request</strong> – Provide the product name or URL and desired quantity.</li><li><strong>Get a Quote</strong> – We’ll send you a custom quote with bulk pricing.</li><li><strong>Confirm & Pay</strong> – Secure your order through our accepted payment methods.</li><li><strong>Receive Your Order</strong> – We ship fast, ensuring timely delivery.</li></ol>",
+            "text": "<p>Looking to purchase in large quantities? We offer <strong>special pricing, priority processing, and exclusive discounts</strong> for bulk orders! Simply <strong>chat with us</strong> and choose the <strong>\"Bulk Order\"</strong> option to get started.</p>",
             "text_style": "body"
-          }
-        },
-        "button_c4HPy9": {
-          "type": "button",
-          "settings": {
-            "button_label": "Chat Now",
-            "button_link": "#",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "caption_379qb6",
         "heading_qyCYcn",
-        "text_YiyitG",
-        "button_c4HPy9"
+        "text_YiyitG"
       ],
       "custom_css": [
         ".collapsible-content__wrapper {margin-bottom: -48px;}"
@@ -74,7 +65,7 @@
         "image": "shopify://shop_images/Bulk_Ordering_steps_by_step.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "middle",
@@ -91,7 +82,7 @@
       "settings": {
         "cta_heading": "Need Assistance?",
         "cta_subheading": "Chat with us for bulk orders and inquiries!",
-        "cta_button_text": "Chat Now"
+        "cta_button_text": "Chat with us now and secure the best deals on bulk purchases!"
       }
     },
     "collapsible_content_RXLWPH": {
