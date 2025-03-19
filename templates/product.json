@@ -55,7 +55,7 @@
         "custom_liquid_7U8w9N": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"\" class=\"single-product---wholesale shopify-trigger--inbox\">Contact us for wholesale orders.</a>"
+            "custom_liquid": "<span class=\"single-product---wholesale shopify-trigger--inbox\">Contact us for wholesale orders.</span>"
           }
         },
         "description": {
