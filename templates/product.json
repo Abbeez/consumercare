@@ -34,6 +34,10 @@
           "type": "price",
           "settings": {}
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -57,10 +61,6 @@
           "settings": {
             "custom_liquid": "<span class=\"single-product---wholesale shopify-trigger--inbox\">Contact us for wholesale orders.</span>"
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -120,11 +120,11 @@
         "title",
         "caption",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_7U8w9N",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
