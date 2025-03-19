@@ -12,22 +12,13 @@
     "custom_banner_xpbMry": {
       "type": "custom-banner",
       "blocks": {
-        "image_k8AMcD": {
-          "type": "image",
-          "settings": {
-            "desktopimage": "shopify://shop_images/CCPI_BANNER_1-04.webp",
-            "mobileimage": "shopify://shop_images/Consumercare_Product_Collections.webp",
-            "alt_text": "",
-            "link": "shopify://collections/all"
-          }
-        },
         "image_XaJnCA": {
           "type": "image",
           "settings": {
             "desktopimage": "shopify://shop_images/Solbac_Products.webp",
             "mobileimage": "shopify://shop_images/Solbac_Product_Collection.webp",
             "alt_text": "",
-            "link": ""
+            "link": "shopify://collections/solbac"
           }
         },
         "image_L3p4t7": {
@@ -36,7 +27,7 @@
             "desktopimage": "shopify://shop_images/Porma_Products.webp",
             "mobileimage": "shopify://shop_images/Porma_Product_Collection.webp",
             "alt_text": "",
-            "link": ""
+            "link": "shopify://collections/porma"
           }
         },
         "image_KbTjBt": {
@@ -56,14 +47,23 @@
             "alt_text": "",
             "link": "shopify://collections/vs1"
           }
+        },
+        "image_k8AMcD": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/CCPI_BANNER_1-04.webp",
+            "mobileimage": "shopify://shop_images/Consumercare_Product_Collections.webp",
+            "alt_text": "",
+            "link": "shopify://collections/all"
+          }
         }
       },
       "block_order": [
-        "image_k8AMcD",
         "image_XaJnCA",
         "image_L3p4t7",
         "image_KbTjBt",
-        "image_GMLMK8"
+        "image_GMLMK8",
+        "image_k8AMcD"
       ],
       "settings": {}
     },
