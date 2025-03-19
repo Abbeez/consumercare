@@ -79,10 +79,58 @@
     },
     "bulk_order_cta_XKUqWC": {
       "type": "bulk-order-cta",
+      "blocks": {
+        "caption_WBznXM": {
+          "type": "caption",
+          "settings": {
+            "caption": "Buy in Bulk & Save More!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_kqEC3F": {
+          "type": "heading",
+          "settings": {
+            "heading": "Chat with us and select <strong>\"Bulk Order\"</strong> for exclusive discounts!",
+            "heading_size": "h1"
+          }
+        },
+        "text_P4KjcR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking to purchase in large quantities? We offer<strong>special pricing, priority processing, and exclusive discounts</strong>for bulk orders! Simply<strong>chat with us</strong>and choose the<strong>\"Bulk Order\"</strong>option to get started.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_brGyeL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Let's get started!",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_WBznXM",
+        "heading_kqEC3F",
+        "text_P4KjcR",
+        "button_brGyeL"
+      ],
       "settings": {
-        "cta_heading": "Need Assistance?",
-        "cta_subheading": "Chat with us for bulk orders and inquiries!",
-        "cta_button_text": "Chat with us now and secure the best deals on bulk purchases!"
+        "image": "shopify://shop_images/Bulk_Ordering_steps_by_step.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "collapsible_content_RXLWPH": {
@@ -189,9 +237,9 @@
             "form_id": "395347",
             "text_color": "#202020",
             "button_background_color": "#1773b0",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "flex-start",
             "padding_top": 64,
