@@ -101,6 +101,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_MfiXzE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'product-redirect'%}"
+          }
         }
       },
       "block_order": [
@@ -116,7 +122,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "custom_liquid_MfiXzE"
       ],
       "settings": {
         "enable_sticky_info": true,
