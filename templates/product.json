@@ -75,30 +75,34 @@
             "custom_liquid": "{% render 'single-product-wholesale' %}"
           }
         },
-        "text_r9dfLr": {
-          "type": "text",
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "<strong>Delivery:</strong> <strong> 2-3 days</strong> for orders within the National Capital Region (NCR) and <strong>5-7 days</strong> for orders outside the NCR, subject to courier availability and any unforeseen circumstances.",
-            "text_style": "body"
+            "heading": "Shipping & Delivery",
+            "icon": "truck",
+            "content": "<p><strong>Delivery: 2-3 days </strong>for orders within the National Capital Region (NCR) and <strong>5-7 days </strong>for orders outside the NCR, subject to courier availability and any unforeseen circumstances.</p>",
+            "page": ""
           }
         },
-        "text_WmbWAC": {
-          "type": "text",
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "<strong>Returns: </strong>30-days<strong> </strong>for unused items in original packaging with proof of purchase",
-            "text_style": "body"
-          }
-        },
-        "custom_liquid_MfiXzE": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'product-redirect'%}"
+            "heading": "Returns",
+            "icon": "return",
+            "content": "<p><strong>Refund & Returns: </strong>30-days for unused items in original packaging with proof of purchase</p>",
+            "page": ""
           }
         },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "custom_liquid_MfiXzE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'product-redirect'%}"
           }
         }
       },
@@ -114,10 +118,10 @@
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_7U8w9N",
-        "text_r9dfLr",
-        "text_WmbWAC",
-        "custom_liquid_MfiXzE",
-        "share"
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "share",
+        "custom_liquid_MfiXzE"
       ],
       "custom_css": [
         ".thumbnail-list li {border: 1px solid var(--custom-color-primary); border-radius: 5px;}",
