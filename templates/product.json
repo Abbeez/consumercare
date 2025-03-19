@@ -107,6 +107,13 @@
           "settings": {
             "custom_liquid": "{% render 'product-redirect'%}"
           }
+        },
+        "popup_ta4g9i": {
+          "type": "popup",
+          "settings": {
+            "text": "Contact us for wholesale orders",
+            "page": "bulk-order"
+          }
         }
       },
       "block_order": [
@@ -123,7 +130,8 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "custom_liquid_MfiXzE"
+        "custom_liquid_MfiXzE",
+        "popup_ta4g9i"
       ],
       "settings": {
         "enable_sticky_info": true,
