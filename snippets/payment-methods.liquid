@@ -1,0 +1,32 @@
+<!-- Payment Methods -->
+{% style %}
+   .payment-method {text-align:center;}
+  .payment-method ul {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding:0;
+      display: flex;
+      gap: 5px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:center;
+  }
+
+  .payment-method ul li{
+    list-style-type:none;
+    /* min-width: 35px; */
+  }
+
+  .payment-method ul li img{
+    width:100%;
+  }
+{% endstyle %}
+<div class="payment-method">
+  <h3>Payment Methods</h3>
+  <ul>
+    {% for item in shop.metaobjects.payment_methods.values %}
+      <li><img src="{{ item.photo | img_url: '300x300' }}" alt="{{ item.title }}"></li>
+    {% endfor %}
+  </ul>
+</div>
+<!-- End Payment -->
