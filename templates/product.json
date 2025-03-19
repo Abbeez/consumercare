@@ -233,6 +233,24 @@
         "padding_bottom": 20
       }
     },
+    "custom_banner_YRBiLe": {
+      "type": "custom-banner",
+      "blocks": {
+        "image_AA4Xzq": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/Porma_Products.webp",
+            "alt_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AA4Xzq"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -255,6 +273,7 @@
   "order": [
     "main",
     "custom_collection_grid_MXM3AL",
+    "custom_banner_YRBiLe",
     "related-products"
   ]
 }
