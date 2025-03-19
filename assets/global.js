@@ -1303,64 +1303,64 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Popup Purchase
 
-document.addEventListener("DOMContentLoaded", function () {
-    const popup = document.getElementById("fake-purchase-popup");
-    const popupLink = document.getElementById("popup-link");
-    const popupImage = document.getElementById("popup-image");
-    const popupName = document.getElementById("popup-name");
-    const popupLocation = document.getElementById("popup-location");
-    const popupProduct = document.getElementById("popup-product");
-    const popupVendor = document.getElementById("popup-vendor");
-    const popupTime = document.getElementById("popup-time");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const popup = document.getElementById("fake-purchase-popup");
+//     const popupLink = document.getElementById("popup-link");
+//     const popupImage = document.getElementById("popup-image");
+//     const popupName = document.getElementById("popup-name");
+//     const popupLocation = document.getElementById("popup-location");
+//     const popupProduct = document.getElementById("popup-product");
+//     const popupVendor = document.getElementById("popup-vendor");
+//     const popupTime = document.getElementById("popup-time");
 
-    // Fake customer names and Philippine locations
-    const customers = ["John D.", "Maria S.", "Carlos V.", "Jenny A.", "Mark C.", "Ella G.", "Kevin B.", "Sarah L."];
-    const locations = ["Quezon City", "Manila", "Cebu", "Davao", "Makati", "Pasig", "Taguig", "Cavite", "Baguio", "Batangas"];
+//     // Fake customer names and Philippine locations
+//     const customers = ["John D.", "Maria S.", "Carlos V.", "Jenny A.", "Mark C.", "Ella G.", "Kevin B.", "Sarah L."];
+//     const locations = ["Quezon City", "Manila", "Cebu", "Davao", "Makati", "Pasig", "Taguig", "Cavite", "Baguio", "Batangas"];
 
-    let products = []; // Store products from Shopify
+//     let products = []; // Store products from Shopify
 
-    // Fetch real products from Shopify
-    fetch("/products.json")
-        .then(response => response.json())
-        .then(data => {
-            products = data.products; // Store products in array
-        });
+//     // Fetch real products from Shopify
+//     fetch("/products.json")
+//         .then(response => response.json())
+//         .then(data => {
+//             products = data.products; // Store products in array
+//         });
 
-    function getRandomTimeAgo() {
-        const hoursAgo = Math.floor(Math.random() * 12) + 1; // Random 1-12 hours ago
-        return `${hoursAgo} hour${hoursAgo > 1 ? "s" : ""} ago`;
-    }
+//     function getRandomTimeAgo() {
+//         const hoursAgo = Math.floor(Math.random() * 12) + 1; // Random 1-12 hours ago
+//         return `${hoursAgo} hour${hoursAgo > 1 ? "s" : ""} ago`;
+//     }
 
-    function showFakePurchase() {
-        if (products.length === 0) return; // Wait until products are loaded
+//     function showFakePurchase() {
+//         if (products.length === 0) return; // Wait until products are loaded
 
-        const randomCustomer = customers[Math.floor(Math.random() * customers.length)];
-        const randomLocation = locations[Math.floor(Math.random() * locations.length)];
-        const randomProduct = products[Math.floor(Math.random() * products.length)];
+//         const randomCustomer = customers[Math.floor(Math.random() * customers.length)];
+//         const randomLocation = locations[Math.floor(Math.random() * locations.length)];
+//         const randomProduct = products[Math.floor(Math.random() * products.length)];
 
-        popupName.textContent = randomCustomer;
-        popupLocation.textContent = randomLocation;
-        popupProduct.textContent = randomProduct.title;
-        popupVendor.textContent = randomProduct.vendor;
-        popupImage.src = randomProduct.images.length > 0 ? randomProduct.images[0].src : "https://via.placeholder.com/50";
-        popupTime.textContent = getRandomTimeAgo();
+//         popupName.textContent = randomCustomer;
+//         popupLocation.textContent = randomLocation;
+//         popupProduct.textContent = randomProduct.title;
+//         popupVendor.textContent = randomProduct.vendor;
+//         popupImage.src = randomProduct.images.length > 0 ? randomProduct.images[0].src : "https://via.placeholder.com/50";
+//         popupTime.textContent = getRandomTimeAgo();
 
-        popupLink.href = randomProduct.handle ? `/products/${randomProduct.handle}` : "#";
+//         popupLink.href = randomProduct.handle ? `/products/${randomProduct.handle}` : "#";
 
-        popup.style.display = "flex";
+//         popup.style.display = "flex";
 
-        // Hide after 5 seconds
-        setTimeout(() => {
-            popup.style.display = "none";
-        }, 5000);
-    }
+//         // Hide after 5 seconds
+//         setTimeout(() => {
+//             popup.style.display = "none";
+//         }, 5000);
+//     }
 
-    // Show fake purchases every 10 seconds
-    setInterval(showFakePurchase, 15000);
+//     // Show fake purchases every 10 seconds
+//     setInterval(showFakePurchase, 15000);
 
-    // Show the first popup after 3 seconds
-    setTimeout(showFakePurchase, 3000);
-});
+//     // Show the first popup after 3 seconds
+//     setTimeout(showFakePurchase, 3000);
+// });
 
 // ===========================
 
