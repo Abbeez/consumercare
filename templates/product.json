@@ -75,56 +75,30 @@
             "custom_liquid": "{% render 'single-product-wholesale' %}"
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
+        "text_r9dfLr": {
+          "type": "text",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
+            "text": "<strong>Delivery:</strong> <strong> 2-3 days</strong> for orders within the National Capital Region (NCR) and <strong>5-7 days</strong> for orders outside the NCR, subject to courier availability and any unforeseen circumstances.",
+            "text_style": "body"
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
+        "text_WmbWAC": {
+          "type": "text",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "text": "<strong>Returns: </strong>30-days<strong> </strong>for unused items in original packaging with proof of purchase",
+            "text_style": "body"
           }
         },
         "custom_liquid_MfiXzE": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% render 'product-redirect'%}"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -140,12 +114,10 @@
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_7U8w9N",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share",
-        "custom_liquid_MfiXzE"
+        "text_r9dfLr",
+        "text_WmbWAC",
+        "custom_liquid_MfiXzE",
+        "share"
       ],
       "custom_css": [
         ".thumbnail-list li {border: 1px solid var(--custom-color-primary); border-radius: 5px;}",
