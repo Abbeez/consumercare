@@ -239,25 +239,6 @@
       "disabled": true,
       "settings": {}
     },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "columns_mobile": "2",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
     "about_the_brand_T9W7JL": {
       "type": "about-the-brand",
       "settings": {
@@ -275,7 +256,7 @@
         "collection": "{{ product.metafields.custom.related_collection.value }}",
         "products_to_show": 6,
         "title": "More from {{ product.vendor }}",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": true,
         "description_style": "body",
@@ -296,14 +277,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "main",
     "custom_collection_grid_MXM3AL",
     "custom_banner_YRBiLe",
-    "related-products",
     "about_the_brand_T9W7JL",
-    "featured_collection_rk6RCE"
+    "featured_collection_rk6RCE",
+    "related-products"
   ]
 }
