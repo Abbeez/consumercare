@@ -22,7 +22,7 @@
       "settings": {
         "theme-page--title": "Need a large quantity of our products? Whether for retail, corporate needs, or reselling, we offer competitive bulk pricing and exclusive deals.",
         "theme-page--description": "Bulk order & Wholesale",
-        "theme-title--center": true,
+        "theme-title--center": false,
         "theme-text-color": false,
         "theme-page--background": "shopify://shop_images/CCPI_Page_Title_2.png"
       }
@@ -100,7 +100,7 @@
             "links_color": "#1878B9",
             "errors_color": "#E02229",
             "text_alignment": "center",
-            "form_alignment": "center",
+            "form_alignment": "flex-start",
             "padding_top": 64,
             "padding_bottom": 64,
             "padding_right": 0,
@@ -111,6 +111,7 @@
       "block_order": [
         "forms_inline_DJNGCm"
       ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
@@ -205,7 +206,7 @@
         "open_first_collapsible_row": false,
         "image": "shopify://shop_images/Bulk_Order_CCPI.png",
         "image_ratio": "adapt",
-        "desktop_layout": "image_second",
+        "desktop_layout": "image_first",
         "padding_top": 80,
         "padding_bottom": 0
       }
