@@ -273,7 +273,8 @@
     "featured_collection_rk6RCE": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title {text-align: center;}"
+        ".collection__title {text-align: center;}",
+        ".product-grid {justify-content:center;}"
       ],
       "settings": {
         "collection": "{{ product.metafields.custom.related_collection.value }}",
