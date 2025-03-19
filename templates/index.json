@@ -326,7 +326,7 @@
           "settings": {
             "heading": "How long does shipping take?",
             "icon": "check_mark",
-            "row_content": "<p>Shipping times vary depending on your location and the platform from which you order. Shopee, Lazada, and TikTok provide estimated delivery times at checkout. For orders placed on our website, the delivery time will also be indicated at checkout.</p>",
+            "row_content": "<p>Shipping times vary based on your location and the platform you order from. Shopee, Lazada, and TikTok display estimated delivery times at checkout. For orders placed on our website, the estimated delivery time will also be shown at checkout: <strong>2-3 days for Metro Manila and 5-7 days for areas outside Metro Manila.</strong></p>",
             "page": ""
           }
         },
