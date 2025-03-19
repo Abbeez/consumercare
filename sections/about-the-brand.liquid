@@ -36,7 +36,7 @@
 
   {% if brand != blank %}
     <div
-      class="brand-info"
+      class="brand-info page-width"
       style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;"
     >
       <div class="brand-logo">
@@ -53,7 +53,6 @@
         display: flex;
         align-items: center;
         gap: 20px; /* Space between columns */
-        max-width: 800px; /* Adjust width as needed */
         margin: 0 auto; /* Center align */
       }
 
@@ -69,11 +68,9 @@
 
       .brand-details h2 {
         margin: 0 0 10px;
-        font-size: 24px;
       }
 
       .brand-details p {
-        font-size: 16px;
         color: #666;
       }
 
