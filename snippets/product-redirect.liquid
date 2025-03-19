@@ -1,0 +1,45 @@
+{% style %}
+      .shop-redirect {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap:15px;
+      }
+        .shop-redirect h3 {
+        width:100%;
+        margin:0;
+      }
+      .shop-redirect div {
+      max-width: 110px;
+      padding:8px 16px;
+      border:1px solid #c3c3c3;
+      border-radius:4px;
+      transition: all 0.5s;
+  }
+
+        .shop-redirect div:hover {
+      transform: translateY(-5px);
+  }
+{% endstyle %}
+
+{% assign shopee_link = product.metafields.custom.shopee_redirect.value.url %}
+{% assign lazada_link = product.metafields.custom.lazada_redirect.value.url %}
+
+<div class="shop-redirect">
+  <h3 class="">Also available on</h3>
+  <div class="shopee-redirect">
+    <a
+      href="{% if shopee_link %}{{ shopee_link }}{% else %} https://shopee.ph/shop/1473336486{% endif %}"
+      target="_blank"
+      ><img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Shopee.png?v=1741621034"
+    ></a>
+  </div>
+  <div class="lazada-redirect">
+    <a
+      href="{% if lazada_link %}{{ lazada_link }}{% else %} https://www.lazada.com.ph/shop/tatara{% endif %}"
+      target="_blank"
+      ><img src="https://cdn.shopify.com/s/files/1/0742/3521/6090/files/Tatara_-_Lazada.png?v=1741621034"
+    ></a>
+  </div>
+</div>
