@@ -62,6 +62,12 @@
             "custom_liquid": "{% render 'single-product-wholesale' %}"
           }
         },
+        "custom_liquid_GThaYV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.variants.size > 1 %}\n  <div class=\"barcode-list\">\n    {% for variant in product.variants %}\n      {% if variant.barcode != blank %}\n        <span data-barcode=\"{{ variant.id }}\" {% if forloop.first %}style=\"display:inline;\"{% else %}style=\"display:none;\"{% endif %}>\n          <strong>Variant:</strong>{{ variant.title }} - <strong>Item Code:</strong> {{ variant.barcode }}\n        </span>\n      {% endif %}\n    {% endfor %}\n  </div>\n\n  {% else %}\n  {% if product.variants.first.barcode != blank %}\n    <div class=\"barcode-list\">\n      <span><strong>Item Code:</strong> {{ product.variants.first.barcode }}</span>\n    </div>\n  {% endif %}\n{% endif %}\n\n<style>\n  .barcode-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    align-items: center;\n    font-size: 14px;\n  }\n  .barcode-list span {\n    border-radius: 5px;\n  }\n</style>"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -125,6 +131,7 @@
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_7U8w9N",
+        "custom_liquid_GThaYV",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
