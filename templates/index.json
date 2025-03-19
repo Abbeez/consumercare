@@ -62,8 +62,8 @@
         "column_DG9BFR": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Free Shipping to greater Metro Mania. With min. spend of PHP 1000</p>",
+            "title": "Reliable Delivery ",
+            "text": "<p>Get your orders delivered quickly and with care. We ensure speed and reliability for your peace of mind.</p>",
             "link_label": "",
             "link": ""
           }
@@ -253,9 +253,9 @@
       "settings": {
         "collection": "mototek",
         "products_to_show": 10,
-        "title": "",
+        "title": "<strong>Maintain Peak Vehicle Performancewith Mototek</strong>",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Mototek offers premium chain lubes, cleaners, penetrating oils, and radiator coolants to keep your vehicle conditioned for every drive.</p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 5,
