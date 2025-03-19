@@ -133,7 +133,7 @@
         "custom_liquid_MfiXzE"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "media_size": "small",
         "constrain_to_viewport": true,
