@@ -74,6 +74,15 @@
             "alt_text": "",
             "link": "shopify://collections/kwik"
           }
+        },
+        "image_t3BUAz": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/ambree-01.png",
+            "mobileimage": "shopify://shop_images/Ambree_Product_Collection.webp",
+            "alt_text": "",
+            "link": "shopify://collections/ambree"
+          }
         }
       },
       "block_order": [
@@ -83,7 +92,8 @@
         "image_KbTjBt",
         "image_GMLMK8",
         "image_k8AMcD",
-        "image_fYDKpc"
+        "image_fYDKpc",
+        "image_t3BUAz"
       ],
       "settings": {}
     },
