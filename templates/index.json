@@ -21,6 +21,15 @@
             "link": "shopify://collections/solbac"
           }
         },
+        "image_kd8tQw": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/guard-01-01.png",
+            "mobileimage": "shopify://shop_images/Guard_Product_Collection.webp",
+            "alt_text": "",
+            "link": "shopify://collections/guard"
+          }
+        },
         "image_L3p4t7": {
           "type": "image",
           "settings": {
@@ -57,23 +66,24 @@
             "link": "shopify://collections/all"
           }
         },
-        "image_kd8tQw": {
+        "image_fYDKpc": {
           "type": "image",
           "settings": {
-            "desktopimage": "shopify://shop_images/guard-01-01.png",
-            "mobileimage": "shopify://shop_images/Guard_Product_Collection.webp",
+            "desktopimage": "shopify://shop_images/kwik-01.png",
+            "mobileimage": "shopify://shop_images/KWiK_Product_Collection_103edddf-4a4e-4cd2-9667-34565274056c.webp",
             "alt_text": "",
-            "link": "shopify://collections/guard"
+            "link": "shopify://collections/kwik"
           }
         }
       },
       "block_order": [
         "image_XaJnCA",
+        "image_kd8tQw",
         "image_L3p4t7",
         "image_KbTjBt",
         "image_GMLMK8",
         "image_k8AMcD",
-        "image_kd8tQw"
+        "image_fYDKpc"
       ],
       "settings": {}
     },
