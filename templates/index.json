@@ -51,7 +51,7 @@
         "image_k8AMcD": {
           "type": "image",
           "settings": {
-            "desktopimage": "shopify://shop_images/CCPI_BANNER_1-04.webp",
+            "desktopimage": "shopify://shop_images/ConsumerCare_Item.webp",
             "mobileimage": "shopify://shop_images/Consumercare_Product_Collections.webp",
             "alt_text": "",
             "link": "shopify://collections/all"
