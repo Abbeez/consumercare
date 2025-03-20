@@ -83,6 +83,15 @@
             "alt_text": "",
             "link": "shopify://collections/ambree"
           }
+        },
+        "image_frn9wW": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/splenda-01-01-01.png",
+            "mobileimage": "shopify://shop_images/Splenda_Product_Collection.webp",
+            "alt_text": "",
+            "link": "shopify://collections/splenda"
+          }
         }
       },
       "block_order": [
@@ -93,7 +102,8 @@
         "image_GMLMK8",
         "image_k8AMcD",
         "image_fYDKpc",
-        "image_t3BUAz"
+        "image_t3BUAz",
+        "image_frn9wW"
       ],
       "settings": {}
     },
