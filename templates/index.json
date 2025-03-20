@@ -92,6 +92,15 @@
             "alt_text": "",
             "link": "shopify://collections/splenda"
           }
+        },
+        "image_qNKANV": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/clareo-01-01.png",
+            "mobileimage": "shopify://shop_images/Clareo_Product_Collection.webp",
+            "alt_text": "",
+            "link": "shopify://collections/clareo"
+          }
         }
       },
       "block_order": [
@@ -103,7 +112,8 @@
         "image_k8AMcD",
         "image_fYDKpc",
         "image_t3BUAz",
-        "image_frn9wW"
+        "image_frn9wW",
+        "image_qNKANV"
       ],
       "settings": {}
     },
