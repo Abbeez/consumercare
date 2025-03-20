@@ -56,6 +56,15 @@
             "alt_text": "",
             "link": "shopify://collections/all"
           }
+        },
+        "image_kd8tQw": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/guard-01-01.png",
+            "mobileimage": "shopify://shop_images/Guard_Product_Collection.webp",
+            "alt_text": "",
+            "link": "shopify://collections/guard"
+          }
         }
       },
       "block_order": [
@@ -63,7 +72,8 @@
         "image_L3p4t7",
         "image_KbTjBt",
         "image_GMLMK8",
-        "image_k8AMcD"
+        "image_k8AMcD",
+        "image_kd8tQw"
       ],
       "settings": {}
     },
