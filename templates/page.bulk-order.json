@@ -159,9 +159,7 @@
         "collapsible_row_ckjFdm",
         "collapsible_row_pggeKf"
       ],
-      "custom_css": [
-        ".collapsible-content__wrapper {margin-bottom: -48px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "caption": "Frequently Asked Questions (FAQ)",
         "heading": "Most Common Bulk Order Questions",
