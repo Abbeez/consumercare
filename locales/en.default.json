@@ -537,10 +537,10 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "free_rate_label": "To be announced"
+        "free_rate_label": "Free"
       },
       "order_summary": {
-        "free_shipping_total_label": "To be announced"
+        "free_shipping_total_label": "Free"
       }
     }
   }
