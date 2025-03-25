@@ -83,6 +83,15 @@
             "row_content": "<p>If you have any issues with your order, please reach out to the seller through Shopee, Lazada, or TikTok for assistance. For Shopify orders, kindly <strong>contact us</strong> directly.</p><p>Let me know if you'd like any adjustments!</p>",
             "page": ""
           }
+        },
+        "collapsible_row_Ey6TH7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I have concern where do I contact you?",
+            "icon": "check_mark",
+            "row_content": "<p>If you have any concern you can connect with us via:</p><ul><li><strong>Email: c</strong>cpibgephilippines@gmail.com</li><li><strong>Phone:</strong> 0917 706 7533</li></ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -91,11 +100,10 @@
         "collapsible_row_btAeHJ",
         "collapsible_row_E8pdnG",
         "collapsible_row_ENrQy4",
-        "collapsible_row_nPVc3e"
+        "collapsible_row_nPVc3e",
+        "collapsible_row_Ey6TH7"
       ],
-      "custom_css": [
-        ".collapsible-content__wrapper {margin-bottom: -48px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "caption": "",
         "heading": "",
