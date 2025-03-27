@@ -122,8 +122,7 @@
         "share"
       ],
       "custom_css": [
-        ".thumbnail-list li {border: 1px solid var(--custom-color-primary); border-radius: 5px;}",
-        ".product__media {border: 1px solid var(--custom-color-primary); border-radius: 5px;}"
+        ".thumbnail-list li {border: 1px solid var(--custom-color-primary); border-radius: 5px;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -136,7 +135,7 @@
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": true,
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
       }
