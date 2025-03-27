@@ -123,7 +123,7 @@
       ],
       "custom_css": [
         ".thumbnail-list li {border: 1px solid var(--custom-color-primary); border-radius: 5px;}",
-        ".product__media {border: 1px solid var(--custom-color-primary); border-radius: 5px;}"
+        ".product__media {border: 1px solid var(--custom-color-primary); border-radius: 5px; min-width:100%;}"
       ],
       "settings": {
         "enable_sticky_info": false,
