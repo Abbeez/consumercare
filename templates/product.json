@@ -47,6 +47,7 @@
         },
         "custom_liquid_GThaYV": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.variants.size > 1 %}\n  <div class=\"barcode-list\">\n    {% for variant in product.variants %}\n      {% if variant.barcode != blank %}\n        <span data-barcode=\"{{ variant.id }}\" {% if forloop.first %}style=\"display:inline;\"{% else %}style=\"display:none;\"{% endif %}>\n          <strong>Variant:</strong>{{ variant.title }} - <strong>Item Code:</strong> {{ variant.barcode }}\n        </span>\n      {% endif %}\n    {% endfor %}\n  </div>\n\n  {% else %}\n  {% if product.variants.first.barcode != blank %}\n    <div class=\"barcode-list\">\n      <span><strong>Item Code:</strong> {{ product.variants.first.barcode }}</span>\n    </div>\n  {% endif %}\n{% endif %}\n\n<style>\n  .barcode-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    align-items: center;\n    font-size: 14px;\n  }\n  .barcode-list span {\n    border-radius: 5px;\n  }\n</style>"
           }
