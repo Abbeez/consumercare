@@ -126,7 +126,7 @@
           "type": "column",
           "settings": {
             "title": "Official Store",
-            "text": "<p>Shop only in Consumer Care Product's official store with wide variety of items.</p>",
+            "text": "<p>Shop only in Consumer Care Products, Incorporated’s official store with wide variety of items.</p>",
             "link_label": "",
             "link": ""
           }
@@ -153,7 +153,7 @@
           "type": "column",
           "settings": {
             "title": "Guaranteed Original",
-            "text": "<p>Consumer Care Products guarantees the brand and product's authenticity</p>",
+            "text": "<p>Consumer Care Products, Incorporated  guarantees the brand and product's authenticity</p>",
             "link_label": "",
             "link": ""
           }
