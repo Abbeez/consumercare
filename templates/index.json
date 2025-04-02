@@ -360,9 +360,9 @@
         "collapsible_row_kQjywx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Where can I find Consumer Care brands and products?",
+            "heading": "Where can I find the brands and products of Consumer Care Products, Incorporated?",
             "icon": "check_mark",
-            "row_content": "<p>Consumer Care products are available through our official website and official stores on Shopee (@<a href=\"https://shopee.ph/consumercareproducts?categoryId=100636&entryPoint=ShopByPDP&itemId=22148743075\"><span style=\"text-decoration:underline\">consumercareproductsinc.</span></a>), Lazada (@<a href=\"https://www.lazada.com.ph/shop/consumer-care-products-inc/\"><span style=\"text-decoration:underline\">consumercareproductsinc.</span></a>), and TikTok Shop (@<a href=\"https://www.tiktok.com/@kwik.ph\"><span style=\"text-decoration:underline\">kwik.ph</span></a>).</p>",
+            "row_content": "<p>Consumer Care Products, Incorporated. are available through our official website and official stores on Shopee (@<a href=\"https://shopee.ph/consumercareproducts?categoryId=100636&entryPoint=ShopByPDP&itemId=22148743075\"><span style=\"text-decoration:underline\">consumercareproductsinc.</span></a>), Lazada (@<a href=\"https://www.lazada.com.ph/shop/consumer-care-products-inc/\"><span style=\"text-decoration:underline\">consumercareproductsinc.</span></a>), and TikTok Shop (@<a href=\"https://www.tiktok.com/@kwik.ph\"><span style=\"text-decoration:underline\">kwik.ph</span></a>).</p>",
             "page": ""
           }
         },
@@ -371,7 +371,7 @@
           "settings": {
             "heading": "What are your available payment methods?",
             "icon": "check_mark",
-            "row_content": "<p>What are your available payment methods?</p><ul><li><strong>Credit & Debit Cards</strong> – Mastercard, VISA</li><li><strong>E-Wallets</strong> – GCash, GrabPay, Maya</li><li><strong>Online Banking</strong> – BPI, RCBC, UnionBank</li><li><strong>Alternative Payment Options</strong> – BillEase, Cebuana Lhuillier</li></ul>",
+            "row_content": "<p><strong>Credit & Debit Cards</strong> – Mastercard, VISA<br/><strong>E-Wallets</strong> – GCash, GrabPay, Maya<br/><strong>Online Banking</strong> – BPI, RCBC, UnionBank<br/><strong>Alternative Payment Options</strong> – BillEase, Cebuana Lhuillier</p>",
             "page": ""
           }
         },
@@ -389,7 +389,7 @@
           "settings": {
             "heading": "Do you accept bulk or wholesale orders?",
             "icon": "check_mark",
-            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please contact us directly for pricing and special arrangements</p>",
+            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please contact us directly for pricing and special arrangements.<br/><br/>Consumer Care Products, Incorporated<br/>📱<strong>0917 706 7533 </strong><br/></p>",
             "page": ""
           }
         },
@@ -401,16 +401,6 @@
             "row_content": "<p>Shipping times vary based on your location and the platform you order from. Shopee, Lazada, and TikTok display estimated delivery times at checkout. For orders placed on our website, the estimated delivery time will also be shown at checkout: <strong>2-3 days for Metro Manila and 5-7 days for areas outside Metro Manila.</strong></p>",
             "page": ""
           }
-        },
-        "collapsible_row_K3NxYY": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "What should I do if I receive a damaged or incorrect item?",
-            "icon": "check_mark",
-            "row_content": "<p>If you have any issues with your order, please reach out to the seller through Shopee, Lazada, or TikTok for assistance. For Shopify orders, kindly <strong>contact us</strong> directly.</p><p>Let me know if you'd like any adjustments! 🚀😊</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -418,8 +408,7 @@
         "collapsible_row_mmCaGW",
         "collapsible_row_Gi6XFA",
         "collapsible_row_ipKezU",
-        "collapsible_row_yJjCPw",
-        "collapsible_row_K3NxYY"
+        "collapsible_row_yJjCPw"
       ],
       "settings": {
         "caption": "Frequently Asked Questions (FAQs)",
@@ -552,306 +541,6 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "image_with_text_3kcxWX": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_eHkNDC": {
-          "type": "caption",
-          "settings": {
-            "caption": "Shop with: Ambree, Solbac",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_X8heb7": {
-          "type": "heading",
-          "settings": {
-            "heading": "Refresh Your Space with Long-Lasting Freshness",
-            "heading_size": "h1"
-          }
-        },
-        "text_zirPMG": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Create a clean and inviting atmosphere with our premium fresheners. Whether for your home, car, or workspace, our fresheners eliminate odors and leave behind a pleasant, lasting fragrance. Breathe in freshness every day! </p>",
-            "text_style": "body"
-          }
-        },
-        "button_apLQ3A": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Air Freshners",
-            "button_link": "shopify://collections/ambree",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "caption_eHkNDC",
-        "heading_X8heb7",
-        "text_zirPMG",
-        "button_apLQ3A"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Consumers_93a13c47-bc6c-4a4f-8838-41ac0be388c3.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_bm8Xiz": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_K4bYJr": {
-          "type": "caption",
-          "settings": {
-            "caption": "Shop with: KwIk, Solbac",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_Bn3bVF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Protect Your Home with Powerful Insect Control",
-            "heading_size": "h1"
-          }
-        },
-        "text_LGhMDw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Keep your space pest-free with our effective insect control solutions. Designed to eliminate bugs and prevent infestations, our products provide long-lasting protection for a safer, cleaner home. Say goodbye to unwanted pests and enjoy peace of mind!</p>",
-            "text_style": "body"
-          }
-        },
-        "button_WRVmLk": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Insect Control Products",
-            "button_link": "shopify://collections/ambree",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "caption_K4bYJr",
-        "heading_Bn3bVF",
-        "text_LGhMDw",
-        "button_WRVmLk"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Family_Protection_Products_f0b5257a-0dbd-409e-907f-654520c9fa34.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_wtQ8Dm": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_XEM86g": {
-          "type": "caption",
-          "settings": {
-            "caption": "Shop with: VS1, Mototek",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_hBTg9k": {
-          "type": "heading",
-          "settings": {
-            "heading": "Keep Your Ride in Top Condition with Premium Motor Care",
-            "heading_size": "h1"
-          }
-        },
-        "text_ic9CNb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Enjoy instant and long-lasting aromas in your home with Ambree Air Freshener! Infused with natural fragrance oils, you’re sure to capture the essence of fresh fruits and flowers in any room.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_VjjqF6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse Motorcare Products",
-            "button_link": "shopify://collections/ambree",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "caption_XEM86g",
-        "heading_hBTg9k",
-        "text_ic9CNb",
-        "button_VjjqF6"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Motorcycle_Maintenance_747a1dde-7ba4-484a-9171-9b40cb4689df.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_dGLEMC": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_wfgzYh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shine with Antibacterial Protection!",
-            "heading_size": "h1"
-          }
-        },
-        "text_RTAiXN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Preserve your furnishings and refresh your space with a lemon scent. With antibacterial protection and special conditioners from Splenda Furniture Polish, you’re sure to have a lasting home that shines!</p>",
-            "text_style": "body"
-          }
-        },
-        "button_rJmjkM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Browse {{ metaobjects.brands.splenda.name.value }} Products",
-            "button_link": "shopify://collections/ambree",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wfgzYh",
-        "text_RTAiXN",
-        "button_rJmjkM"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Family_Protection_Products.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "image_behavior": "ambient",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-5",
-        "padding_top": 64,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_NWWRzy": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".title {text-align: center;}",
-        ".collection__description {text-align: center;}"
-      ],
-      "settings": {
-        "collection": "all-products",
-        "products_to_show": 12,
-        "title": "Top Picks for Your Everyday Needs",
-        "heading_size": "h1",
-        "description": "<p>Discover our best-selling and most trusted products designed to make your life easier. From home essentials to personal care and motor care solutions, our featured products deliver quality, reliability, and value for you and your family.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 6,
-        "enable_desktop_slider": true,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 64
-      }
-    },
-    "image_with_text_XcHJgm": {
-      "type": "image-with-text",
-      "blocks": {
-        "caption_RE9zaM": {
-          "type": "caption",
-          "settings": {
-            "caption": "Secure & Flexible Payment Options",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "heading_RnqBMy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Convenient Ways to Pay for a Hassle-Free Shopping Experience",
-            "heading_size": "h1"
-          }
-        },
-        "text_KDCLjm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We offer a variety of safe and reliable payment methods to make your shopping experience seamless. Choose from digital wallets, bank transfers, and credit or debit cards—no cash on delivery needed!</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "caption_RE9zaM",
-        "heading_RnqBMy",
-        "text_KDCLjm"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/CCPI_Motorcycle_Maintenance.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -865,12 +554,6 @@
     "featured_collection_enXjUU",
     "collapsible_content_ERkQMF",
     "rich_text",
-    "custom_collection_grid_q4VWbM",
-    "image_with_text_3kcxWX",
-    "image_with_text_bm8Xiz",
-    "image_with_text_wtQ8Dm",
-    "image_with_text_dGLEMC",
-    "featured_collection_NWWRzy",
-    "image_with_text_XcHJgm"
+    "custom_collection_grid_q4VWbM"
   ]
 }
