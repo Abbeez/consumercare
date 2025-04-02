@@ -12,8 +12,18 @@
     "custom_banner_xpbMry": {
       "type": "custom-banner",
       "blocks": {
+        "image_L3p4t7": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/Porma_Products.png",
+            "mobileimage": "shopify://shop_images/Porma_Mobile.png",
+            "alt_text": "",
+            "link": "shopify://collections/porma"
+          }
+        },
         "image_XaJnCA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "desktopimage": "shopify://shop_images/Solbac_Products.webp",
             "mobileimage": "shopify://shop_images/Solbac_Product_Collection.webp",
@@ -28,15 +38,6 @@
             "mobileimage": "shopify://shop_images/Guard_Product_Collection.webp",
             "alt_text": "",
             "link": "shopify://collections/guard"
-          }
-        },
-        "image_L3p4t7": {
-          "type": "image",
-          "settings": {
-            "desktopimage": "shopify://shop_images/Porma_Products.webp",
-            "mobileimage": "shopify://shop_images/Porma_Product_Collection.webp",
-            "alt_text": "",
-            "link": "shopify://collections/porma"
           }
         },
         "image_KbTjBt": {
@@ -106,9 +107,9 @@
         }
       },
       "block_order": [
+        "image_L3p4t7",
         "image_XaJnCA",
         "image_kd8tQw",
-        "image_L3p4t7",
         "image_KbTjBt",
         "image_GMLMK8",
         "image_k8AMcD",
