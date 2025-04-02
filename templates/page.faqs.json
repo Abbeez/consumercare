@@ -35,7 +35,7 @@
           "settings": {
             "heading": "Where can I buy your products?",
             "icon": "none",
-            "row_content": "<p>You can purchase our products through our<strong>official Shopify store</strong>, as well as on<strong>Shopee, Lazada, and TikTok Shop</strong>.</p>",
+            "row_content": "<p>You can purchase our products through our official Shopify store, as well as on <strong>Shopee</strong>(@consumercareproductsinc.), <strong>Lazada</strong>(@consumercareproductsinc.), and <strong>TikTok Shop</strong>(@kwik.ph).</p>",
             "page": ""
           }
         },
@@ -44,7 +44,7 @@
           "settings": {
             "heading": "What are your available payment methods?",
             "icon": "none",
-            "row_content": "<p>We accept a variety of payment options, including:<br/><br/>✅ BillEase<br/>✅ Cebuana Lhuillier<br/>✅ GCash<br/>✅ GrabPay<br/>✅ BPI<br/>✅ Mastercard<br/>✅ Maya<br/>✅ RCBC<br/>✅ UnionBank<br/>✅ VIS</p>",
+            "row_content": "<p><strong>Credit & Debit Cards</strong>– Mastercard, VISA<br/><strong>E-Wallets</strong>– GCash, GrabPay, Maya<br/><strong>Online Banking</strong>– BPI, RCBC, UnionBank<br/><strong>Alternative Payment Options</strong>– BillEase, Cebuana Lhuillier</p>",
             "page": ""
           }
         },
@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Do you accept bulk or wholesale orders?",
             "icon": "none",
-            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please<strong>contact us</strong>directly for pricing and special arrangements.</p>",
+            "row_content": "<p>Yes! We accept bulk and wholesale orders. Please <strong>contact us </strong>directly for pricing and special arrangements. </p>",
             "page": ""
           }
         },
@@ -71,7 +71,7 @@
           "settings": {
             "heading": "How long does shipping take?",
             "icon": "none",
-            "row_content": "<p>Shipping times vary depending on your location and the platform you order from. Shopee, Lazada, and TikTok provide estimated delivery times at checkout. For Shopify orders, delivery time will be indicated at checkout as well.</p>",
+            "row_content": "<p>Shipping times vary depending on your location and the platform you order from. Shopee, Lazada, TikTok and Shopify provide estimated delivery<br/>times at checkout. </p>",
             "page": ""
           }
         },
@@ -80,16 +80,16 @@
           "settings": {
             "heading": "What should I do if I receive a damaged or incorrect item?",
             "icon": "none",
-            "row_content": "<p>If you have any issues with your order, please reach out to the seller through Shopee, Lazada, or TikTok for assistance. For Shopify orders, kindly <strong>contact us</strong> directly.</p><p>Let me know if you'd like any adjustments!</p>",
+            "row_content": "<p>If you have any issues with your order, please reach out to the seller through Shopee, Lazada, or TikTok for assistance. For Shopify orders, kindly <strong>contact us</strong> directly.</p>",
             "page": ""
           }
         },
         "collapsible_row_Ey6TH7": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "If I have concern where do I contact you?",
+            "heading": "If I have a concern, where do Icontact you?",
             "icon": "check_mark",
-            "row_content": "<p>If you have any concern you can connect with us via email or phone but you can also message to through our chatbox:</p><ul><li><strong>Email: </strong>ccpibgephilippines@gmail.com</li><li><strong>Phone:</strong> 0917 706 7533</li></ul>",
+            "row_content": "<p>If you have any concern you can connect with us via email or phone but you can also message through our chatbox:</p><ul><li><strong>Email: </strong>ccpibgephilippines@gmail.com</li><li><strong>Phone:</strong> 0917 706 7533</li></ul>",
             "page": ""
           }
         }
