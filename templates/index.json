@@ -40,26 +40,6 @@
             "link": "shopify://collections/guard"
           }
         },
-        "image_KbTjBt": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "desktopimage": "shopify://shop_images/Consumercare_Mototek_Products.webp",
-            "mobileimage": "shopify://shop_images/Mototek_Product_Collection.webp",
-            "alt_text": "",
-            "link": "shopify://collections/mototek"
-          }
-        },
-        "image_GMLMK8": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "desktopimage": "shopify://shop_images/Consumercare_VS1_Products.webp",
-            "mobileimage": "shopify://shop_images/VS1_Consumercare.webp",
-            "alt_text": "",
-            "link": "shopify://collections/vs1"
-          }
-        },
         "image_k8AMcD": {
           "type": "image",
           "settings": {
@@ -110,8 +90,6 @@
         "image_L3p4t7",
         "image_XaJnCA",
         "image_kd8tQw",
-        "image_KbTjBt",
-        "image_GMLMK8",
         "image_k8AMcD",
         "image_fYDKpc",
         "image_t3BUAz",
@@ -257,8 +235,8 @@
         "image_fgNMfg": {
           "type": "image",
           "settings": {
-            "desktopimage": "shopify://shop_images/Consumercare_VS1_Products.webp",
-            "mobileimage": "shopify://shop_images/VS1_Consumercare.webp",
+            "desktopimage": "shopify://shop_images/mototekxvs1-02-desktop_1.png",
+            "mobileimage": "shopify://shop_images/mototekxvs1-mobile-03_1.png",
             "alt_text": "",
             "link": "shopify://collections/vs1"
           }
@@ -278,7 +256,7 @@
         ".collection__title {text-align: center;}"
       ],
       "settings": {
-        "collection": "vs1",
+        "collection": "motor-care",
         "products_to_show": 10,
         "title": "<strong>Keep Your Ride Sleek and Protected with VS1</strong>",
         "heading_size": "h1",
@@ -308,6 +286,7 @@
       "blocks": {
         "image_tRpdWx": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "desktopimage": "shopify://shop_images/Consumercare_Mototek_Products.webp",
             "mobileimage": "shopify://shop_images/Mototek_Product_Collection.webp",
@@ -319,6 +298,7 @@
       "block_order": [
         "image_tRpdWx"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner-slider {margin-bottom: 60px;}"
       ],
@@ -326,6 +306,7 @@
     },
     "featured_collection_enXjUU": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".collection__title {text-align: center;}"
       ],
