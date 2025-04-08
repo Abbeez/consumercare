@@ -145,7 +145,7 @@
           "settings": {
             "heading": "What if I need help choosing the right products?",
             "icon": "none",
-            "row_content": "<p>Not sure what you need? Our team can help you find the perfect products for your business </p>",
+            "row_content": "<p>Not sure what you need? Our team can help you find the perfect products for your business.<a href=\"https://shopccpi.com/pages/contact\" title=\"https://shopccpi.com/pages/contact\"> Click Here.</a></p>",
             "page": ""
           }
         }
