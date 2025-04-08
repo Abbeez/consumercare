@@ -88,7 +88,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "If I have a concern, where do Icontact you?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>If you have any concern you can connect with us via email or phone but you can also message through our chatbox:</p><ul><li><strong>Email: </strong>ccpibgephilippines@gmail.com</li><li><strong>Phone:</strong> 0917 706 7533</li></ul>",
             "page": ""
           }
