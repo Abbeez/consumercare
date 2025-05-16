@@ -12,6 +12,15 @@
     "custom_banner_xpbMry": {
       "type": "custom-banner",
       "blocks": {
+        "image_XaJnCA": {
+          "type": "image",
+          "settings": {
+            "desktopimage": "shopify://shop_images/VS1_Lite_Web_Banner_1920x600_px-01.webp",
+            "mobileimage": "shopify://shop_images/VS1_Lite_Web_Banner_1920x600_px-02.webp",
+            "alt_text": "",
+            "link": "shopify://collections/vs1"
+          }
+        },
         "image_L3p4t7": {
           "type": "image",
           "settings": {
@@ -19,16 +28,6 @@
             "mobileimage": "shopify://shop_images/Porma_Mobile.png",
             "alt_text": "",
             "link": "shopify://collections/porma"
-          }
-        },
-        "image_XaJnCA": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "desktopimage": "shopify://shop_images/VS1_Lite_Web_Banner_1920x600_px-01.webp",
-            "mobileimage": "shopify://shop_images/VS1_Lite_Web_Banner_1920x600_px-02.webp",
-            "alt_text": "",
-            "link": "shopify://collections/vs1"
           }
         },
         "image_kd8tQw": {
@@ -87,8 +86,8 @@
         }
       },
       "block_order": [
-        "image_L3p4t7",
         "image_XaJnCA",
+        "image_L3p4t7",
         "image_kd8tQw",
         "image_k8AMcD",
         "image_fYDKpc",
