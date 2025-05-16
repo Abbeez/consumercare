@@ -25,10 +25,10 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "desktopimage": "shopify://shop_images/Solbac_Products.webp",
-            "mobileimage": "shopify://shop_images/Solbac_Product_Collection.webp",
+            "desktopimage": "shopify://shop_images/VS1_Lite_Web_Banner_1920x600_px-01.webp",
+            "mobileimage": "shopify://shop_images/VS1_Lite_Web_Banner_1920x600_px-02.webp",
             "alt_text": "",
-            "link": "shopify://collections/solbac"
+            "link": "shopify://collections/vs1"
           }
         },
         "image_kd8tQw": {
@@ -203,61 +203,6 @@
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "custom_banner_B3ce9q": {
-      "type": "custom-banner",
-      "blocks": {
-        "image_tRpdWx": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "desktopimage": "shopify://shop_images/Consumercare_Mototek_Products.webp",
-            "mobileimage": "shopify://shop_images/Mototek_Product_Collection.webp",
-            "alt_text": "",
-            "link": "shopify://collections/mototek"
-          }
-        }
-      },
-      "block_order": [
-        "image_tRpdWx"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".banner-slider {margin-bottom: 60px;}"
-      ],
-      "settings": {}
-    },
-    "featured_collection_enXjUU": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        ".collection__title {text-align: center;}"
-      ],
-      "settings": {
-        "collection": "mototek",
-        "products_to_show": 10,
-        "title": "<strong>Maintain Peak Vehicle Performancewith Mototek</strong>",
-        "heading_size": "h1",
-        "description": "<p>Mototek offers premium chain lubes, cleaners, penetrating oils, and radiator coolants to keep your vehicle conditioned for every drive.</p>",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 5,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "scheme-36e71259-0aa1-464a-a3e0-af8963e9e389",
         "image_ratio": "adapt",
@@ -531,8 +476,6 @@
     "featured_collection_nbaTUk",
     "custom_banner_Bbi6WV",
     "featured_collection_YCNVgV",
-    "custom_banner_B3ce9q",
-    "featured_collection_enXjUU",
     "collapsible_content_ERkQMF",
     "rich_text",
     "custom_collection_grid_q4VWbM",
